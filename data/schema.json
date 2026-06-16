@@ -1,0 +1,167 @@
+{
+    "license": "CC BY 4.0",
+    "attribution": "Champlin Enterprises, https://mytokentracker.io",
+    "generated_at": "2026-06-16T22:20:52+00:00",
+    "datasets": {
+        "cost-index": {
+            "endpoint": "/api/v1/data/cost-index",
+            "fields": [
+                {
+                    "name": "index_key",
+                    "type": "string",
+                    "description": "Basket: frontier or budget."
+                },
+                {
+                    "name": "date",
+                    "type": "date",
+                    "description": "Index date (UTC)."
+                },
+                {
+                    "name": "blended_per_mtok",
+                    "type": "number",
+                    "unit": "USD/Mtok",
+                    "description": "Blended price, 3:1 input:output."
+                },
+                {
+                    "name": "input_per_mtok",
+                    "type": "number",
+                    "unit": "USD/Mtok",
+                    "description": "Average input price across the basket."
+                },
+                {
+                    "name": "output_per_mtok",
+                    "type": "number",
+                    "unit": "USD/Mtok",
+                    "description": "Average output price across the basket."
+                },
+                {
+                    "name": "constituents",
+                    "type": "integer",
+                    "description": "Models present in the basket that day."
+                }
+            ]
+        },
+        "community": {
+            "endpoint": "/api/v1/data/community",
+            "fields": [
+                {
+                    "name": "date",
+                    "type": "date",
+                    "description": "Aggregation date (UTC)."
+                },
+                {
+                    "name": "dimension",
+                    "type": "string",
+                    "description": "total | provider | model | platform | use_case."
+                },
+                {
+                    "name": "dimension_value",
+                    "type": "string",
+                    "description": "The dimension value (e.g. 'openai'), or 'all' for the total."
+                },
+                {
+                    "name": "events",
+                    "type": "integer",
+                    "description": "Number of usage events."
+                },
+                {
+                    "name": "tokens",
+                    "type": "integer",
+                    "description": "Total tokens (input + output + cache)."
+                },
+                {
+                    "name": "cost",
+                    "type": "number",
+                    "unit": "USD",
+                    "description": "Total cost."
+                },
+                {
+                    "name": "contributors",
+                    "type": "integer",
+                    "description": "Distinct opted-in users."
+                },
+                {
+                    "name": "success",
+                    "type": "integer",
+                    "description": "Events flagged success=true."
+                },
+                {
+                    "name": "quality_avg",
+                    "type": "number",
+                    "description": "Average quality score, or null."
+                },
+                {
+                    "name": "latency_avg_ms",
+                    "type": "integer",
+                    "description": "Average latency in ms, or null."
+                }
+            ]
+        },
+        "models": {
+            "endpoint": "/api/v1/data/models",
+            "fields": [
+                {
+                    "name": "provider",
+                    "type": "string",
+                    "description": "Provider slug."
+                },
+                {
+                    "name": "model",
+                    "type": "string",
+                    "description": "Model key/identifier."
+                },
+                {
+                    "name": "input_per_mtok",
+                    "type": "number",
+                    "unit": "USD/Mtok"
+                },
+                {
+                    "name": "output_per_mtok",
+                    "type": "number",
+                    "unit": "USD/Mtok"
+                },
+                {
+                    "name": "cache_read_per_mtok",
+                    "type": "number",
+                    "unit": "USD/Mtok"
+                },
+                {
+                    "name": "cache_write_per_mtok",
+                    "type": "number",
+                    "unit": "USD/Mtok"
+                },
+                {
+                    "name": "reasoning_per_mtok",
+                    "type": "number",
+                    "unit": "USD/Mtok"
+                },
+                {
+                    "name": "context_window",
+                    "type": "integer",
+                    "unit": "tokens"
+                },
+                {
+                    "name": "max_output",
+                    "type": "integer",
+                    "unit": "tokens"
+                },
+                {
+                    "name": "modality",
+                    "type": "string"
+                },
+                {
+                    "name": "effective_date",
+                    "type": "date"
+                },
+                {
+                    "name": "source",
+                    "type": "string"
+                },
+                {
+                    "name": "is_active",
+                    "type": "boolean"
+                }
+            ]
+        }
+    }
+}

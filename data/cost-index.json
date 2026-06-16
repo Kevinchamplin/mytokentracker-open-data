@@ -1,0 +1,46 @@
+{
+    "name": "AI Cost Index",
+    "description": "Blended price ($/Mtok, 3:1 input:output) of fixed model baskets, over time.",
+    "license": "CC BY 4.0",
+    "attribution": "Champlin Enterprises, https://mytokentracker.io",
+    "unit": "USD per 1,000,000 tokens",
+    "basket_version": "v1",
+    "blend_ratio": "3:1",
+    "source": "https://mytokentracker.io/cost-index",
+    "generated_at": "2026-06-16T22:20:46+00:00",
+    "count": 4,
+    "rows": [
+        {
+            "index_key": "budget",
+            "date": "2026-06-15",
+            "blended_per_mtok": 0.7035,
+            "input_per_mtok": 0.358,
+            "output_per_mtok": 1.74,
+            "constituents": 5
+        },
+        {
+            "index_key": "frontier",
+            "date": "2026-06-15",
+            "blended_per_mtok": 4.640625,
+            "input_per_mtok": 2.3125,
+            "output_per_mtok": 11.625,
+            "constituents": 4
+        },
+        {
+            "index_key": "budget",
+            "date": "2026-06-16",
+            "blended_per_mtok": 0.7035,
+            "input_per_mtok": 0.358,
+            "output_per_mtok": 1.74,
+            "constituents": 5
+        },
+        {
+            "index_key": "frontier",
+            "date": "2026-06-16",
+            "blended_per_mtok": 4.640625,
+            "input_per_mtok": 2.3125,
+            "output_per_mtok": 11.625,
+            "constituents": 4
+        }
+    ]
+}
