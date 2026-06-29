@@ -1,7 +1,7 @@
 {
     "license": "CC BY 4.0",
     "attribution": "Champlin Enterprises, https://mytokentracker.io",
-    "generated_at": "2026-06-28T08:26:07+00:00",
+    "generated_at": "2026-06-29T08:57:55+00:00",
     "datasets": {
         "cost-index": {
             "endpoint": "/api/v1/data/cost-index",
