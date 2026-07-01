@@ -48,3 +48,7 @@ date,dimension,dimension_value,events,tokens,cost,contributors,success,quality_a
 2026-06-22,provider,anthropic,15,242624464,5.661308,3,0,,
 2026-06-22,total,all,15,242624464,5.661308,3,0,,
 2026-06-22,use_case,coding,15,242624464,5.661308,3,0,,
+2026-06-30,platform,claude_code,11,9984985,0.602689,3,0,,
+2026-06-30,provider,anthropic,11,9984985,0.602689,3,0,,
+2026-06-30,total,all,11,9984985,0.602689,3,0,,
+2026-06-30,use_case,coding,11,9984985,0.602689,3,0,,

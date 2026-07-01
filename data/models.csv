@@ -41,6 +41,7 @@ anthropic,claude-sonnet-4-20250514,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15
 anthropic,claude-sonnet-4-5,3,15,0.3,3.75,0,200000,64000,text,2026-06-15,litellm,true
 anthropic,claude-sonnet-4-5-20250929,3,15,0.3,3.75,0,200000,64000,text,2026-06-15,litellm,true
 anthropic,claude-sonnet-4-6,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
+anthropic,claude-sonnet-5,3,15,0.3,3.75,0,1000000,128000,text,2026-07-01,litellm,true
 anyscale,anyscale/codellama/CodeLlama-34b-Instruct-hf,1,1,0,0,0,4096,4096,text,2026-06-15,litellm,true
 anyscale,anyscale/codellama/CodeLlama-70b-Instruct-hf,1,1,0,0,0,4096,4096,text,2026-06-15,litellm,true
 anyscale,anyscale/google/gemma-7b-it,0.15,0.15,0,0,0,8192,8192,text,2026-06-15,litellm,true
@@ -62,6 +63,7 @@ azure,azure_ai/claude-opus-4-7,5,25,0.5,6.25,0,200000,128000,text,2026-06-15,lit
 azure,azure_ai/claude-opus-4-8,5,25,0.5,6.25,0,200000,128000,text,2026-06-15,litellm,true
 azure,azure_ai/claude-sonnet-4-5,3,15,0.3,3.75,0,200000,64000,text,2026-06-15,litellm,true
 azure,azure_ai/claude-sonnet-4-6,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
+azure,azure_ai/claude-sonnet-5,3,15,0.3,3.75,0,1000000,128000,text,2026-07-01,litellm,true
 azure,azure_ai/Cohere-embed-v3-english,0.1,0,0,0,0,512,0,embedding,2026-06-15,litellm,true
 azure,azure_ai/Cohere-embed-v3-multilingual,0.1,0,0,0,0,512,0,embedding,2026-06-15,litellm,true
 azure,azure_ai/cohere-rerank-v3-english,0,0,0,0,0,4096,4096,rerank,2026-06-15,litellm,true
@@ -365,6 +367,7 @@ bedrock,anthropic.claude-opus-4-8,5,25,0.5,6.25,0,1000000,128000,text,2026-06-15
 bedrock,anthropic.claude-sonnet-4-20250514-v1:0,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
 bedrock,anthropic.claude-sonnet-4-5-20250929-v1:0,3,15,0.3,3.75,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,anthropic.claude-sonnet-4-6,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
+bedrock,anthropic.claude-sonnet-5,3,15,0.3,3.75,0,1000000,128000,text,2026-07-01,litellm,true
 bedrock,anthropic.claude-v1,8,24,0,0,0,100000,8191,text,2026-06-15,litellm,true
 bedrock,anthropic.claude-v2:1,8,24,0,0,0,100000,8191,text,2026-06-15,litellm,true
 bedrock,apac.amazon.nova-2-lite-v1:0,0.33,2.75,0.0825,0,0,1000000,64000,text,2026-06-15,litellm,true
@@ -384,6 +387,7 @@ bedrock,au.anthropic.claude-opus-4-7,5.5,27.5,0.55,6.875,0,1000000,128000,text,2
 bedrock,au.anthropic.claude-opus-4-8,5.5,27.5,0.55,6.875,0,1000000,128000,text,2026-06-15,litellm,true
 bedrock,au.anthropic.claude-sonnet-4-5-20250929-v1:0,3.3,16.5,0.33,4.125,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,au.anthropic.claude-sonnet-4-6,3.3,16.5,0.33,4.125,0,1000000,64000,text,2026-06-15,litellm,true
+bedrock,au.anthropic.claude-sonnet-5,3.3,16.5,0.33,4.125,0,1000000,128000,text,2026-07-01,litellm,true
 bedrock,bedrock/ap-northeast-1/anthropic.claude-instant-v1,2.23,7.55,0,0,0,100000,8191,text,2026-06-15,litellm,true
 bedrock,bedrock/ap-northeast-1/anthropic.claude-v1,8,24,0,0,0,100000,8191,text,2026-06-15,litellm,true
 bedrock,bedrock/ap-northeast-1/anthropic.claude-v2:1,8,24,0,0,0,100000,8191,text,2026-06-15,litellm,true
@@ -544,6 +548,7 @@ bedrock,eu.anthropic.claude-opus-4-8,5.5,27.5,0.55,6.875,0,1000000,128000,text,2
 bedrock,eu.anthropic.claude-sonnet-4-20250514-v1:0,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
 bedrock,eu.anthropic.claude-sonnet-4-5-20250929-v1:0,3.3,16.5,0.33,4.125,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,eu.anthropic.claude-sonnet-4-6,3.3,16.5,0.33,4.125,0,1000000,64000,text,2026-06-15,litellm,true
+bedrock,eu.anthropic.claude-sonnet-5,3.3,16.5,0.33,4.125,0,1000000,128000,text,2026-07-01,litellm,true
 bedrock,eu.deepseek.v3.2,0.74,2.22,0,0,0,163840,163840,text,2026-06-15,litellm,true
 bedrock,eu.meta.llama3-2-1b-instruct-v1:0,0.13,0.13,0,0,0,128000,4096,text,2026-06-15,litellm,true
 bedrock,eu.meta.llama3-2-3b-instruct-v1:0,0.19,0.19,0,0,0,128000,4096,text,2026-06-15,litellm,true
@@ -560,6 +565,7 @@ bedrock,global.anthropic.claude-opus-4-8,5,25,0.5,6.25,0,1000000,128000,text,202
 bedrock,global.anthropic.claude-sonnet-4-20250514-v1:0,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
 bedrock,global.anthropic.claude-sonnet-4-5-20250929-v1:0,3,15,0.3,3.75,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,global.anthropic.claude-sonnet-4-6,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
+bedrock,global.anthropic.claude-sonnet-5,3,15,0.3,3.75,0,1000000,128000,text,2026-07-01,litellm,true
 bedrock,google.gemma-3-12b-it,0.09,0.29,0,0,0,128000,8192,text,2026-06-15,litellm,true
 bedrock,google.gemma-3-27b-it,0.23,0.38,0,0,0,128000,8192,text,2026-06-15,litellm,true
 bedrock,google.gemma-3-4b-it,0.04,0.08,0,0,0,128000,8192,text,2026-06-15,litellm,true
@@ -567,6 +573,7 @@ bedrock,jp.anthropic.claude-haiku-4-5-20251001-v1:0,1.1,5.5,0.11,1.375,0,200000,
 bedrock,jp.anthropic.claude-opus-4-7,5.5,27.5,0.55,6.875,0,1000000,128000,text,2026-06-15,litellm,true
 bedrock,jp.anthropic.claude-sonnet-4-5-20250929-v1:0,3.3,16.5,0.33,4.125,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,jp.anthropic.claude-sonnet-4-6,3.3,16.5,0.33,4.125,0,1000000,64000,text,2026-06-15,litellm,true
+bedrock,jp.anthropic.claude-sonnet-5,3.3,16.5,0.33,4.125,0,1000000,128000,text,2026-07-01,litellm,true
 bedrock,meta.llama2-13b-chat-v1,0.75,1,0,0,0,4096,4096,text,2026-06-15,litellm,true
 bedrock,meta.llama2-70b-chat-v1,1.95,2.56,0,0,0,4096,4096,text,2026-06-15,litellm,true
 bedrock,meta.llama3-1-405b-instruct-v1:0,5.32,16,0,0,0,128000,4096,text,2026-06-15,litellm,true
@@ -641,6 +648,7 @@ bedrock,us.anthropic.claude-opus-4-8,5.5,27.5,0.55,6.875,0,1000000,128000,text,2
 bedrock,us.anthropic.claude-sonnet-4-20250514-v1:0,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
 bedrock,us.anthropic.claude-sonnet-4-5-20250929-v1:0,3.3,16.5,0.33,4.125,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,us.anthropic.claude-sonnet-4-6,3.3,16.5,0.33,4.125,0,1000000,64000,text,2026-06-15,litellm,true
+bedrock,us.anthropic.claude-sonnet-5,3.3,16.5,0.33,4.125,0,1000000,128000,text,2026-07-01,litellm,true
 bedrock,us.deepseek.r1-v1:0,1.35,5.4,0,0,0,128000,4096,text,2026-06-15,litellm,true
 bedrock,us.deepseek.v3.2,0.62,1.85,0,0,0,163840,163840,text,2026-06-15,litellm,true
 bedrock,us.meta.llama3-1-405b-instruct-v1:0,5.32,16,0,0,0,128000,4096,text,2026-06-15,litellm,true
@@ -2283,6 +2291,8 @@ vertex_ai-anthropic_models,vertex_ai/claude-sonnet-4-5@20250929,3,15,0.3,3.75,0,
 vertex_ai-anthropic_models,vertex_ai/claude-sonnet-4-6,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
 vertex_ai-anthropic_models,vertex_ai/claude-sonnet-4-6@default,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
 vertex_ai-anthropic_models,vertex_ai/claude-sonnet-4@20250514,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
+vertex_ai-anthropic_models,vertex_ai/claude-sonnet-5,3,15,0.3,3.75,0,1000000,128000,text,2026-07-01,litellm,true
+vertex_ai-anthropic_models,vertex_ai/claude-sonnet-5@default,3,15,0.3,3.75,0,1000000,128000,text,2026-07-01,litellm,true
 vertex_ai-deepseek_models,vertex_ai/deepseek-ai/deepseek-r1-0528-maas,1.35,5.4,0,0,0,65336,8192,text,2026-06-15,litellm,true
 vertex_ai-deepseek_models,vertex_ai/deepseek-ai/deepseek-v3.1-maas,1.35,5.4,0,0,0,163840,32768,text,2026-06-15,litellm,true
 vertex_ai-deepseek_models,vertex_ai/deepseek-ai/deepseek-v3.2-maas,0.56,1.68,0,0,0,163840,32768,text,2026-06-15,litellm,true
