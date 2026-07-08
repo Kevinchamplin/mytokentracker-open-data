@@ -159,6 +159,10 @@ azure,azure/eu/gpt-5.1,1.38,11,0.14,0,0,272000,128000,text,2026-06-15,litellm,tr
 azure,azure/eu/gpt-5.1-chat,1.38,11,0.14,0,0,128000,128000,text,2026-06-15,litellm,true
 azure,azure/eu/gpt-5.1-codex,1.38,11,0.14,0,0,272000,128000,text,2026-06-15,litellm,true
 azure,azure/eu/gpt-5.1-codex-mini,0.275,2.2,0.028,0,0,272000,128000,text,2026-06-15,litellm,true
+azure,azure/eu/gpt-5.4,2.75,16.5,0.28,0,0,1050000,128000,text,2026-07-08,litellm,true
+azure,azure/eu/gpt-5.4-2026-03-05,2.75,16.5,0.28,0,0,1050000,128000,text,2026-07-08,litellm,true
+azure,azure/eu/gpt-5.5,5.5,33,0.55,0,0,1050000,128000,text,2026-07-08,litellm,true
+azure,azure/eu/gpt-5.5-2026-04-23,5.5,33,0.55,0,0,1050000,128000,text,2026-07-08,litellm,true
 azure,azure/eu/o1-2024-12-17,16.5,66,8.25,0,0,200000,100000,text,2026-06-15,litellm,true
 azure,azure/eu/o1-mini-2024-09-12,1.21,4.84,0.605,0,0,128000,65536,text,2026-06-15,litellm,true
 azure,azure/eu/o1-preview-2024-09-12,16.5,66,8.25,0,0,128000,32768,text,2026-06-15,litellm,true
@@ -308,6 +312,10 @@ azure,azure/us/gpt-5.1,1.38,11,0.14,0,0,272000,128000,text,2026-06-15,litellm,tr
 azure,azure/us/gpt-5.1-chat,1.38,11,0.14,0,0,128000,128000,text,2026-06-15,litellm,true
 azure,azure/us/gpt-5.1-codex,1.38,11,0.14,0,0,272000,128000,text,2026-06-15,litellm,true
 azure,azure/us/gpt-5.1-codex-mini,0.275,2.2,0.028,0,0,272000,128000,text,2026-06-15,litellm,true
+azure,azure/us/gpt-5.4,2.75,16.5,0.28,0,0,1050000,128000,text,2026-07-08,litellm,true
+azure,azure/us/gpt-5.4-2026-03-05,2.75,16.5,0.28,0,0,1050000,128000,text,2026-07-08,litellm,true
+azure,azure/us/gpt-5.5,5.5,33,0.55,0,0,1050000,128000,text,2026-07-08,litellm,true
+azure,azure/us/gpt-5.5-2026-04-23,5.5,33,0.55,0,0,1050000,128000,text,2026-07-08,litellm,true
 azure,azure/us/o1-2024-12-17,16.5,66,8.25,0,0,200000,100000,text,2026-06-15,litellm,true
 azure,azure/us/o1-mini-2024-09-12,1.21,4.84,0.605,0,0,128000,65536,text,2026-06-15,litellm,true
 azure,azure/us/o1-preview-2024-09-12,16.5,66,8.25,0,0,128000,32768,text,2026-06-15,litellm,true
