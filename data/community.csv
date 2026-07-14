@@ -113,3 +113,7 @@ date,dimension,dimension_value,events,tokens,cost,contributors,success,quality_a
 2026-07-08,provider,anthropic,9,1095367929,7.420946,3,0,,
 2026-07-08,total,all,9,1095367929,7.420946,3,0,,
 2026-07-08,use_case,coding,9,1095367929,7.420946,3,0,,
+2026-07-13,platform,claude_code,108,1653823095,14.039458,3,0,,
+2026-07-13,provider,anthropic,108,1653823095,14.039458,3,0,,
+2026-07-13,total,all,108,1653823095,14.039458,3,0,,
+2026-07-13,use_case,coding,108,1653823095,14.039458,3,0,,
