@@ -5,8 +5,8 @@
     "attribution": "Champlin Enterprises, https://mytokentracker.io",
     "unit": "USD per 1,000,000 tokens",
     "source": "https://mytokentracker.io/models",
-    "generated_at": "2026-07-14T09:17:52+00:00",
-    "count": 2505,
+    "generated_at": "2026-07-15T09:22:05+00:00",
+    "count": 2507,
     "rows": [
         {
             "provider": "ai21",
@@ -18940,6 +18940,21 @@
         },
         {
             "provider": "google",
+            "model": "gemini-omni-flash-preview",
+            "input_per_mtok": 1.5,
+            "output_per_mtok": 9,
+            "cache_read_per_mtok": 0,
+            "cache_write_per_mtok": 0,
+            "reasoning_per_mtok": 9,
+            "context_window": 1048576,
+            "max_output": 65535,
+            "modality": "text",
+            "effective_date": "2026-07-15",
+            "source": "litellm",
+            "is_active": true
+        },
+        {
+            "provider": "google",
             "model": "gemini-pro-latest",
             "input_per_mtok": 1.25,
             "output_per_mtok": 10,
@@ -19595,6 +19610,21 @@
             "max_output": 65535,
             "modality": "text",
             "effective_date": "2026-06-15",
+            "source": "litellm",
+            "is_active": true
+        },
+        {
+            "provider": "google",
+            "model": "gemini/gemini-omni-flash-preview",
+            "input_per_mtok": 1.5,
+            "output_per_mtok": 9,
+            "cache_read_per_mtok": 0,
+            "cache_write_per_mtok": 0,
+            "reasoning_per_mtok": 9,
+            "context_window": 1048576,
+            "max_output": 65535,
+            "modality": "text",
+            "effective_date": "2026-07-15",
             "source": "litellm",
             "is_active": true
         },

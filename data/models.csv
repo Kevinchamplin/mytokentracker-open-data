@@ -1261,6 +1261,7 @@ google,gemini-flash-experimental,0,0,0,0,0,1000000,8192,embedding,2026-06-15,lit
 google,gemini-flash-latest,0.3,2.5,0.03,0,2.5,1048576,65535,text,2026-06-15,litellm,true
 google,gemini-flash-lite-latest,0.1,0.4,0.01,0,0.4,1048576,65535,text,2026-06-15,litellm,true
 google,gemini-live-2.5-flash-preview-native-audio-09-2025,0.3,2,0.075,0,0,1048576,65535,text,2026-06-15,litellm,true
+google,gemini-omni-flash-preview,1.5,9,0,0,9,1048576,65535,text,2026-07-15,litellm,true
 google,gemini-pro-latest,1.25,10,0.125,0,0,1048576,65535,text,2026-06-15,litellm,true
 google,gemini-robotics-er-1.5-preview,0.3,2.5,0,0,2.5,1048576,65535,text,2026-06-15,litellm,true
 google,gemini/deep-research-pro-preview-12-2025,2,12,0,0,0,65536,32768,image,2026-06-15,litellm,true
@@ -1305,6 +1306,7 @@ google,gemini/gemini-flash-lite-latest,0.1,0.4,0.025,0,0.4,1048576,65535,text,20
 google,gemini/gemini-gemma-2-27b-it,0.35,1.05,0,0,0,8192,8192,text,2026-06-15,litellm,true
 google,gemini/gemini-gemma-2-9b-it,0.35,1.05,0,0,0,8192,8192,text,2026-06-15,litellm,true
 google,gemini/gemini-live-2.5-flash-preview-native-audio-09-2025,0.3,2,0.075,0,0,1048576,65535,text,2026-06-15,litellm,true
+google,gemini/gemini-omni-flash-preview,1.5,9,0,0,9,1048576,65535,text,2026-07-15,litellm,true
 google,gemini/gemini-pro-latest,1.25,10,0.125,0,0,1048576,65535,text,2026-06-15,litellm,true
 google,gemini/gemini-robotics-er-1.5-preview,0.3,2.5,0,0,2.5,1048576,65535,text,2026-06-15,litellm,true
 google,gemini/gemma-3-27b-it,0,0,0,0,0,131072,8192,text,2026-06-15,litellm,true
