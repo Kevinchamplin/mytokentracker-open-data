@@ -983,7 +983,7 @@ fireworks_ai,fireworks_ai/accounts/fireworks/models/glm-4p5v,1.2,1.2,0,0,0,13107
 fireworks_ai,fireworks_ai/accounts/fireworks/models/glm-4p6,0.55,2.19,0,0,0,202800,202800,text,2026-06-15,litellm,true
 fireworks_ai,fireworks_ai/accounts/fireworks/models/glm-4p7,0.6,2.2,0.3,0,0,202800,202800,text,2026-06-15,litellm,true
 fireworks_ai,fireworks_ai/accounts/fireworks/models/glm-5p1,1.4,4.4,0.26,0,0,202800,131072,text,2026-06-21,litellm,true
-fireworks_ai,fireworks_ai/accounts/fireworks/models/glm-5p2,1.4,4.4,0.26,0,0,1048576,131072,text,2026-06-21,litellm,true
+fireworks_ai,fireworks_ai/accounts/fireworks/models/glm-5p2,1.4,4.4,0.14,0,0,1048576,131072,text,2026-07-19,litellm,true
 fireworks_ai,fireworks_ai/accounts/fireworks/models/gpt-oss-120b,0.15,0.6,0.015,0,0,131072,32768,text,2026-06-21,litellm,true
 fireworks_ai,fireworks_ai/accounts/fireworks/models/gpt-oss-20b,0.07,0.3,0.035,0,0,131072,32768,text,2026-06-21,litellm,true
 fireworks_ai,fireworks_ai/accounts/fireworks/models/gpt-oss-safeguard-120b,1.2,1.2,0,0,0,131072,131072,text,2026-06-15,litellm,true
@@ -1176,7 +1176,7 @@ fireworks_ai,fireworks_ai/deepseek-v4-pro,1.74,3.48,0.145,0,0,1048576,384000,tex
 fireworks_ai,fireworks_ai/glm-4p7,0.6,2.2,0.3,0,0,202800,202800,text,2026-06-15,litellm,true
 fireworks_ai,fireworks_ai/glm-5p1,1.4,4.4,0.26,0,0,202800,131072,text,2026-06-21,litellm,true
 fireworks_ai,fireworks_ai/glm-5p1-fast,2.8,8.8,0.52,0,0,202800,131072,text,2026-06-21,litellm,true
-fireworks_ai,fireworks_ai/glm-5p2,1.4,4.4,0.26,0,0,1048576,131072,text,2026-06-21,litellm,true
+fireworks_ai,fireworks_ai/glm-5p2,1.4,4.4,0.14,0,0,1048576,131072,text,2026-07-19,litellm,true
 fireworks_ai,fireworks_ai/gpt-oss-120b,0.15,0.6,0.015,0,0,131072,32768,text,2026-06-21,litellm,true
 fireworks_ai,fireworks_ai/gpt-oss-20b,0.07,0.3,0.035,0,0,131072,32768,text,2026-06-21,litellm,true
 fireworks_ai,fireworks_ai/kimi-k2p5,0.6,3,0.1,0,0,262144,262144,text,2026-06-15,litellm,true
