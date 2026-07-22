@@ -1259,6 +1259,8 @@ google,gemini-3.1-flash-live-preview,0.75,4.5,0,0,0,131072,65536,text,2026-06-15
 google,gemini-3.1-pro-preview,2,12,0.2,0,0,1048576,65536,text,2026-06-15,litellm,true
 google,gemini-3.1-pro-preview-customtools,2,12,0.2,0,0,1048576,65536,text,2026-06-15,litellm,true
 google,gemini-3.5-flash,1.5,9,0.15,0,9,1048576,65535,text,2026-06-15,litellm,true
+google,gemini-3.5-flash-lite,0.3,2.5,0.03,0,2.5,1048576,65536,text,2026-07-22,litellm,true
+google,gemini-3.6-flash,1.5,7.5,0.15,0,7.5,1048576,65536,text,2026-07-22,litellm,true
 google,gemini-exp-1206,0.3,2.5,0.03,0,2.5,1048576,65535,text,2026-06-15,litellm,true
 google,gemini-flash-experimental,0,0,0,0,0,1000000,8192,embedding,2026-06-15,litellm,true
 google,gemini-flash-latest,0.3,2.5,0.03,0,2.5,1048576,65535,text,2026-06-15,litellm,true
@@ -1299,6 +1301,8 @@ google,gemini/gemini-3.1-flash-live-preview,0.75,4.5,0,0,0,131072,65536,text,202
 google,gemini/gemini-3.1-pro-preview,2,12,0.2,0,0,1048576,65536,text,2026-06-15,litellm,true
 google,gemini/gemini-3.1-pro-preview-customtools,2,12,0.2,0,0,1048576,65536,text,2026-06-15,litellm,true
 google,gemini/gemini-3.5-flash,1.5,9,0.15,0,9,1048576,65535,text,2026-06-15,litellm,true
+google,gemini/gemini-3.5-flash-lite,0.3,2.5,0.03,0,2.5,1048576,65536,text,2026-07-22,litellm,true
+google,gemini/gemini-3.6-flash,1.5,7.5,0.15,0,7.5,1048576,65536,text,2026-07-22,litellm,true
 google,gemini/gemini-embedding-001,0.15,0,0,0,0,2048,0,embedding,2026-06-15,litellm,true
 google,gemini/gemini-embedding-2,0.2,0,0,0,0,8192,0,embedding,2026-06-15,litellm,true
 google,gemini/gemini-embedding-2-preview,0.2,0,0,0,0,8192,0,embedding,2026-06-15,litellm,true
@@ -1330,6 +1334,8 @@ google,vertex_ai/gemini-3.1-flash-lite-preview,0.25,1.5,0.025,0,1.5,1048576,6553
 google,vertex_ai/gemini-3.1-pro-preview,2,12,0.2,0,0,1048576,65536,text,2026-06-15,litellm,true
 google,vertex_ai/gemini-3.1-pro-preview-customtools,2,12,0.2,0,0,1048576,65536,text,2026-06-15,litellm,true
 google,vertex_ai/gemini-3.5-flash,1.5,9,0.15,0,9,1048576,65535,text,2026-06-15,litellm,true
+google,vertex_ai/gemini-3.5-flash-lite,0.3,2.5,0.03,0,2.5,1048576,65536,text,2026-07-22,litellm,true
+google,vertex_ai/gemini-3.6-flash,1.5,7.5,0.15,0,7.5,1048576,65536,text,2026-07-22,litellm,true
 google,vertex_ai/gemini-embedding-2,0.2,0,0,0,0,8192,0,embedding,2026-06-15,litellm,true
 google,vertex_ai/gemini-embedding-2-preview,0.2,0,0,0,0,8192,0,embedding,2026-06-15,litellm,true
 google,vertex_ai/xai/grok-4.1-fast-non-reasoning,0.2,0.5,0.05,0,0,2000000,2000000,text,2026-06-15,litellm,true
