@@ -36,6 +36,7 @@ anthropic,claude-opus-4-6-20260205,5,25,0.5,6.25,0,1000000,128000,text,2026-06-1
 anthropic,claude-opus-4-7,5,25,0.5,6.25,0,1000000,128000,text,2026-06-15,litellm,true
 anthropic,claude-opus-4-7-20260416,5,25,0.5,6.25,0,1000000,128000,text,2026-06-15,litellm,true
 anthropic,claude-opus-4-8,5,25,0.5,6.25,0,1000000,128000,text,2026-06-15,litellm,true
+anthropic,claude-opus-5,5,25,0.5,6.25,0,1000000,128000,text,2026-07-25,litellm,true
 anthropic,claude-sonnet-4-0,3,15,0.3,3.75,0,200000,0,text,2026-06-15,seed,true
 anthropic,claude-sonnet-4-20250514,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
 anthropic,claude-sonnet-4-5,3,15,0.3,3.75,0,200000,64000,text,2026-06-15,litellm,true
@@ -61,6 +62,7 @@ azure,azure_ai/claude-opus-4-5,5,25,0.5,6.25,0,200000,64000,text,2026-06-15,lite
 azure,azure_ai/claude-opus-4-6,5,25,0.5,6.25,0,200000,128000,text,2026-06-15,litellm,true
 azure,azure_ai/claude-opus-4-7,5,25,0.5,6.25,0,200000,128000,text,2026-06-15,litellm,true
 azure,azure_ai/claude-opus-4-8,5,25,0.5,6.25,0,200000,128000,text,2026-06-15,litellm,true
+azure,azure_ai/claude-opus-5,5,25,0.5,6.25,0,1000000,128000,text,2026-07-25,litellm,true
 azure,azure_ai/claude-sonnet-4-5,3,15,0.3,3.75,0,200000,64000,text,2026-06-15,litellm,true
 azure,azure_ai/claude-sonnet-4-6,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
 azure,azure_ai/claude-sonnet-5,2,10,0.2,2.5,0,1000000,128000,text,2026-07-04,litellm,true
@@ -384,6 +386,7 @@ bedrock,anthropic.claude-opus-4-5-20251101-v1:0,5,25,0.5,6.25,0,200000,64000,tex
 bedrock,anthropic.claude-opus-4-6-v1,5,25,0.5,6.25,0,1000000,128000,text,2026-06-15,litellm,true
 bedrock,anthropic.claude-opus-4-7,5,25,0.5,6.25,0,1000000,128000,text,2026-06-15,litellm,true
 bedrock,anthropic.claude-opus-4-8,5,25,0.5,6.25,0,1000000,128000,text,2026-06-15,litellm,true
+bedrock,anthropic.claude-opus-5,5,25,0.5,6.25,0,1000000,128000,text,2026-07-25,litellm,true
 bedrock,anthropic.claude-sonnet-4-20250514-v1:0,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
 bedrock,anthropic.claude-sonnet-4-5-20250929-v1:0,3,15,0.3,3.75,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,anthropic.claude-sonnet-4-6,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
@@ -405,6 +408,7 @@ bedrock,au.anthropic.claude-haiku-4-5-20251001-v1:0,1.1,5.5,0.11,1.375,0,200000,
 bedrock,au.anthropic.claude-opus-4-6-v1,5.5,27.5,0.55,6.875,0,1000000,128000,text,2026-06-15,litellm,true
 bedrock,au.anthropic.claude-opus-4-7,5.5,27.5,0.55,6.875,0,1000000,128000,text,2026-06-15,litellm,true
 bedrock,au.anthropic.claude-opus-4-8,5.5,27.5,0.55,6.875,0,1000000,128000,text,2026-06-15,litellm,true
+bedrock,au.anthropic.claude-opus-5,5.5,27.5,0.55,6.875,0,1000000,128000,text,2026-07-25,litellm,true
 bedrock,au.anthropic.claude-sonnet-4-5-20250929-v1:0,3.3,16.5,0.33,4.125,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,au.anthropic.claude-sonnet-4-6,3.3,16.5,0.33,4.125,0,1000000,64000,text,2026-06-15,litellm,true
 bedrock,au.anthropic.claude-sonnet-5,2.2,11,0.22,2.75,0,1000000,128000,text,2026-07-04,litellm,true
@@ -565,6 +569,7 @@ bedrock,eu.anthropic.claude-opus-4-5-20251101-v1:0,5,25,0.5,6.25,0,200000,64000,
 bedrock,eu.anthropic.claude-opus-4-6-v1,5.5,27.5,0.55,6.875,0,1000000,128000,text,2026-06-15,litellm,true
 bedrock,eu.anthropic.claude-opus-4-7,5.5,27.5,0.55,6.875,0,1000000,128000,text,2026-06-15,litellm,true
 bedrock,eu.anthropic.claude-opus-4-8,5.5,27.5,0.55,6.875,0,1000000,128000,text,2026-06-15,litellm,true
+bedrock,eu.anthropic.claude-opus-5,5.5,27.5,0.55,6.875,0,1000000,128000,text,2026-07-25,litellm,true
 bedrock,eu.anthropic.claude-sonnet-4-20250514-v1:0,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
 bedrock,eu.anthropic.claude-sonnet-4-5-20250929-v1:0,3.3,16.5,0.33,4.125,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,eu.anthropic.claude-sonnet-4-6,3.3,16.5,0.33,4.125,0,1000000,64000,text,2026-06-15,litellm,true
@@ -582,6 +587,7 @@ bedrock,global.anthropic.claude-opus-4-5-20251101-v1:0,5,25,0.5,6.25,0,200000,64
 bedrock,global.anthropic.claude-opus-4-6-v1,5,25,0.5,6.25,0,1000000,128000,text,2026-06-15,litellm,true
 bedrock,global.anthropic.claude-opus-4-7,5,25,0.5,6.25,0,1000000,128000,text,2026-06-15,litellm,true
 bedrock,global.anthropic.claude-opus-4-8,5,25,0.5,6.25,0,1000000,128000,text,2026-06-15,litellm,true
+bedrock,global.anthropic.claude-opus-5,5,25,0.5,6.25,0,1000000,128000,text,2026-07-25,litellm,true
 bedrock,global.anthropic.claude-sonnet-4-20250514-v1:0,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
 bedrock,global.anthropic.claude-sonnet-4-5-20250929-v1:0,3,15,0.3,3.75,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,global.anthropic.claude-sonnet-4-6,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
@@ -592,6 +598,7 @@ bedrock,google.gemma-3-4b-it,0.04,0.08,0,0,0,128000,8192,text,2026-06-15,litellm
 bedrock,jp.anthropic.claude-haiku-4-5-20251001-v1:0,1.1,5.5,0.11,1.375,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,jp.anthropic.claude-opus-4-7,5.5,27.5,0.55,6.875,0,1000000,128000,text,2026-06-15,litellm,true
 bedrock,jp.anthropic.claude-opus-4-8,5.5,27.5,0.55,6.875,0,1000000,128000,text,2026-07-12,litellm,true
+bedrock,jp.anthropic.claude-opus-5,5.5,27.5,0.55,6.875,0,1000000,128000,text,2026-07-25,litellm,true
 bedrock,jp.anthropic.claude-sonnet-4-5-20250929-v1:0,3.3,16.5,0.33,4.125,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,jp.anthropic.claude-sonnet-4-6,3.3,16.5,0.33,4.125,0,1000000,64000,text,2026-06-15,litellm,true
 bedrock,jp.anthropic.claude-sonnet-5,2.2,11,0.22,2.75,0,1000000,128000,text,2026-07-04,litellm,true
@@ -666,6 +673,7 @@ bedrock,us.anthropic.claude-opus-4-5-20251101-v1:0,5.5,27.5,0.55,6.875,0,200000,
 bedrock,us.anthropic.claude-opus-4-6-v1,5.5,27.5,0.55,6.875,0,1000000,128000,text,2026-06-15,litellm,true
 bedrock,us.anthropic.claude-opus-4-7,5.5,27.5,0.55,6.875,0,1000000,128000,text,2026-06-15,litellm,true
 bedrock,us.anthropic.claude-opus-4-8,5.5,27.5,0.55,6.875,0,1000000,128000,text,2026-06-15,litellm,true
+bedrock,us.anthropic.claude-opus-5,5.5,27.5,0.55,6.875,0,1000000,128000,text,2026-07-25,litellm,true
 bedrock,us.anthropic.claude-sonnet-4-20250514-v1:0,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
 bedrock,us.anthropic.claude-sonnet-4-5-20250929-v1:0,3.3,16.5,0.33,4.125,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,us.anthropic.claude-sonnet-4-6,3.3,16.5,0.33,4.125,0,1000000,64000,text,2026-06-15,litellm,true
@@ -2327,6 +2335,8 @@ vertex_ai-anthropic_models,vertex_ai/claude-opus-4-7@default,5,25,0.5,6.25,0,100
 vertex_ai-anthropic_models,vertex_ai/claude-opus-4-8,5,25,0.5,6.25,0,1000000,128000,text,2026-06-15,litellm,true
 vertex_ai-anthropic_models,vertex_ai/claude-opus-4-8@default,5,25,0.5,6.25,0,1000000,128000,text,2026-06-15,litellm,true
 vertex_ai-anthropic_models,vertex_ai/claude-opus-4@20250514,15,75,1.5,18.75,0,200000,32000,text,2026-06-15,litellm,true
+vertex_ai-anthropic_models,vertex_ai/claude-opus-5,5,25,0.5,6.25,0,1000000,128000,text,2026-07-25,litellm,true
+vertex_ai-anthropic_models,vertex_ai/claude-opus-5@default,5,25,0.5,6.25,0,1000000,128000,text,2026-07-25,litellm,true
 vertex_ai-anthropic_models,vertex_ai/claude-sonnet-4,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
 vertex_ai-anthropic_models,vertex_ai/claude-sonnet-4-5,3,15,0.3,3.75,0,200000,64000,text,2026-06-15,litellm,true
 vertex_ai-anthropic_models,vertex_ai/claude-sonnet-4-5@20250929,3,15,0.3,3.75,0,200000,64000,text,2026-06-15,litellm,true
