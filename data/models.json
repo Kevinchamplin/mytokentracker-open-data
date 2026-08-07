@@ -5,8 +5,8 @@
     "attribution": "Champlin Enterprises, https://mytokentracker.io",
     "unit": "USD per 1,000,000 tokens",
     "source": "https://mytokentracker.io/models",
-    "generated_at": "2026-08-06T09:59:00+00:00",
-    "count": 2529,
+    "generated_at": "2026-08-07T08:31:16+00:00",
+    "count": 2530,
     "rows": [
         {
             "provider": "ai21",
@@ -31235,6 +31235,21 @@
             "max_output": 0,
             "modality": "text",
             "effective_date": "2026-06-15",
+            "source": "litellm",
+            "is_active": true
+        },
+        {
+            "provider": "replicate",
+            "model": "replicate/openai/gpt-oss-20b",
+            "input_per_mtok": 0.09,
+            "output_per_mtok": 0.36,
+            "cache_read_per_mtok": 0,
+            "cache_write_per_mtok": 0,
+            "reasoning_per_mtok": 0,
+            "context_window": 0,
+            "max_output": 0,
+            "modality": "text",
+            "effective_date": "2026-08-07",
             "source": "litellm",
             "is_active": true
         },
