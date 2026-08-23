@@ -286,6 +286,7 @@ azure,azure/gpt-5.6-sol,5,30,0.5,0,0,922000,128000,text,2026-08-21,litellm,true
 azure,azure/gpt-5.6-terra,2,12,0.2,0,0,922000,128000,text,2026-08-21,litellm,true
 azure,azure/gpt-audio-1.5-2026-02-23,2.5,10,0,0,0,128000,16384,text,2026-06-15,litellm,true
 azure,azure/gpt-audio-2025-08-28,2.5,10,0,0,0,128000,16384,text,2026-06-15,litellm,true
+azure,azure/gpt-audio-mini,0.6,2.4,0,0,0,128000,16384,text,2026-08-23,litellm,true
 azure,azure/gpt-audio-mini-2025-10-06,0.6,2.4,0,0,0,128000,16384,text,2026-06-15,litellm,true
 azure,azure/gpt-image-1,5,0,1.25,0,0,0,0,image,2026-06-15,litellm,true
 azure,azure/gpt-image-1-mini,2,0,0.2,0,0,0,0,image,2026-06-15,litellm,true
@@ -295,6 +296,7 @@ azure,azure/gpt-image-2,5,10,1.25,0,0,0,0,image,2026-06-15,litellm,true
 azure,azure/gpt-image-2-2026-04-21,5,10,1.25,0,0,0,0,image,2026-06-15,litellm,true
 azure,azure/gpt-realtime-1.5-2026-02-23,4,16,4,0,0,32000,4096,text,2026-06-15,litellm,true
 azure,azure/gpt-realtime-2025-08-28,4,16,4,0,0,32000,4096,text,2026-06-15,litellm,true
+azure,azure/gpt-realtime-mini,0.6,2.4,0.06,0,0,32000,4096,text,2026-08-23,litellm,true
 azure,azure/gpt-realtime-mini-2025-10-06,0.6,2.4,0.06,0,0,32000,4096,text,2026-06-15,litellm,true
 azure,azure/hd/1024-x-1024/dall-e-3,0,0,0,0,0,0,0,image,2026-06-15,litellm,true
 azure,azure/hd/1024-x-1792/dall-e-3,0,0,0,0,0,0,0,image,2026-06-15,litellm,true
@@ -609,6 +611,9 @@ bedrock,global.anthropic.claude-sonnet-4-20250514-v1:0,3,15,0.3,3.75,0,1000000,6
 bedrock,global.anthropic.claude-sonnet-4-5-20250929-v1:0,3,15,0.3,3.75,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,global.anthropic.claude-sonnet-4-6,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
 bedrock,global.anthropic.claude-sonnet-5,2,10,0.2,2.5,0,1000000,128000,text,2026-07-04,litellm,true
+bedrock,global.openai.gpt-5.6-luna,0.2,1.2,0.02,0.25,0,1000000,128000,text,2026-08-23,litellm,true
+bedrock,global.openai.gpt-5.6-sol,5,30,0.5,6.25,0,1000000,128000,text,2026-08-23,litellm,true
+bedrock,global.openai.gpt-5.6-terra,2,12,0.2,2.5,0,1000000,128000,text,2026-08-23,litellm,true
 bedrock,global.xai.grok-4.6,2,6,0.5,0,0,500000,500000,text,2026-08-21,litellm,true
 bedrock,google.gemma-3-12b-it,0.09,0.29,0,0,0,128000,8192,text,2026-06-15,litellm,true
 bedrock,google.gemma-3-27b-it,0.23,0.38,0,0,0,128000,8192,text,2026-06-15,litellm,true
@@ -709,6 +714,9 @@ bedrock,us.meta.llama3-3-70b-instruct-v1:0,0.72,0.72,0,0,0,128000,4096,text,2026
 bedrock,us.meta.llama4-maverick-17b-instruct-v1:0,0.24,0.97,0,0,0,128000,4096,text,2026-06-15,litellm,true
 bedrock,us.meta.llama4-scout-17b-instruct-v1:0,0.17,0.66,0,0,0,128000,4096,text,2026-06-15,litellm,true
 bedrock,us.mistral.pixtral-large-2502-v1:0,2,6,0,0,0,128000,4096,text,2026-06-15,litellm,true
+bedrock,us.openai.gpt-5.6-luna,0.22,1.32,0.022,0.275,0,1000000,128000,text,2026-08-23,litellm,true
+bedrock,us.openai.gpt-5.6-sol,5.5,33,0.55,6.875,0,1000000,128000,text,2026-08-23,litellm,true
+bedrock,us.openai.gpt-5.6-terra,2.2,13.2,0.22,2.75,0,1000000,128000,text,2026-08-23,litellm,true
 bedrock,us.twelvelabs.marengo-embed-2-7-v1:0,70,0,0,0,0,77,0,embedding,2026-06-15,litellm,true
 bedrock,us.twelvelabs.pegasus-1-2-v1:0,0,7.5,0,0,0,0,0,text,2026-06-15,litellm,true
 bedrock,us.writer.palmyra-x4-v1:0,2.5,10,0,0,0,128000,8192,text,2026-06-15,litellm,true
@@ -773,7 +781,8 @@ cloudflare,cloudflare/@hf/thebloke/codellama-7b-instruct-awq,1.923,1.923,0,0,0,4
 codestral,codestral/codestral-2405,0,0,0,0,0,32000,8191,text,2026-06-15,litellm,true
 codestral,codestral/codestral-latest,0,0,0,0,0,32000,8191,text,2026-06-15,litellm,true
 cognition,cognition/swe-1.6,0.5,2.5,0.2,0,0,0,0,text,2026-08-21,litellm,true
-cognition,cognition/swe-1.7,2.5,12.5,1,0,0,0,0,text,2026-08-21,litellm,true
+cognition,cognition/swe-1.7,0.5,2.5,0.2,0,0,0,0,text,2026-08-23,litellm,true
+cognition,cognition/swe-1.7-lightning,2.5,12.5,1,0,0,0,0,text,2026-08-23,litellm,true
 cohere,cohere/embed-v4.0,0.12,0,0,0,0,128000,0,embedding,2026-06-15,litellm,true
 cohere,command,1,2,0,0,0,4096,4096,text,2026-06-15,litellm,true
 cohere,command-a-03-2025,2.5,10,0,0,0,256000,8000,text,2026-06-15,litellm,true
@@ -1327,7 +1336,7 @@ google,gemini-3-pro-preview,2,12,0.2,0,0,1048576,65535,text,2026-06-15,litellm,t
 google,gemini-3.1-flash-image,0.5,3,0,0,0,65536,32768,image,2026-06-27,litellm,true
 google,gemini-3.1-flash-image-preview,0.5,3,0,0,0,65536,32768,image,2026-06-15,litellm,true
 google,gemini-3.1-flash-lite,0.25,1.5,0.025,0,1.5,1048576,65536,text,2026-06-15,litellm,true
-google,gemini-3.1-flash-lite-image,0.25,1.5,0,0,0,65536,4096,image,2026-08-21,litellm,true
+google,gemini-3.1-flash-lite-image,0.25,1.5,0.025,0,0,65536,4096,image,2026-08-23,litellm,true
 google,gemini-3.1-flash-lite-preview,0.25,1.5,0.025,0,1.5,1048576,65536,text,2026-06-15,litellm,true
 google,gemini-3.1-flash-live-preview,0.75,4.5,0,0,0,131072,65536,text,2026-06-15,litellm,true
 google,gemini-3.1-pro-preview,2,12,0.2,0,0,1048576,65536,text,2026-06-15,litellm,true
@@ -1412,7 +1421,7 @@ google,vertex_ai/gemini-3-pro-preview,2,12,0.2,0,0,1048576,65535,text,2026-06-15
 google,vertex_ai/gemini-3.1-flash-image,0.5,3,0,0,0,65536,32768,image,2026-06-27,litellm,true
 google,vertex_ai/gemini-3.1-flash-image-preview,0.5,3,0,0,0,65536,32768,image,2026-06-15,litellm,true
 google,vertex_ai/gemini-3.1-flash-lite,0.25,1.5,0.025,0,1.5,1048576,65536,text,2026-06-15,litellm,true
-google,vertex_ai/gemini-3.1-flash-lite-image,0.25,1.5,0,0,0,65536,4096,image,2026-08-21,litellm,true
+google,vertex_ai/gemini-3.1-flash-lite-image,0.25,1.5,0.025,0,0,65536,4096,image,2026-08-23,litellm,true
 google,vertex_ai/gemini-3.1-flash-lite-preview,0.25,1.5,0.025,0,1.5,1048576,65536,text,2026-06-15,litellm,true
 google,vertex_ai/gemini-3.1-pro-preview,2,12,0.2,0,0,1048576,65536,text,2026-06-15,litellm,true
 google,vertex_ai/gemini-3.1-pro-preview-customtools,2,12,0.2,0,0,1048576,65536,text,2026-06-15,litellm,true
@@ -1827,7 +1836,7 @@ openai,chatgpt-4o-latest,5,15,0,0,0,128000,4096,text,2026-06-15,litellm,true
 openai,chatgpt-image-latest,5,0,1.25,0,0,0,0,image,2026-06-15,litellm,true
 openai,codex-mini-latest,1.5,6,0.375,0,0,200000,100000,text,2026-06-15,litellm,true
 openai,davinci-002,2,2,0,0,0,16384,4096,text,2026-06-15,litellm,true
-openai,daybreak-blue-latest,5,30,0.5,6.25,0,1050000,128000,text,2026-08-21,litellm,true
+openai,daybreak-blue-latest,4,20,0.4,5,0,1050000,128000,text,2026-08-23,litellm,true
 openai,daybreak-red-latest,12.5,75,1.25,15.625,0,400000,128000,text,2026-08-21,litellm,true
 openai,ft:babbage-002,1.6,1.6,0,0,0,16384,4096,text,2026-06-15,litellm,true
 openai,ft:davinci-002,12,12,0,0,0,16384,4096,text,2026-06-15,litellm,true
@@ -1930,10 +1939,10 @@ openai,gpt-5.5,5,30,0.5,0,0,1050000,128000,text,2026-06-15,litellm,true
 openai,gpt-5.5-2026-04-23,5,30,0.5,0,0,1050000,128000,text,2026-06-15,litellm,true
 openai,gpt-5.5-pro,30,180,3,0,0,1050000,128000,text,2026-06-15,litellm,true
 openai,gpt-5.5-pro-2026-04-23,30,180,3,0,0,1050000,128000,text,2026-06-15,litellm,true
-openai,gpt-5.6,5,30,0.5,6.25,0,922000,128000,text,2026-08-21,litellm,true
+openai,gpt-5.6,4,20,0.4,5,0,922000,128000,text,2026-08-23,litellm,true
 openai,gpt-5.6-cyber,12.5,75,1.25,15.625,0,400000,128000,text,2026-08-21,litellm,true
 openai,gpt-5.6-luna,0.2,1.2,0.02,0.25,0,922000,128000,text,2026-08-21,litellm,true
-openai,gpt-5.6-sol,5,30,0.5,6.25,0,922000,128000,text,2026-08-21,litellm,true
+openai,gpt-5.6-sol,4,20,0.4,5,0,922000,128000,text,2026-08-23,litellm,true
 openai,gpt-5.6-terra,2,12,0.2,2.5,0,922000,128000,text,2026-08-21,litellm,true
 openai,gpt-audio,2.5,10,0,0,0,128000,16384,text,2026-06-15,litellm,true
 openai,gpt-audio-1.5,2.5,10,0,0,0,128000,16384,text,2026-06-15,litellm,true
@@ -2229,6 +2238,8 @@ scaleway,scaleway/qwen/qwen3-coder-30b-a3b-instruct,0.2,0.8,0,0,0,128000,32768,t
 scaleway,scaleway/qwen/qwen3-embedding-8b,0.1,0,0,0,0,0,0,embedding,2026-06-21,litellm,true
 scaleway,scaleway/qwen/qwen3.5-397b-a17b,0.6,3.6,0,0,0,256000,16384,text,2026-06-21,litellm,true
 scaleway,scaleway/qwen/qwen3.6-35b-a3b,0.25,1.5,0,0,0,256000,16384,text,2026-06-21,litellm,true
+scx-ai,scx-ai/GLM-5.2,0.61,1.98,0.22,0,0,1048576,131072,text,2026-08-23,litellm,true
+scx-ai,scx-ai/Qwen3.8-Max,1.65,4.99,0.21,0,0,1000000,131072,text,2026-08-23,litellm,true
 snowflake,snowflake/claude-3-5-sonnet,3,15,0.3,0,0,200000,16384,text,2026-06-15,litellm,true
 snowflake,snowflake/claude-3-7-sonnet,3,15,0.3,0,0,200000,16384,text,2026-06-15,litellm,true
 snowflake,snowflake/claude-4-opus,5,25,0.5,0,0,200000,16384,text,2026-06-15,litellm,true
