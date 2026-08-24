@@ -1,279 +1,150 @@
-date,dimension,dimension_value,events,tokens,cost,contributors,success,quality_avg,latency_avg_ms
-2026-05-22,platform,claude_code,18,797884889,6.981694,3,0,,
-2026-05-22,provider,anthropic,18,797884889,6.981694,3,0,,
-2026-05-22,total,all,18,797884889,6.981694,3,0,,
-2026-05-22,use_case,coding,18,797884889,6.981694,3,0,,
-2026-05-23,platform,claude_code,5,269959264,1.895955,3,0,,
-2026-05-23,provider,anthropic,5,269959264,1.895955,3,0,,
-2026-05-23,total,all,5,269959264,1.895955,3,0,,
-2026-05-23,use_case,coding,5,269959264,1.895955,3,0,,
-2026-06-02,platform,claude_code,27,1141505210,12.875252,3,0,,
-2026-06-02,provider,anthropic,27,1141505210,12.875252,3,0,,
-2026-06-02,total,all,27,1141505210,12.875252,3,0,,
-2026-06-02,use_case,coding,27,1141505210,12.875252,3,0,,
-2026-06-03,platform,claude_code,28,3271621140,28.617136,3,0,,
-2026-06-03,provider,anthropic,28,3271621140,28.617136,3,0,,
-2026-06-03,total,all,28,3271621140,28.617136,3,0,,
-2026-06-03,use_case,coding,28,3271621140,28.617136,3,0,,
-2026-06-04,platform,claude_code,20,1118180078,11.487678,3,0,,
-2026-06-04,provider,anthropic,20,1118180078,11.487678,3,0,,
-2026-06-04,total,all,20,1118180078,11.487678,3,0,,
-2026-06-04,use_case,coding,20,1118180078,11.487678,3,0,,
-2026-06-10,model,claude-sonnet-4-6,8,15593195,0.544773,3,0,,
-2026-06-10,platform,claude_code,25,36261731,0.876016,3,0,,
-2026-06-10,provider,anthropic,25,36261731,0.876016,3,0,,
-2026-06-10,total,all,25,36261731,0.876016,3,0,,
-2026-06-10,use_case,coding,25,36261731,0.876016,3,0,,
-2026-06-11,model,claude-sonnet-4-6,7,2146499,0.141828,3,0,,
-2026-06-11,platform,claude_code,21,317210903,5.144877,4,0,,
-2026-06-11,provider,anthropic,21,317210903,5.144877,4,0,,
-2026-06-11,total,all,21,317210903,5.144877,4,0,,
-2026-06-11,use_case,coding,21,317210903,5.144877,4,0,,
-2026-06-12,platform,claude_code,31,987114442,13.205184,3,0,,
-2026-06-12,provider,anthropic,31,987114442,13.205184,3,0,,
-2026-06-12,total,all,31,987114442,13.205184,3,0,,
-2026-06-12,use_case,coding,31,987114442,13.205184,3,0,,
-2026-06-15,platform,claude_code,29,1517108569,18.142152,3,0,,
-2026-06-15,provider,anthropic,29,1517108569,18.142152,3,0,,
-2026-06-15,total,all,29,1517108569,18.142152,3,0,,
-2026-06-15,use_case,coding,29,1517108569,18.142152,3,0,,
-2026-06-16,model,claude-opus-4-7,21,50896561,3.091808,3,0,,
-2026-06-16,platform,claude_code,19,574949228,5.306715,4,0,,
-2026-06-16,provider,anthropic,19,574949228,5.306715,4,0,,
-2026-06-16,total,all,19,574949228,5.306715,4,0,,
-2026-06-16,use_case,coding,19,574949228,5.306715,4,0,,
-2026-06-17,platform,claude_code,16,13644668,0.738154,3,0,,
-2026-06-17,provider,anthropic,16,13644668,0.738154,3,0,,
-2026-06-17,total,all,16,13644668,0.738154,3,0,,
-2026-06-17,use_case,coding,16,13644668,0.738154,3,0,,
-2026-06-18,model,claude-opus-4-8,35,1899925281,25.689251,3,0,,
-2026-06-18,platform,claude_code,24,870504556,6.152224,3,0,,
-2026-06-18,provider,anthropic,24,870504556,6.152224,3,0,,
-2026-06-18,total,all,24,870504556,6.152224,3,0,,
-2026-06-18,use_case,coding,24,870504556,6.152224,3,0,,
-2026-06-19,model,claude-opus-4-8,27,745635698,12.054257,3,0,,
-2026-06-19,platform,claude_code,137,889010372,28.902657,3,0,,
-2026-06-19,provider,anthropic,137,889010372,28.902657,3,0,,
-2026-06-19,total,all,137,889010372,28.902657,3,0,,
-2026-06-19,use_case,coding,137,889010372,28.902657,3,0,,
-2026-06-20,model,claude-opus-4-8,12,3741179494,73.442048,3,0,,
-2026-06-20,platform,claude_code,19,1873188122,36.873573,3,0,,
-2026-06-20,provider,anthropic,19,1873188122,36.873573,3,0,,
-2026-06-20,total,all,19,1873188122,36.873573,3,0,,
-2026-06-20,use_case,coding,19,1873188122,36.873573,3,0,,
-2026-06-21,platform,claude_code,6,4553370,0.147139,3,0,,
-2026-06-21,provider,anthropic,6,4553370,0.147139,3,0,,
-2026-06-21,total,all,6,4553370,0.147139,3,0,,
-2026-06-21,use_case,coding,6,4553370,0.147139,3,0,,
-2026-06-22,model,claude-opus-4-8,10,690034981,14.275598,3,0,,
-2026-06-22,model,claude-sonnet-4-6,25,550410366,10.791977,3,0,,
-2026-06-22,platform,claude_code,33,677767767,11.875887,3,0,,
-2026-06-22,provider,anthropic,33,677767767,11.875887,3,0,,
-2026-06-22,total,all,33,677767767,11.875887,3,0,,
-2026-06-22,use_case,coding,33,677767767,11.875887,3,0,,
-2026-06-23,model,claude-sonnet-4-6,26,222111988,6.384342,4,0,,
-2026-06-23,platform,claude_code,49,271085910,7.573905,4,0,,
-2026-06-23,provider,anthropic,49,271085910,7.573905,4,0,,
-2026-06-23,total,all,49,271085910,7.573905,4,0,,
-2026-06-23,use_case,coding,49,271085910,7.573905,4,0,,
-2026-06-25,model,claude-sonnet-4-6,4,482140,0.027195,3,0,,
-2026-06-25,platform,claude_code,25,13450180,0.91971,4,0,,
-2026-06-25,provider,anthropic,25,13450180,0.91971,4,0,,
-2026-06-25,total,all,25,13450180,0.91971,4,0,,
-2026-06-25,use_case,coding,25,13450180,0.91971,4,0,,
-2026-06-28,platform,claude_code,7,10354605,0.427801,3,0,,
-2026-06-28,provider,anthropic,7,10354605,0.427801,3,0,,
-2026-06-28,total,all,7,10354605,0.427801,3,0,,
-2026-06-28,use_case,coding,7,10354605,0.427801,3,0,,
-2026-06-30,platform,claude_code,15,95170095,2.426881,4,0,,
-2026-06-30,provider,anthropic,15,95170095,2.426881,4,0,,
-2026-06-30,total,all,15,95170095,2.426881,4,0,,
-2026-06-30,use_case,coding,15,95170095,2.426881,4,0,,
-2026-07-01,platform,claude_code,20,20849973,1.353316,3,0,,
-2026-07-01,provider,anthropic,20,20849973,1.353316,3,0,,
-2026-07-01,total,all,20,20849973,1.353316,3,0,,
-2026-07-01,use_case,coding,20,20849973,1.353316,3,0,,
-2026-07-02,platform,claude_code,22,797620357,16.944921,4,0,,
-2026-07-02,provider,anthropic,22,797620357,16.944921,4,0,,
-2026-07-02,total,all,22,797620357,16.944921,4,0,,
-2026-07-02,use_case,coding,22,797620357,16.944921,4,0,,
-2026-07-03,platform,claude_code,13,1956794959,18.145558,3,0,,
-2026-07-03,provider,anthropic,13,1956794959,18.145558,3,0,,
-2026-07-03,total,all,13,1956794959,18.145558,3,0,,
-2026-07-03,use_case,coding,13,1956794959,18.145558,3,0,,
-2026-07-05,platform,claude_code,6,3797397757,17.565949,3,0,,
-2026-07-05,provider,anthropic,6,3797397757,17.565949,3,0,,
-2026-07-05,total,all,6,3797397757,17.565949,3,0,,
-2026-07-05,use_case,coding,6,3797397757,17.565949,3,0,,
-2026-07-07,platform,claude_code,23,1980653698,20.888916,3,0,,
-2026-07-07,provider,anthropic,23,1980653698,20.888916,3,0,,
-2026-07-07,total,all,23,1980653698,20.888916,3,0,,
-2026-07-07,use_case,coding,23,1980653698,20.888916,3,0,,
-2026-07-08,platform,claude_code,16,1283952460,12.817107,4,0,,
-2026-07-08,provider,anthropic,16,1283952460,12.817107,4,0,,
-2026-07-08,total,all,16,1283952460,12.817107,4,0,,
-2026-07-08,use_case,coding,16,1283952460,12.817107,4,0,,
-2026-07-09,platform,claude_code,51,329302868,4.874099,3,0,,
-2026-07-09,provider,anthropic,51,329302868,4.874099,3,0,,
-2026-07-09,total,all,51,329302868,4.874099,3,0,,
-2026-07-09,use_case,coding,51,329302868,4.874099,3,0,,
-2026-07-11,platform,claude_code,126,2273058325,29.520638,3,0,,
-2026-07-11,provider,anthropic,126,2273058325,29.520638,3,0,,
-2026-07-11,total,all,126,2273058325,29.520638,3,0,,
-2026-07-11,use_case,coding,126,2273058325,29.520638,3,0,,
-2026-07-12,platform,claude_code,109,1558998006,20.262678,3,0,,
-2026-07-12,provider,anthropic,109,1558998006,20.262678,3,0,,
-2026-07-12,total,all,109,1558998006,20.262678,3,0,,
-2026-07-12,use_case,coding,109,1558998006,20.262678,3,0,,
-2026-07-13,platform,claude_code,108,1206203417,11.300338,4,0,,
-2026-07-13,provider,anthropic,108,1206203417,11.300338,4,0,,
-2026-07-13,total,all,108,1206203417,11.300338,4,0,,
-2026-07-13,use_case,coding,108,1206203417,11.300338,4,0,,
-2026-07-15,model,claude-sonnet-5,6,20261975,0.462875,4,0,,
-2026-07-15,platform,claude_code,18,400915456,8.490985,4,0,,
-2026-07-15,provider,anthropic,18,400915456,8.490985,4,0,,
-2026-07-15,total,all,18,400915456,8.490985,4,0,,
-2026-07-15,use_case,coding,18,400915456,8.490985,4,0,,
-2026-07-16,model,claude-opus-4-8,12,4141201541,30.200894,3,0,,
-2026-07-16,model,claude-sonnet-5,6,46637555,2.290368,3,0,,
-2026-07-16,platform,claude_code,21,4215592494,33.227706,4,0,,
-2026-07-16,provider,anthropic,21,4215592494,33.227706,4,0,,
-2026-07-16,total,all,21,4215592494,33.227706,4,0,,
-2026-07-16,use_case,coding,21,4215592494,33.227706,4,0,,
-2026-07-17,model,claude-sonnet-5,8,370160981,8.974841,3,0,,
-2026-07-17,platform,claude_code,33,3763817199,40.808033,3,0,,
-2026-07-17,provider,anthropic,33,3763817199,40.808033,3,0,,
-2026-07-17,total,all,33,3763817199,40.808033,3,0,,
-2026-07-17,use_case,coding,33,3763817199,40.808033,3,0,,
-2026-07-18,platform,claude_code,20,1961162712,15.84705,3,0,,
-2026-07-18,provider,anthropic,20,1961162712,15.84705,3,0,,
-2026-07-18,total,all,20,1961162712,15.84705,3,0,,
-2026-07-18,use_case,coding,20,1961162712,15.84705,3,0,,
-2026-07-19,platform,claude_code,23,2450380974,24.312952,3,0,,
-2026-07-19,provider,anthropic,23,2450380974,24.312952,3,0,,
-2026-07-19,total,all,23,2450380974,24.312952,3,0,,
-2026-07-19,use_case,coding,23,2450380974,24.312952,3,0,,
-2026-07-21,model,claude-sonnet-5,8,11507926,0.401555,3,0,,
-2026-07-21,platform,claude_code,33,573678927,5.586945,4,0,,
-2026-07-21,provider,anthropic,33,573678927,5.586945,4,0,,
-2026-07-21,total,all,33,573678927,5.586945,4,0,,
-2026-07-21,use_case,coding,33,573678927,5.586945,4,0,,
-2026-07-22,platform,claude_code,36,2915674981,17.791806,3,0,,
-2026-07-22,provider,anthropic,36,2915674981,17.791806,3,0,,
-2026-07-22,total,all,36,2915674981,17.791806,3,0,,
-2026-07-22,use_case,coding,36,2915674981,17.791806,3,0,,
-2026-07-23,platform,claude_code,24,1636351266,13.097858,3,0,,
-2026-07-23,provider,anthropic,24,1636351266,13.097858,3,0,,
-2026-07-23,total,all,24,1636351266,13.097858,3,0,,
-2026-07-23,use_case,coding,24,1636351266,13.097858,3,0,,
-2026-07-24,platform,claude_code,32,3039097887,21.592518,4,0,,
-2026-07-24,provider,anthropic,32,3039097887,21.592518,4,0,,
-2026-07-24,total,all,32,3039097887,21.592518,4,0,,
-2026-07-24,use_case,coding,32,3039097887,21.592518,4,0,,
-2026-07-26,platform,claude_code,14,412906116,7.98888,5,0,,
-2026-07-26,provider,anthropic,14,412906116,7.98888,5,0,,
-2026-07-26,total,all,14,412906116,7.98888,5,0,,
-2026-07-26,use_case,coding,14,412906116,7.98888,5,0,,
-2026-07-27,platform,claude_code,17,841528959,11.143566,3,0,,
-2026-07-27,provider,anthropic,17,841528959,11.143566,3,0,,
-2026-07-27,total,all,17,841528959,11.143566,3,0,,
-2026-07-27,use_case,coding,17,841528959,11.143566,3,0,,
-2026-07-28,platform,claude_code,21,2491021731,12.162745,3,0,,
-2026-07-28,provider,anthropic,21,2491021731,12.162745,3,0,,
-2026-07-28,total,all,21,2491021731,12.162745,3,0,,
-2026-07-28,use_case,coding,21,2491021731,12.162745,3,0,,
-2026-07-29,platform,claude_code,20,1586930235,9.602777,3,0,,
-2026-07-29,provider,anthropic,20,1586930235,9.602777,3,0,,
-2026-07-29,total,all,20,1586930235,9.602777,3,0,,
-2026-07-29,use_case,coding,20,1586930235,9.602777,3,0,,
-2026-07-30,platform,claude_code,29,4597701002,22.548081,3,0,,
-2026-07-30,provider,anthropic,29,4597701002,22.548081,3,0,,
-2026-07-30,total,all,29,4597701002,22.548081,3,0,,
-2026-07-30,use_case,coding,29,4597701002,22.548081,3,0,,
-2026-07-31,model,claude-opus-5,14,822418364,15.320325,3,0,,
-2026-07-31,model,claude-sonnet-5,21,565667833,14.675833,3,0,,
-2026-07-31,platform,claude_code,56,1584023605,36.287537,4,0,,
-2026-07-31,provider,anthropic,56,1584023605,36.287537,4,0,,
-2026-07-31,total,all,56,1584023605,36.287537,4,0,,
-2026-07-31,use_case,coding,56,1584023605,36.287537,4,0,,
-2026-08-01,platform,claude_code,5,126024229,0.691164,3,0,,
-2026-08-01,provider,anthropic,5,126024229,0.691164,3,0,,
-2026-08-01,total,all,5,126024229,0.691164,3,0,,
-2026-08-01,use_case,coding,5,126024229,0.691164,3,0,,
-2026-08-02,platform,claude_code,13,6247437734,27.553795,3,0,,
-2026-08-02,provider,anthropic,13,6247437734,27.553795,3,0,,
-2026-08-02,total,all,13,6247437734,27.553795,3,0,,
-2026-08-02,use_case,coding,13,6247437734,27.553795,3,0,,
-2026-08-03,model,claude-sonnet-5,5,787544593,6.509207,3,0,,
-2026-08-03,platform,claude_code,21,1553873180,13.534941,3,0,,
-2026-08-03,provider,anthropic,21,1553873180,13.534941,3,0,,
-2026-08-03,total,all,21,1553873180,13.534941,3,0,,
-2026-08-03,use_case,coding,21,1553873180,13.534941,3,0,,
-2026-08-04,model,claude-opus-5,14,1294756608,8.625968,4,0,,
-2026-08-04,platform,claude_code,35,4498396611,33.278363,5,0,,
-2026-08-04,provider,anthropic,35,4498396611,33.278363,5,0,,
-2026-08-04,total,all,35,4498396611,33.278363,5,0,,
-2026-08-04,use_case,coding,35,4498396611,33.278363,5,0,,
-2026-08-05,model,claude-opus-5,5,302282698,2.424447,4,0,,
-2026-08-05,platform,claude_code,46,5583709001,29.355042,5,0,,
-2026-08-05,provider,anthropic,46,5583709001,29.355042,5,0,,
-2026-08-05,total,all,46,5583709001,29.355042,5,0,,
-2026-08-05,use_case,coding,46,5583709001,29.355042,5,0,,
-2026-08-06,model,claude-opus-5,16,938743953,7.684338,3,0,,
-2026-08-06,platform,claude_code,66,4061700609,26.307779,4,0,,
-2026-08-06,provider,anthropic,66,4061700609,26.307779,4,0,,
-2026-08-06,total,all,66,4061700609,26.307779,4,0,,
-2026-08-06,use_case,coding,66,4061700609,26.307779,4,0,,
-2026-08-07,platform,claude_code,19,4973089468,26.532427,3,0,,
-2026-08-07,provider,anthropic,19,4973089468,26.532427,3,0,,
-2026-08-07,total,all,19,4973089468,26.532427,3,0,,
-2026-08-07,use_case,coding,19,4973089468,26.532427,3,0,,
-2026-08-10,model,claude-opus-5,11,2173874658,11.73098,3,0,,
-2026-08-10,platform,claude_code,14,3077977647,19.444585,3,0,,
-2026-08-10,provider,anthropic,14,3077977647,19.444585,3,0,,
-2026-08-10,total,all,14,3077977647,19.444585,3,0,,
-2026-08-10,use_case,coding,14,3077977647,19.444585,3,0,,
-2026-08-11,platform,claude_code,20,660664592,8.262412,4,0,,
-2026-08-11,provider,anthropic,20,660664592,8.262412,4,0,,
-2026-08-11,total,all,20,660664592,8.262412,4,0,,
-2026-08-11,use_case,coding,20,660664592,8.262412,4,0,,
-2026-08-12,model,claude-opus-5,8,3236805213,15.747571,3,0,,
-2026-08-12,platform,claude_code,16,2886275788,13.806946,3,0,,
-2026-08-12,provider,anthropic,16,2886275788,13.806946,3,0,,
-2026-08-12,total,all,16,2886275788,13.806946,3,0,,
-2026-08-12,use_case,coding,16,2886275788,13.806946,3,0,,
-2026-08-13,model,claude-opus-5,13,270674208,3.335007,3,0,,
-2026-08-13,model,claude-sonnet-5,3,6939941,0.202867,3,0,,
-2026-08-13,platform,claude_code,27,2295950383,12.087101,5,0,,
-2026-08-13,provider,anthropic,27,2295950383,12.087101,5,0,,
-2026-08-13,total,all,27,2295950383,12.087101,5,0,,
-2026-08-13,use_case,coding,27,2295950383,12.087101,5,0,,
-2026-08-14,model,claude-opus-5,13,2796753622,14.326643,3,0,,
-2026-08-14,platform,claude_code,36,3174840135,19.038398,4,0,,
-2026-08-14,provider,anthropic,36,3174840135,19.038398,4,0,,
-2026-08-14,total,all,36,3174840135,19.038398,4,0,,
-2026-08-14,use_case,coding,36,3174840135,19.038398,4,0,,
-2026-08-15,platform,claude_code,10,821300672,6.654372,3,0,,
-2026-08-15,provider,anthropic,10,821300672,6.654372,3,0,,
-2026-08-15,total,all,10,821300672,6.654372,3,0,,
-2026-08-15,use_case,coding,10,821300672,6.654372,3,0,,
-2026-08-18,model,claude-opus-5,24,1171554877,9.974579,3,0,,
-2026-08-18,platform,claude_code,54,1445810905,13.099339,4,0,,
-2026-08-18,provider,anthropic,54,1445810905,13.099339,4,0,,
-2026-08-18,total,all,54,1445810905,13.099339,4,0,,
-2026-08-18,use_case,coding,54,1445810905,13.099339,4,0,,
-2026-08-19,model,claude-opus-5,21,1451002861,12.12021,3,0,,
-2026-08-19,platform,claude_code,43,1716742898,15.286003,3,0,,
-2026-08-19,provider,anthropic,43,1716742898,15.286003,3,0,,
-2026-08-19,total,all,43,1716742898,15.286003,3,0,,
-2026-08-19,use_case,coding,43,1716742898,15.286003,3,0,,
-2026-08-20,model,claude-opus-5,6,1884595157,12.446879,3,0,,
-2026-08-20,platform,claude_code,19,2289902288,16.764979,3,0,,
-2026-08-20,provider,anthropic,19,2289902288,16.764979,3,0,,
-2026-08-20,total,all,19,2289902288,16.764979,3,0,,
-2026-08-20,use_case,coding,19,2289902288,16.764979,3,0,,
-2026-08-21,model,claude-opus-5,5,493771032,4.031193,3,0,,
-2026-08-21,platform,claude_code,24,777689045,7.605922,4,0,,
-2026-08-21,provider,anthropic,24,777689045,7.605922,4,0,,
-2026-08-21,total,all,24,777689045,7.605922,4,0,,
-2026-08-21,use_case,coding,24,777689045,7.605922,4,0,,
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <script>
+      (function(){
+          setTimeout(function(){
+              window.location.reload();
+          }, 5000);
+      }())
+  </script>
+  <link rel="icon" href="data:,">
+  <title>One moment, please...</title>
+  <style>
+.spinner {
+    -webkit-animation: spin 1s ease-out;
+    animation: spin 1s ease-out;
+}
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+#outer-container {
+    text-align: center;
+}
+#container {
+        display: inline-block;
+        height: 100px;
+    }
+#text {
+    float: left;
+    height: 100px;
+    line-height: 100px;
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0 .4em 0 .2em;
+    letter-spacing: 0.06em;
+    color: rgba(38, 122, 72, 0.86);
+}
+@media (min-height: 180px) {
+    #outer-container {
+        margin-top: 0;
+    }
+}
+@media (min-height: 360px) {
+    #outer-container {
+        margin-top: 5%;
+    }
+}
+@media (min-height: 540px) {
+    #outer-container {
+        margin-top: 10%;
+    }
+}
+@media (min-height: 720px) {
+    #outer-container {
+        margin-top: 20%;
+    }
+}
+@media (min-width: 1450px) {
+    .throbber {
+        width: 90px;
+        height: 90px;
+        float: left;
+        padding: 5px 0 5px 5px;
+        opacity: 0.86;
+    }
+    #container {
+        display: inline-block;
+        border: 3px solid rgb(38, 122, 72, 0.86);
+        border-radius: 51px;
+        height: 100px;
+    }
+}
+
+  </style>
+</head>
+<body>
+  <div id="outer-container">
+    <div id="container">
+<div class="throbber">
+    <svg class="spinner" width="90px" height="90px" viewBox="0 0 47 47"
+         version="1.1"
+         xmlns="http://www.w3.org/2000/svg"
+         xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>Loader</title>
+        <defs>
+            <polygon id="path-1"
+                     points="0 0.375484146 0 15.7255695 15.7013244 15.7255695 15.7013244 0.375484146 0 0.375484146"></polygon>
+        </defs>
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none"
+           fill-rule="evenodd">
+            <g id="Logo" transform="translate(-5.000000, -2.000000)">
+                <g id="Group-2" transform="translate(5.000000, 2.000000)">
+                    <path d="M22.6150244,4.52988293 C23.1538049,3.06256585 23.6031707,1.59582195 24.231939,0.158882927 C25.1902805,2.22459024 25.8190488,4.43989512 26.7768171,6.47579756 C29.1417195,7.40376098 31.7164024,7.7929439 34.1116829,8.69110244 C28.9623171,11.2663585 23.7229634,13.7510537 18.4836098,16.176139 C19.7709512,12.2545049 21.2382683,8.4217122 22.6150244,4.52988293 L22.6150244,4.52988293 Z"
+                          id="Fill-1" fill="#467C45"></path>
+                    <path d="M13.7718598,8.94461585 C16.1424939,7.68077439 18.4500793,6.28968902 20.8207134,5.02527439 C18.9240915,10.8412378 16.7747012,16.5614817 14.8465549,22.3774451 C12.7292622,18.3950549 10.895689,14.2544695 8.9044939,10.2090305 C8.27228659,8.85004268 7.5455061,7.55353049 7.00844512,6.16359146 C9.31545732,6.95342073 11.4648476,8.24935976 13.7718598,8.94461585"
+                          id="Fill-3" fill="#467C45"></path>
+                    <path d="M24.2134256,15.0745049 C29.4602305,12.4969561 34.7379866,9.91940732 40.0157427,7.4031878 C39.1565598,9.61276098 38.1747183,11.7300537 37.2232549,13.9086756 C38.4504134,16.2099561 39.9544134,18.388578 41.0898646,20.7511878 C35.4435598,18.9405415 29.8287793,17.0381878 24.2134256,15.0745049"
+                          id="Fill-5" fill="#467C45"></path>
+                    <g id="Group-9"
+                       transform="translate(0.000000, 11.919659)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-8"></g>
+                        <path d="M8.34869024,0.375484146 C9.93064146,3.33419146 11.2781659,6.43963049 12.7426171,9.45622805 C13.7387878,11.5362646 14.793422,13.5876427 15.7013244,15.7255695 C10.4579585,13.9091915 5.21401951,12.03435 -0.000114634146,10.0718134 C2.05069024,9.1341061 4.21842195,8.4898622 6.29845854,7.61119146 C6.97193415,5.17980122 7.67521463,2.77706951 8.34869024,0.375484146"
+                              id="Fill-7" fill="#467C45"
+                              mask="url(#mask-2)"></path>
+                    </g>
+                    <path d="M29.1793195,18.0496049 C33.5600634,19.4670561 37.9081366,21.0776659 42.2888805,22.5593122 C43.6742341,23.0745927 45.1558805,23.4609098 46.5085634,24.1372512 C44.2216122,25.039422 41.9025634,25.9100683 39.6477098,26.8110927 C38.8103073,29.4195927 38.2302585,32.1261049 37.3607585,34.7346049 C35.5890878,31.4497634 34.0432463,28.0353854 32.3684415,24.6852024 C31.3052098,22.4945439 30.1456854,20.3044585 29.1793195,18.0496049"
+                          id="Fill-10" fill="#467C45"></path>
+                    <path d="M28.9972232,29.3489207 C29.5789915,27.69475 30.0684793,26.0113476 30.7419549,24.3887012 C31.538089,25.7660305 32.1811866,27.2356402 32.9154183,28.6444939 C34.7220524,32.4709817 36.68115,36.205189 38.4568329,40.0316768 C36.2827963,39.1449817 34.1402841,38.1654329 31.9364427,37.2460671 C29.6403207,38.4709329 27.4662841,39.9405427 25.1094061,41.1035061 C26.3033207,37.1549329 27.7419793,33.2671159 28.9972232,29.3489207"
+                          id="Fill-12" fill="#467C45"></path>
+                    <path d="M4.97133902,25.64555 C9.93385122,27.1873793 14.7737049,29.036428 19.6748878,30.6705378 C20.4148512,30.9170012 21.1542415,31.1944159 21.8328756,31.5337329 C16.5304732,33.9685622 11.3214976,36.6498549 5.95776585,38.99355 C6.82096098,36.8355622 7.89966829,34.7698549 8.7319122,32.581489 C7.68358293,30.1764646 6.11194878,28.01905 4.97133902,25.64555"
+                          id="Fill-14" fill="#467C45"></path>
+                    <path d="M15.4549183,35.8770488 C19.4671134,33.9317073 23.4483573,31.8952317 27.4915037,30.0433171 C26.4110768,33.6542927 25.0222841,37.203939 23.8186256,40.8143415 C23.1090402,42.7275854 22.5530646,44.7033049 21.7511988,46.5855976 C20.7630524,44.4866463 20.0534671,42.2650366 19.1277963,40.1351341 C16.6276256,39.2094634 14.0042232,38.684439 11.4736744,37.9748537 C12.6773329,37.0801341 14.1584061,36.586061 15.4549183,35.8770488"
+                          id="Fill-16" fill="#467C45"></path>
+                </g>
+            </g>
+        </g>
+    </svg>
+</div>
+      <div id="text">
+        Please wait while your request is being verified...
+      </div>
+    </div>
+  </div>
+  <div id="cg4ocsewqv6k"></div>
+  <script>
+var a0J=a0L;function a0j(){var r=['userAgent','name','test','stener','addEventLi','ne;','apply','search','value','3110Xieold','cttl','Loaded','3758634qKRhpN','input','7fa3b767c4','appVersion','getElement','appendChil','ent','DOMContent','42WLchIu','open','hidden','ById','map','0950635027','93063aXjOGW','document','mimeTypes','type','prototype','99SOxwWg','createElem','constructo','attachEven','display:no','outerWidth','toString','21668340CgTfAa','__proto__','GET','d49030b349','style','form','outerHeigh','657603AnGYKS','60b54a2be4','method','language','1b41b08f12','languages','(((.+)+)+)','entries','append','navigator','filter','7576Oeitfx','10915289bPYhPu','plugins','1149488gVpWAk','length'];a0j=function(){return r;};return a0j();}(function(O,B){var a0v={O:0x125,B:0x14f,j:0x130,L:0x133},X=a0L,j=O();while(!![]){try{var L=parseInt(X(a0v.O))/0x1+-parseInt(X(0x149))/0x2*(-parseInt(X(a0v.B))/0x3)+parseInt(X(a0v.j))/0x4*(parseInt(X(0x13e))/0x5)+parseInt(X(0x141))/0x6+parseInt(X(0x131))/0x7+parseInt(X(a0v.L))/0x8*(-parseInt(X(0x154))/0x9)+-parseInt(X(0x11e))/0xa;if(L===B)break;else j['push'](j['shift']());}catch(f){j['push'](j['shift']());}}}(a0j,0xe1f3a));function a0L(O,B){var j=a0j();return a0L=function(L,f){L=L-0x11e;var s=j[L];return s;},a0L(O,B);}var a0f=window[a0J(0x12e)],a0s={'webdriverCheck':function(){return'webdriver'in window||!!a0f['webdriver'];},'userAgentCheck':function(){var a0E={O:0x137,B:0x135},n=a0J;return/headless|bytespider/i[n(a0E.O)](a0f[n(a0E.B)]);},'appVersionCheck':function(){var K=a0J;return/headless/i['test'](a0f[K(0x144)]);},'pluginArraySpoofing':function(){var a0T={O:0x132,B:0x11f},i=a0J;let O=PluginArray[i(0x153)]===a0f['plugins'][i(0x11f)];if(a0f[i(0x132)][i(0x134)]>0x0)O&=Plugin[i(0x153)]===a0f[i(a0T.O)][0x0][i(a0T.B)];return!O;},'mimeTypeArraySpoofing':function(){var a0R={O:0x134,B:0x151,j:0x11f},M=a0J;let O=MimeTypeArray[M(0x153)]===a0f[M(0x151)][M(0x11f)];if(a0f[M(0x151)][M(a0R.O)]>0x0)O&=MimeType[M(0x153)]===a0f[M(a0R.B)][0x0][M(a0R.j)];return!O;},'noLanguage':function(){var a0P={O:0x128,B:0x12a,j:0x134},u=a0J;return!a0f[u(a0P.O)]||a0f[u(a0P.B)][u(a0P.j)]===0x0;},'zeroOuterDimensions':function(){var a0p={O:0x124},l=a0J;return window[l(a0p.O)+'t']===0x0&&window[l(0x159)]===0x0;}},a0g=function(j,L){var a0A={O:0x139,B:0x138,j:0x139,L:0x138,f:0x148,s:0x140,g:0x150,x:0x157},a0N={O:0x15a,B:0x13c,j:0x12b},F=a0J,f=(function(){var g=!![];return function(x,d){var e=g?function(){var o=a0L;if(d){var c=d[o(0x13b)](x,arguments);return d=null,c;}}:function(){};return g=![],e;};}()),s=f(this,function(){var I=a0L;return s[I(a0N.O)]()[I(a0N.B)](I(0x12b)+'+$')[I(a0N.O)]()[I(0x156)+'r'](s)[I(0x13c)](I(a0N.j)+'+$');});s(),window[F(a0A.O)+F(a0A.B)]?window[F(0x150)][F(a0A.j)+F(a0A.L)](F(a0A.f)+F(a0A.s),j,L):window[F(a0A.g)][F(a0A.x)+'t']('onreadysta'+'techange',j);};a0g(function(){var a0V={O:0x145,B:0x14c,j:0x123,L:0x150,f:0x155,s:0x155,g:0x147,x:0x150,d:0x142,e:0x12f,c:0x12d,b:0x12d,q:0x120,w:0x13a,Y:0x127,G:0x13d,k:0x143,W:0x121,Q:0x136,z:0x152,Z:0x13d,J:0x14b,v:0x13d,a:0x146};setTimeout(function(){var C=a0L,O=window['document'][C(a0V.O)+C(a0V.B)]('cg4ocsewqv6k'),B=+((+!+[]+!![]+!![]+!![]+!![]+!![])+(+!+[]+!![]+!![]+!![]+[])+(+!+[]+!![]+!![])+(+!+[]+!![]+!![]+!![]+!![]+!![]+[])+(+!+[])+(+!+[]+!![]+!![]+!![]+!![]+[])+(+!+[]+!![])),j=window['document']['createElem'+'ent'](C(a0V.j)),L=window[C(a0V.L)][C(a0V.f)+C(0x147)]('input'),f=window['document'][C(a0V.s)+C(a0V.g)]('input'),s=window[C(a0V.x)][C(0x155)+C(0x147)](C(0x142)),g=window['document'][C(0x155)+C(0x147)](C(a0V.d)),x=window[C(0x150)][C(a0V.f)+C(0x147)]('input'),d=+((+!+[]+!![]+!![])+(+!+[]+!![]+[])+(+!+[]+!![]+!![])+(+!+[]+!![]+!![]+!![]+!![]+!![]+[])+(+!+[]+!![]+!![]+!![]+!![]+!![])+(+!+[]+!![]+!![]+!![]+!![]+[])+(+!+[]+!![]+!![]+!![]+!![]+!![]+!![])),e='wsidchk',c='pdata',b='https%3A%2F%2Fmytokentracker.io%2Fapi%2Fv1%2Fdata%2Fcommunity%3Fformat%3Dcsv',q='/z0f76a1d14fd21a8fb5fd0d03e0fdc3d3cedae52f',w='failedChecks',Y=Object[C(0x12c)](a0s)[C(0x14d)](([Q,z])=>{try{return z()?Q:null;}catch(Z){return null;}})[C(a0V.e)](Q=>Q!==null),G=Y['length']>0x0;if(G){var k=new URLSearchParams();k[C(a0V.c)]('id','a6105c0a61'+C(0x129)+C(0x14e)+'9e'),k['append']('ts','1787558653'),k[C(0x12d)](e,B+d),k['append'](c,b),k[C(a0V.b)]('cttl','0'),Y['forEach'](Q=>k[C(0x12d)](w,Q));var W=new XMLHttpRequest();W[C(0x14a)](C(a0V.q),q+'?'+k['toString']()),W['send'](null);}else j['id']='cg4ocsewqv6k',j[C(0x122)]=C(0x158)+C(a0V.w),j[C(a0V.Y)]=C(0x120),j['action']=q,L['id']='pzcyckdlgzv4',L['name']=e,L['value']=B+d,L['type']=C(0x14b),s[C(0x136)]='id',s[C(a0V.G)]=C(a0V.k)+C(0x126)+C(a0V.W)+'c7',s['type']='hidden',g[C(a0V.Q)]='ts',g[C(0x13d)]='1787558653',g[C(a0V.z)]=C(0x14b),f['id']='mx3r2zahkbz4',f[C(0x136)]=c,f[C(a0V.Z)]=b,f[C(0x152)]=C(a0V.J),x['name']=C(0x13f),x[C(a0V.v)]='0',x[C(0x152)]=C(a0V.J),j[C(a0V.a)+'d'](L),j[C(0x146)+'d'](f),j['appendChil'+'d'](s),j['appendChil'+'d'](g),j['appendChil'+'d'](x),O['appendChil'+'d'](j),j['submit']();},0x3e8);},![]);
+  </script>
+</body>
+</html>
