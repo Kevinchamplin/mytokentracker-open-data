@@ -7,8 +7,8 @@
     "basket_version": "v1",
     "blend_ratio": "3:1",
     "source": "https://mytokentracker.io/cost-index",
-    "generated_at": "2026-08-27T18:17:38+00:00",
-    "count": 140,
+    "generated_at": "2026-08-28T19:26:46+00:00",
+    "count": 142,
     "rows": [
         {
             "index_key": "budget",
@@ -1125,6 +1125,22 @@
         {
             "index_key": "frontier",
             "date": "2026-08-27",
+            "blended_per_mtok": 4.640625,
+            "input_per_mtok": 2.3125,
+            "output_per_mtok": 11.625,
+            "constituents": 4
+        },
+        {
+            "index_key": "budget",
+            "date": "2026-08-28",
+            "blended_per_mtok": 0.738,
+            "input_per_mtok": 0.376,
+            "output_per_mtok": 1.824,
+            "constituents": 5
+        },
+        {
+            "index_key": "frontier",
+            "date": "2026-08-28",
             "blended_per_mtok": 4.640625,
             "input_per_mtok": 2.3125,
             "output_per_mtok": 11.625,
