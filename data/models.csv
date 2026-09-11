@@ -1697,7 +1697,7 @@ hyperbolic,hyperbolic/Qwen/Qwen2.5-Coder-32B-Instruct,0.12,0.3,0,0,0,32768,32768
 hyperbolic,hyperbolic/Qwen/Qwen3-235B-A22B,2,2,0,0,0,131072,131072,text,2026-06-15,litellm,true
 hyperbolic,hyperbolic/Qwen/QwQ-32B,0.2,0.2,0,0,0,131072,131072,text,2026-06-15,litellm,true
 inception,inception/mercury-2,0.25,0.75,0.025,0,0,128000,50000,text,2026-06-15,litellm,true
-jina_ai,jina-reranker-v2-base-multilingual,0.018,0.018,0,0,0,1024,1024,rerank,2026-06-15,litellm,true
+jina_ai,jina-reranker-v2-base-multilingual,0.05,0,0,0,0,1024,1024,rerank,2026-09-11,litellm,true
 lambda_ai,lambda_ai/deepseek-llama3.3-70b,0.2,0.6,0,0,0,131072,131072,text,2026-06-15,litellm,true
 lambda_ai,lambda_ai/deepseek-r1-0528,0.2,0.6,0,0,0,131072,131072,text,2026-06-15,litellm,true
 lambda_ai,lambda_ai/deepseek-r1-671b,0.8,0.8,0,0,0,131072,131072,text,2026-06-15,litellm,true
@@ -2472,6 +2472,7 @@ openrouter,openrouter/openai/gpt-5.4-pro,30,180,0,0,0,1050000,128000,text,2026-0
 openrouter,openrouter/openai/gpt-5.5,5,30,0.5,0,0,1050000,128000,text,2026-09-06,litellm,true
 openrouter,openrouter/openai/gpt-5.5-pro,30,180,0,0,0,1050000,128000,text,2026-09-06,litellm,true
 openrouter,openrouter/openai/gpt-5.6-luna,0.2,1.2,0.02,0,0,922000,128000,text,2026-09-06,litellm,true
+openrouter,openrouter/openai/gpt-5.6-sol,2,10,0.2,2.5,0,1050000,128000,text,2026-09-11,litellm,true
 openrouter,openrouter/openai/gpt-5.6-terra,2,12,0.2,0,0,922000,128000,text,2026-09-06,litellm,true
 openrouter,openrouter/openai/gpt-6-astra,10,50,1,12.5,0,1050000,128000,text,2026-09-06,litellm,true
 openrouter,openrouter/openai/gpt-audio,2.5,10,0,0,0,128000,16384,text,2026-09-06,litellm,true
@@ -3160,8 +3161,10 @@ wandb,wandb/deepseek-ai/DeepSeek-V3.1,0.55,1.65,0,0,0,161000,128000,text,2026-08
 wandb,wandb/deepseek-ai/DeepSeek-V4-Flash,0.14,0.28,0.07,0,0,1048576,0,text,2026-08-28,litellm,true
 wandb,wandb/deepseek-ai/DeepSeek-V4-Flash-0731,0.13,0.28,0.07,0,0,262144,0,text,2026-08-28,litellm,true
 wandb,wandb/deepseek-ai/DeepSeek-V4-Pro,1.15,2.55,0.2,0,0,1048576,0,text,2026-08-28,litellm,true
+wandb,wandb/deepseek-ai/DeepSeek-V4-Pro-0813,1.31,3.96,0.044,0,0,0,0,text,2026-09-11,litellm,true
 wandb,wandb/google/gemma-4-31B-it,0.1,0.34,0,0,0,262144,0,text,2026-08-28,litellm,true
 wandb,wandb/ibm-granite/granite-4.1-8b,0.05,0.1,0,0,0,131072,0,text,2026-08-28,litellm,true
+wandb,wandb/ibm-granite/granite-4.2-8b,0.1,0.15,0.05,0,0,0,0,text,2026-09-11,litellm,true
 wandb,wandb/JetBrains/Mellum2-12B-A2.5B-Instruct,0.05,0.1,0,0,0,131072,0,text,2026-08-28,litellm,true
 wandb,wandb/meta-llama/Llama-3.1-70B-Instruct,0.8,0.8,0,0,0,128000,0,text,2026-08-28,litellm,true
 wandb,wandb/meta-llama/Llama-3.1-8B-Instruct,0.22,0.22,0,0,0,128000,128000,text,2026-08-28,litellm,true
