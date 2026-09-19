@@ -4,8 +4,8 @@
     "license": "CC BY 4.0",
     "attribution": "Champlin Enterprises, https://mytokentracker.io",
     "source": "https://mytokentracker.io/community",
-    "generated_at": "2026-09-18T12:14:09+00:00",
-    "count": 367,
+    "generated_at": "2026-09-19T11:55:58+00:00",
+    "count": 371,
     "rows": [
         {
             "date": "2026-05-22",
@@ -4407,6 +4407,54 @@
             "tokens": 354846654,
             "cost": 5.072866,
             "contributors": 4,
+            "success": 0,
+            "quality_avg": null,
+            "latency_avg_ms": null
+        },
+        {
+            "date": "2026-09-18",
+            "dimension": "platform",
+            "dimension_value": "claude_code",
+            "events": 27,
+            "tokens": 2345782796,
+            "cost": 16.347757,
+            "contributors": 3,
+            "success": 0,
+            "quality_avg": null,
+            "latency_avg_ms": null
+        },
+        {
+            "date": "2026-09-18",
+            "dimension": "provider",
+            "dimension_value": "anthropic",
+            "events": 27,
+            "tokens": 2345782796,
+            "cost": 16.347757,
+            "contributors": 3,
+            "success": 0,
+            "quality_avg": null,
+            "latency_avg_ms": null
+        },
+        {
+            "date": "2026-09-18",
+            "dimension": "total",
+            "dimension_value": "all",
+            "events": 27,
+            "tokens": 2345782796,
+            "cost": 16.347757,
+            "contributors": 3,
+            "success": 0,
+            "quality_avg": null,
+            "latency_avg_ms": null
+        },
+        {
+            "date": "2026-09-18",
+            "dimension": "use_case",
+            "dimension_value": "coding",
+            "events": 27,
+            "tokens": 2345782796,
+            "cost": 16.347757,
+            "contributors": 3,
             "success": 0,
             "quality_avg": null,
             "latency_avg_ms": null
