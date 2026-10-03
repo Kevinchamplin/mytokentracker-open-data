@@ -592,7 +592,7 @@ bedrock,ai21.jamba-1-5-mini-v1:0,0.2,0.4,0,0,0,256000,256000,text,2026-06-15,lit
 bedrock,ai21.jamba-instruct-v1:0,0.5,0.7,0,0,0,70000,4096,text,2026-06-15,litellm,true
 bedrock,amazon.nova-2-lite-v1:0,0.3,2.5,0.075,0,0,1000000,64000,text,2026-06-15,litellm,true
 bedrock,amazon.nova-2-multimodal-embeddings-v1:0,0.135,0,0,0,0,8172,0,embedding,2026-06-15,litellm,true
-bedrock,amazon.nova-2-pro-preview-20251202-v1:0,2.1875,17.5,0.546875,0,0,1000000,64000,text,2026-06-15,litellm,true
+bedrock,amazon.nova-2-pro-preview-20251202-v1:0,1.25,10,0.3125,0,0,1000000,64000,text,2026-10-03,litellm,true
 bedrock,amazon.nova-2-sonic-v1:0,0.33,2.75,0,0,0,0,0,text,2026-09-02,litellm,true
 bedrock,amazon.nova-lite-v1:0,0.06,0.24,0.015,0,0,300000,10000,text,2026-09-17,litellm,true
 bedrock,amazon.nova-micro-v1:0,0.035,0.14,0.00875,0,0,128000,10000,text,2026-09-17,litellm,true
@@ -637,7 +637,7 @@ bedrock,anthropic.claude-sonnet-5-5,2,10,0.2,2.5,0,1000000,128000,text,2026-09-3
 bedrock,anthropic.claude-v1,8,24,0,0,0,100000,8191,text,2026-06-15,litellm,true
 bedrock,anthropic.claude-v2:1,8,24,0,0,0,100000,8191,text,2026-06-15,litellm,true
 bedrock,apac.amazon.nova-2-lite-v1:0,0.33,2.75,0.0825,0,0,1000000,64000,text,2026-06-15,litellm,true
-bedrock,apac.amazon.nova-2-pro-preview-20251202-v1:0,2.1875,17.5,0.546875,0,0,1000000,64000,text,2026-06-15,litellm,true
+bedrock,apac.amazon.nova-2-pro-preview-20251202-v1:0,1.375,11,0.34375,0,0,1000000,64000,text,2026-10-03,litellm,true
 bedrock,apac.amazon.nova-lite-v1:0,0.063,0.252,0.01575,0,0,300000,10000,text,2026-09-17,litellm,true
 bedrock,apac.amazon.nova-micro-v1:0,0.037,0.148,0.00925,0,0,128000,10000,text,2026-09-17,litellm,true
 bedrock,apac.amazon.nova-pro-v1:0,0.84,3.36,0.21,0,0,300000,10000,text,2026-09-17,litellm,true
@@ -841,7 +841,7 @@ bedrock,deepseek.r1-v1:0,1.35,5.4,0,0,0,128000,8192,text,2026-09-24,litellm,true
 bedrock,deepseek.v3-v1:0,0.58,1.68,0,0,0,163840,81920,text,2026-06-15,litellm,true
 bedrock,deepseek.v3.2,0.62,1.85,0,0,0,164000,8000,text,2026-09-22,litellm,true
 bedrock,eu.amazon.nova-2-lite-v1:0,0.33,2.75,0.0825,0,0,1000000,64000,text,2026-06-15,litellm,true
-bedrock,eu.amazon.nova-2-pro-preview-20251202-v1:0,2.1875,17.5,0.546875,0,0,1000000,64000,text,2026-06-15,litellm,true
+bedrock,eu.amazon.nova-2-pro-preview-20251202-v1:0,1.375,11,0.34375,0,0,1000000,64000,text,2026-10-03,litellm,true
 bedrock,eu.amazon.nova-lite-v1:0,0.078,0.312,0.0195,0,0,300000,10000,text,2026-09-17,litellm,true
 bedrock,eu.amazon.nova-micro-v1:0,0.046,0.184,0.0115,0,0,128000,10000,text,2026-09-17,litellm,true
 bedrock,eu.amazon.nova-pro-v1:0,1.05,4.2,0.2625,0,0,300000,10000,text,2026-09-17,litellm,true
@@ -988,7 +988,7 @@ bedrock,us-gov.openai.gpt-oss-120b-1:0,0.18,0.72,0,0,0,128000,128000,text,2026-0
 bedrock,us-gov.openai.gpt-oss-20b-1:0,0.084,0.36,0,0,0,128000,128000,text,2026-09-09,litellm,true
 bedrock,us-gov.xai.grok-4.6,2.64,7.92,0.66,0,0,500000,500000,text,2026-09-09,litellm,true
 bedrock,us.amazon.nova-2-lite-v1:0,0.33,2.75,0.0825,0,0,1000000,64000,text,2026-06-15,litellm,true
-bedrock,us.amazon.nova-2-pro-preview-20251202-v1:0,2.1875,17.5,0.546875,0,0,1000000,64000,text,2026-06-15,litellm,true
+bedrock,us.amazon.nova-2-pro-preview-20251202-v1:0,1.375,11,0.34375,0,0,1000000,64000,text,2026-10-03,litellm,true
 bedrock,us.amazon.nova-lite-v1:0,0.06,0.24,0.015,0,0,300000,10000,text,2026-09-17,litellm,true
 bedrock,us.amazon.nova-micro-v1:0,0.035,0.14,0.00875,0,0,128000,10000,text,2026-09-17,litellm,true
 bedrock,us.amazon.nova-premier-v1:0,2.5,12.5,0.625,0,0,1000000,10000,text,2026-09-17,litellm,true
@@ -1104,6 +1104,9 @@ bedrock_mantle,bedrock_mantle/us-gov-west-1/xai.grok-4.3,1.5,3,0.24,0,0,1048576,
 bedrock_mantle,bedrock_mantle/us-gov-west-1/xai.grok-4.6,2.64,7.92,0.66,0,0,500000,500000,text,2026-09-09,litellm,true
 bedrock_mantle,bedrock_mantle/xai.grok-4.3,1.25,2.5,0.2,0,0,1048576,16384,text,2026-09-18,litellm,true
 bedrock_mantle,bedrock_mantle/xai.grok-4.6,2.2,6.6,0.55,0,0,500000,500000,text,2026-08-21,litellm,true
+bespoke,bespoke/bespokelabs/Bespoke-Nimble-9B,0,0,0,0,0,8192,0,text,2026-10-03,litellm,true
+bespoke,bespoke/nimble,0,0,0,0,0,8192,0,text,2026-10-03,litellm,true
+bespoke,bespoke/nimble-latest,0,0,0,0,0,8192,0,text,2026-10-03,litellm,true
 cerebras,cerebras/gemma-4-31b,0.99,1.49,0,0,0,131072,40960,text,2026-09-02,litellm,true
 cerebras,cerebras/gpt-oss-120b,0.35,0.75,0,0,0,131072,32768,text,2026-06-15,litellm,true
 cerebras,cerebras/llama-3.3-70b,0.85,1.2,0,0,0,128000,128000,text,2026-06-15,litellm,true
@@ -2053,6 +2056,9 @@ lambda_ai,lambda_ai/llama3.2-3b-instruct,0.015,0.025,0,0,0,131072,131072,text,20
 lambda_ai,lambda_ai/llama3.3-70b-instruct-fp8,0.12,0.3,0,0,0,131072,131072,text,2026-06-15,litellm,true
 lambda_ai,lambda_ai/qwen25-coder-32b-instruct,0.05,0.1,0,0,0,131072,131072,text,2026-06-15,litellm,true
 lambda_ai,lambda_ai/qwen3-32b-fp8,0.05,0.1,0,0,0,131072,131072,text,2026-06-15,litellm,true
+laya,laya/english,0,0,0,0,0,0,0,text,2026-10-03,litellm,true
+laya,laya/multilingual,0,0,0,0,0,0,0,text,2026-10-03,litellm,true
+laya,laya/typed-decisions,0,0,0,0,0,0,0,text,2026-10-03,litellm,true
 lemonade,lemonade/Gemma-3-4b-it-GGUF,0,0,0,0,0,128000,8192,text,2026-06-15,litellm,true
 lemonade,lemonade/gpt-oss-120b-mxfp-GGUF,0,0,0,0,0,131072,32768,text,2026-06-15,litellm,true
 lemonade,lemonade/gpt-oss-20b-mxfp4-GGUF,0,0,0,0,0,131072,32768,text,2026-06-15,litellm,true
@@ -2747,11 +2753,11 @@ openrouter,openrouter/deepseek/deepseek-chat-v3.1,0.25,0.95,0.13,0,0,163840,3276
 openrouter,openrouter/deepseek/deepseek-r1,0.7,2.5,0.14,0,0,64000,16000,text,2026-09-22,litellm,true
 openrouter,openrouter/deepseek/deepseek-r1-0528,0.5,2.15,0.35,0,0,163840,32768,text,2026-09-18,litellm,true
 openrouter,openrouter/deepseek/deepseek-r1-distill-llama-70b,0.8,0.8,0,0,0,8192,7372,text,2026-09-06,litellm,true
-openrouter,openrouter/deepseek/deepseek-v3.1-terminus,0.3,1,0.135,0,0,163840,65536,text,2026-10-01,litellm,true
+openrouter,openrouter/deepseek/deepseek-v3.1-terminus,0.27,1,0.135,0,0,163840,147456,text,2026-10-03,litellm,true
 openrouter,openrouter/deepseek/deepseek-v3.2,0.28,0.42,0.028,0,0,163840,65536,text,2026-09-30,litellm,true
 openrouter,openrouter/deepseek/deepseek-v3.2-exp,0.27,0.41,0.02,0,0,163840,147456,text,2026-09-30,litellm,true
-openrouter,openrouter/deepseek/deepseek-v4-flash,0.04186,0.08372,0.008372,0,0,1048576,131072,text,2026-10-02,litellm,true
-openrouter,openrouter/deepseek/deepseek-v4-flash-0731,0.0108,1.28,0.0108,0,0,1048576,943718,text,2026-10-02,litellm,true
+openrouter,openrouter/deepseek/deepseek-v4-flash,0.028,0.056,0.0056,0,0,1048576,384000,text,2026-10-03,litellm,true
+openrouter,openrouter/deepseek/deepseek-v4-flash-0731,0.0051,1.28,0.0051,0,0,1048576,943718,text,2026-10-03,litellm,true
 openrouter,openrouter/deepseek/deepseek-v4-flash-0731:batch,0.11,0.33,0.0035,0,0,1048576,943718,text,2026-09-18,litellm,true
 openrouter,openrouter/deepseek/deepseek-v4-flash-0731:free,0,0,0,0,0,1048576,393216,text,2026-09-18,litellm,true
 openrouter,openrouter/deepseek/deepseek-v4-flash-vision-exp,0.2156,0.6468,0.00686,0,0,1048576,262144,text,2026-09-30,litellm,true
@@ -2759,7 +2765,7 @@ openrouter,openrouter/deepseek/deepseek-v4-flash-vision-exp:batch,0.11,0.33,0.00
 openrouter,openrouter/deepseek/deepseek-v4-pro,0.2088,0.4176,0.0174,0,0,1048576,384000,text,2026-10-02,litellm,true
 openrouter,openrouter/deepseek/deepseek-v4-pro-0813,1.32,3.96,0.044,0,0,1048576,393216,text,2026-10-01,litellm,true
 openrouter,openrouter/deepseek/deepseek-v4-pro-0813:batch,0.66,1.98,0.022,0,0,1048576,943718,text,2026-09-18,litellm,true
-openrouter,openrouter/deepseek/deepseek-v4.1-flash,0.03,0.5,0.01,0,0,1048576,943718,text,2026-10-02,litellm,true
+openrouter,openrouter/deepseek/deepseek-v4.1-flash,0.3,1.2,0.006,0,0,1048576,943718,text,2026-10-03,litellm,true
 openrouter,openrouter/deepseek/deepseek-v4.1-flash:batch,0.112,0.336,0.00336,0,0,1048576,131072,text,2026-09-24,litellm,true
 openrouter,openrouter/dots-studio/dots-3-note-preview:free,0,0,0,0,0,512000,460800,text,2026-09-18,litellm,true
 openrouter,openrouter/fireworks/ember-1,3,15,0.3,0,0,1048576,943718,text,2026-09-25,litellm,true
@@ -2801,7 +2807,7 @@ openrouter,openrouter/google/gemma-2-27b-it,0.65,0.65,0,0,0,8192,2048,text,2026-
 openrouter,openrouter/google/gemma-3-12b-it,0.05,0.15,0,0,0,131072,16384,text,2026-09-06,litellm,true
 openrouter,openrouter/google/gemma-3-27b-it,0.08,0.45,0.04,0,0,131072,117964,text,2026-09-06,litellm,true
 openrouter,openrouter/google/gemma-3-4b-it,0.05,0.1,0,0,0,131072,16384,text,2026-09-06,litellm,true
-openrouter,openrouter/google/gemma-4-26b-a4b-it,0.0765,0.255,0.0425,0,0,262144,235929,text,2026-10-01,litellm,true
+openrouter,openrouter/google/gemma-4-26b-a4b-it,0.0675,0.225,0.0375,0,0,262144,235929,text,2026-10-03,litellm,true
 openrouter,openrouter/google/gemma-4-26b-a4b-it:free,0,0,0,0,0,262144,32768,text,2026-09-06,litellm,true
 openrouter,openrouter/google/gemma-4-31b-it,0.09,0.34,0.05,0,0,262144,16384,text,2026-09-06,litellm,true
 openrouter,openrouter/google/gemma-4-31b-it:free,0,0,0,0,0,262144,32768,text,2026-09-06,litellm,true
@@ -2811,11 +2817,12 @@ openrouter,openrouter/ibm-granite/granite-4.2-8b,0.06,0.25,0.015,0,0,131072,1179
 openrouter,openrouter/inception/mercury-2,0.25,0.75,0.025,0,0,128000,50000,text,2026-09-18,litellm,true
 openrouter,openrouter/inception/mercury-2.5,0.04,0.15,0.004,0,0,260000,65536,text,2026-09-18,litellm,true
 openrouter,openrouter/inclusionai/ling-3.0-flash,0.021,0.063,0.0042,0,0,262144,32768,text,2026-09-18,litellm,true
-openrouter,openrouter/inclusionai/ling-3.0-flash-fin,0.06,0.18,0.012,0,0,262144,235929,text,2026-09-18,litellm,true
+openrouter,openrouter/inclusionai/ling-3.0-flash-fin,0.042,0.1232,0.0084,0,0,262144,32768,text,2026-10-03,litellm,true
 openrouter,openrouter/inclusionai/ling-3.0-flash-fin:free,0,0,0,0,0,262144,32768,text,2026-09-18,litellm,true
 openrouter,openrouter/inclusionai/ling-3.0-flash-sante:free,0,0,0,0,0,262144,32768,text,2026-09-18,litellm,true
 openrouter,openrouter/inclusionai/ling-3.0-flash-vl,0.021,0.0616,0.0042,0,0,262144,32768,text,2026-09-30,litellm,true
 openrouter,openrouter/inclusionai/ling-3.0-flash-vl:free,0,0,0,0,0,262144,32768,text,2026-09-18,litellm,true
+openrouter,openrouter/inclusionai/ling-3.1-flash,0,0,0,0,0,262144,32768,text,2026-10-03,litellm,true
 openrouter,openrouter/inference-net/schematron-v2-small,0.05,0.23,0.05,0,0,128000,4096,text,2026-09-18,litellm,true
 openrouter,openrouter/inference-net/schematron-v2-turbo,0.03,0.15,0.03,0,0,128000,8192,text,2026-09-18,litellm,true
 openrouter,openrouter/kwaipilot/kat-coder-pro-v2,0.3,1.2,0.06,0,0,262144,144000,text,2026-09-18,litellm,true
@@ -2884,7 +2891,7 @@ openrouter,openrouter/moonshotai/kimi-k2-thinking,0.6,2.5,0.15,0,0,262144,98304,
 openrouter,openrouter/moonshotai/kimi-k2.5,0.45,2.25,0.07,0,0,262144,235929,text,2026-09-18,litellm,true
 openrouter,openrouter/moonshotai/kimi-k2.6,0.43415,1.828,0.07312,0,0,262144,235929,text,2026-10-02,litellm,true
 openrouter,openrouter/moonshotai/kimi-k2.7-code,0.6712,3.35,0.18,0,0,262144,235929,text,2026-10-01,litellm,true
-openrouter,openrouter/moonshotai/kimi-k3,0.4357,10,0.4357,0,0,1048576,943718,text,2026-10-02,litellm,true
+openrouter,openrouter/moonshotai/kimi-k3,2.7,13.5,0.27,0,0,1048576,943718,text,2026-10-03,litellm,true
 openrouter,openrouter/moonshotai/kimi-k3:batch,2.28,11.4,0.228,0,0,1048576,16384,text,2026-09-23,litellm,true
 openrouter,openrouter/morph/morph-v3-fast,0.8,1.2,0,0,0,81920,38000,text,2026-09-18,litellm,true
 openrouter,openrouter/morph/morph-v3-large,0.9,1.9,0,0,0,262144,131072,text,2026-09-18,litellm,true
@@ -2899,7 +2906,7 @@ openrouter,openrouter/nvidia/nemotron-3-nano-30b-a3b,0.05,0.2,0.03,0,0,262144,23
 openrouter,openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free,0,0,0,0,0,256000,65536,text,2026-09-06,litellm,true
 openrouter,openrouter/nvidia/nemotron-3-super-120b-a12b,0.08,0.45,0,0,0,262144,235929,text,2026-09-18,litellm,true
 openrouter,openrouter/nvidia/nemotron-3-super-120b-a12b:free,0,0,0,0,0,262144,235929,text,2026-09-06,litellm,true
-openrouter,openrouter/nvidia/nemotron-3-ultra-550b-a55b,0.6,2.4,0.12,0,0,262144,182520,text,2026-09-20,litellm,true
+openrouter,openrouter/nvidia/nemotron-3-ultra-550b-a55b,0.5,2.2,0.1,0,0,262144,16384,text,2026-10-03,litellm,true
 openrouter,openrouter/nvidia/nemotron-3-ultra-550b-a55b:free,0,0,0,0,0,1000000,65536,text,2026-09-06,litellm,true
 openrouter,openrouter/nvidia/nemotron-3.5-content-safety,0.2,0.2,0,0,0,131072,117964,text,2026-09-06,litellm,true
 openrouter,openrouter/nvidia/nemotron-3.5-content-safety:free,0,0,0,0,0,128000,8192,text,2026-09-06,litellm,true
@@ -3039,7 +3046,7 @@ openrouter,openrouter/qwen/qwen3-235b-a22b,0.455,1.82,0,0,0,131072,8192,text,202
 openrouter,openrouter/qwen/qwen3-235b-a22b-2507,0.0875,0.35,0.0175,0,0,262144,235929,text,2026-09-18,litellm,true
 openrouter,openrouter/qwen/qwen3-235b-a22b-thinking-2507,0.23,2.3,0,0,0,131072,117964,text,2026-09-18,litellm,true
 openrouter,openrouter/qwen/qwen3-30b-a3b,0.12,0.5,0,0,0,131072,16384,text,2026-09-30,litellm,true
-openrouter,openrouter/qwen/qwen3-30b-a3b-instruct-2507,0.04815,0.19305,0,0,0,262144,32000,text,2026-10-01,litellm,true
+openrouter,openrouter/qwen/qwen3-30b-a3b-instruct-2507,0.1,0.3,0,0,0,262144,235929,text,2026-10-03,litellm,true
 openrouter,openrouter/qwen/qwen3-30b-a3b-thinking-2507,0.2,2.4,0,0,0,81920,32768,text,2026-09-06,litellm,true
 openrouter,openrouter/qwen/qwen3-32b,0.08,0.28,0,0,0,131072,16384,text,2026-09-06,litellm,true
 openrouter,openrouter/qwen/qwen3-8b,0.117,0.455,0,0,0,131072,8192,text,2026-09-06,litellm,true
@@ -3051,7 +3058,7 @@ openrouter,openrouter/qwen/qwen3-coder-plus,0.65,3.25,0.13,0.8125,0,1000000,6553
 openrouter,openrouter/qwen/qwen3-max,0.78,3.9,0.156,0.975,0,262144,65536,text,2026-09-06,litellm,true
 openrouter,openrouter/qwen/qwen3-max-thinking,0.78,3.9,0,0,0,262144,65536,text,2026-09-06,litellm,true
 openrouter,openrouter/qwen/qwen3-next-80b-a3b-instruct,0.1,1.1,0.07,0,0,262144,235929,text,2026-09-27,litellm,true
-openrouter,openrouter/qwen/qwen3-next-80b-a3b-thinking,0.15,1.2,0,0,0,262144,235929,text,2026-09-23,litellm,true
+openrouter,openrouter/qwen/qwen3-next-80b-a3b-thinking,0.15,1.2,0,0,0,262144,32768,text,2026-10-03,litellm,true
 openrouter,openrouter/qwen/qwen3-vl-235b-a22b-instruct,0.21,1.9,0.1,0,0,262144,32768,text,2026-09-06,litellm,true
 openrouter,openrouter/qwen/qwen3-vl-235b-a22b-thinking,0.4,4,0,0,0,131072,32768,text,2026-09-06,litellm,true
 openrouter,openrouter/qwen/qwen3-vl-30b-a3b-instruct,0.15,0.6,0,0,0,262144,16384,text,2026-09-27,litellm,true
@@ -3061,7 +3068,7 @@ openrouter,openrouter/qwen/qwen3-vl-8b-instruct,0.117,0.455,0,0,0,262144,32768,t
 openrouter,openrouter/qwen/qwen3-vl-8b-thinking,0.18,2.1,0,0,0,131072,32768,text,2026-09-06,litellm,true
 openrouter,openrouter/qwen/qwen3.5-122b-a10b,0.26,2.08,0,0,0,262144,235929,text,2026-09-27,litellm,true
 openrouter,openrouter/qwen/qwen3.5-27b,0.195,1.56,0,0,0,262144,65536,text,2026-09-06,litellm,true
-openrouter,openrouter/qwen/qwen3.5-35b-a3b,0.1625,1.3,0.15625,0,0,262144,16384,text,2026-09-30,litellm,true
+openrouter,openrouter/qwen/qwen3.5-35b-a3b,0.15,1,0.05,0,0,262144,235929,text,2026-10-03,litellm,true
 openrouter,openrouter/qwen/qwen3.5-397b-a17b,0.55,3.5,0.225,0,0,262144,235929,text,2026-09-18,litellm,true
 openrouter,openrouter/qwen/qwen3.5-9b,0.1,0.15,0,0,0,262144,32768,text,2026-09-20,litellm,true
 openrouter,openrouter/qwen/qwen3.5-9b:batch,0.17,0.25,0,0,0,262144,235929,text,2026-09-18,litellm,true
@@ -3111,7 +3118,7 @@ openrouter,openrouter/tencent/hy4-preview,0.834,2.501,0.042,0,0,1048576,64000,te
 openrouter,openrouter/thedrummer/cydonia-24b-v4.1,0.3,0.5,0.15,0,0,131072,117964,text,2026-09-18,litellm,true
 openrouter,openrouter/thedrummer/skyfall-36b-v2,0.55,0.8,0.25,0,0,32768,29491,text,2026-09-18,litellm,true
 openrouter,openrouter/thedrummer/unslopnemo-12b,0.4,0.4,0,0,0,1024000,819200,text,2026-09-18,litellm,true
-openrouter,openrouter/thinkingmachines/inkling,1,4.05,0.17,0,0,524288,471859,text,2026-09-30,litellm,true
+openrouter,openrouter/thinkingmachines/inkling,0.95,4.05,0.16,0,0,524288,262144,text,2026-10-03,litellm,true
 openrouter,openrouter/thinkingmachines/inkling-small,0.45,1.2,0.1,0,0,524288,262144,text,2026-09-30,litellm,true
 openrouter,openrouter/thinkingmachines/inkling-small:free,0,0,0,0,0,1048576,262144,text,2026-09-18,litellm,true
 openrouter,openrouter/thinkingmachines/inkling:batch,1,4.05,0.17,0,0,524288,471859,text,2026-09-18,litellm,true
@@ -3150,11 +3157,11 @@ openrouter,openrouter/z-ai/glm-4.7,0.6,2.2,0.11,0,0,204800,131072,text,2026-09-2
 openrouter,openrouter/z-ai/glm-4.7-flash,0.0605,0.4,0.01,0,0,200000,117964,text,2026-09-18,litellm,true
 openrouter,openrouter/z-ai/glm-5,0.6,1.92,0.12,0,0,204800,128000,text,2026-09-18,litellm,true
 openrouter,openrouter/z-ai/glm-5-turbo,1.2,4,0.24,0,0,202752,131072,text,2026-09-06,litellm,true
-openrouter,openrouter/z-ai/glm-5.1,0.9646,3.0316,0.17914,0,0,204800,131072,text,2026-10-01,litellm,true
+openrouter,openrouter/z-ai/glm-5.1,1.4,4.4,0.26,0,0,204800,131072,text,2026-10-03,litellm,true
 openrouter,openrouter/z-ai/glm-5.2,0.41,3.99,0.26,0,0,1048576,943718,text,2026-10-02,litellm,true
 openrouter,openrouter/z-ai/glm-5.2:batch,0.7,2.2,0.07,0,0,1048576,943718,text,2026-09-18,litellm,true
 openrouter,openrouter/z-ai/glm-5.2:free,0,0,0,0,0,32768,29491,text,2026-09-18,litellm,true
-openrouter,openrouter/z-ai/glm-5.3,0.2219,3.39,0.1775,0,0,1048576,943718,text,2026-10-02,litellm,true
+openrouter,openrouter/z-ai/glm-5.3,1.4,4.4,0.14,0,0,1048576,131072,text,2026-10-03,litellm,true
 openrouter,openrouter/z-ai/glm-5.3-flash,0.15,0.5,0.03,0,0,1310720,131072,text,2026-09-30,litellm,true
 openrouter,openrouter/z-ai/glm-5.3-flash:batch,0.06,0.2,0.012,0,0,1048576,131072,text,2026-09-23,litellm,true
 openrouter,openrouter/z-ai/glm-5.3-flashx,0.37,1.25,0.09,0,0,1048576,131072,text,2026-09-24,litellm,true
