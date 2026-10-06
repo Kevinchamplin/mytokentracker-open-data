@@ -5,8 +5,8 @@
     "attribution": "Champlin Enterprises, https://mytokentracker.io",
     "unit": "USD per 1,000,000 tokens",
     "source": "https://mytokentracker.io/models",
-    "generated_at": "2026-10-05T16:02:08+00:00",
-    "count": 4001,
+    "generated_at": "2026-10-06T14:12:32+00:00",
+    "count": 4004,
     "rows": [
         {
             "provider": "ai21",
@@ -8890,6 +8890,21 @@
         },
         {
             "provider": "bedrock",
+            "model": "amazon.nova-2-5-sonic",
+            "input_per_mtok": 0.33,
+            "output_per_mtok": 2.75,
+            "cache_read_per_mtok": 0,
+            "cache_write_per_mtok": 0,
+            "reasoning_per_mtok": 0,
+            "context_window": 0,
+            "max_output": 0,
+            "modality": "text",
+            "effective_date": "2026-10-06",
+            "source": "litellm",
+            "is_active": true
+        },
+        {
+            "provider": "bedrock",
             "model": "amazon.nova-2-lite-v1:0",
             "input_per_mtok": 0.3,
             "output_per_mtok": 2.5,
@@ -13615,6 +13630,21 @@
         },
         {
             "provider": "bedrock",
+            "model": "global.zai.glm-5.3",
+            "input_per_mtok": 1.68,
+            "output_per_mtok": 5.28,
+            "cache_read_per_mtok": 0.312,
+            "cache_write_per_mtok": 2.1,
+            "reasoning_per_mtok": 0,
+            "context_window": 1000000,
+            "max_output": 128000,
+            "modality": "text",
+            "effective_date": "2026-10-06",
+            "source": "litellm",
+            "is_active": true
+        },
+        {
+            "provider": "bedrock",
             "model": "google.gemma-3-12b-it",
             "input_per_mtok": 0.09,
             "output_per_mtok": 0.29,
@@ -15785,6 +15815,21 @@
             "max_output": 500000,
             "modality": "text",
             "effective_date": "2026-09-30",
+            "source": "litellm",
+            "is_active": true
+        },
+        {
+            "provider": "bedrock",
+            "model": "us.zai.glm-5.3",
+            "input_per_mtok": 1.848,
+            "output_per_mtok": 5.808,
+            "cache_read_per_mtok": 0.3432,
+            "cache_write_per_mtok": 2.31,
+            "reasoning_per_mtok": 0,
+            "context_window": 1000000,
+            "max_output": 128000,
+            "modality": "text",
+            "effective_date": "2026-10-06",
             "source": "litellm",
             "is_active": true
         },

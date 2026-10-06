@@ -591,6 +591,7 @@ bedrock,ai21.j2-ultra-v1,18.8,18.8,0,0,0,8191,8191,text,2026-06-15,litellm,true
 bedrock,ai21.jamba-1-5-large-v1:0,2,8,0,0,0,256000,256000,text,2026-06-15,litellm,true
 bedrock,ai21.jamba-1-5-mini-v1:0,0.2,0.4,0,0,0,256000,256000,text,2026-06-15,litellm,true
 bedrock,ai21.jamba-instruct-v1:0,0.5,0.7,0,0,0,70000,4096,text,2026-06-15,litellm,true
+bedrock,amazon.nova-2-5-sonic,0.33,2.75,0,0,0,0,0,text,2026-10-06,litellm,true
 bedrock,amazon.nova-2-lite-v1:0,0.3,2.5,0.075,0,0,1000000,64000,text,2026-06-15,litellm,true
 bedrock,amazon.nova-2-multimodal-embeddings-v1:0,0.135,0,0,0,0,8172,0,embedding,2026-06-15,litellm,true
 bedrock,amazon.nova-2-pro-preview-20251202-v1:0,1.25,10,0.3125,0,0,1000000,64000,text,2026-10-03,litellm,true
@@ -906,6 +907,7 @@ bedrock,global.openai.gpt-6.1-sol,2,10,0.1,2.5,0,1050000,131072,text,2026-09-30,
 bedrock,global.twelvelabs.pegasus-1-2-v1:0,0,7.5,0,0,0,0,0,text,2026-09-10,litellm,true
 bedrock,global.xai.grok-4.6,2,6,0.5,0,0,500000,500000,text,2026-08-21,litellm,true
 bedrock,global.xai.grok-4.7,2,6,0.5,0,0,500000,500000,text,2026-09-30,litellm,true
+bedrock,global.zai.glm-5.3,1.68,5.28,0.312,2.1,0,1000000,128000,text,2026-10-06,litellm,true
 bedrock,google.gemma-3-12b-it,0.09,0.29,0,0,0,128000,8000,text,2026-09-22,litellm,true
 bedrock,google.gemma-3-27b-it,0.23,0.38,0,0,0,128000,8000,text,2026-09-22,litellm,true
 bedrock,google.gemma-3-4b-it,0.04,0.08,0,0,0,128000,8000,text,2026-09-22,litellm,true
@@ -1051,6 +1053,7 @@ bedrock,us.writer.palmyra-x4-v1:0,2.5,10,0,0,0,128000,8192,text,2026-06-15,litel
 bedrock,us.writer.palmyra-x5-v1:0,0.6,6,0,0,0,1000000,8192,text,2026-06-15,litellm,true
 bedrock,us.xai.grok-4.6,2.2,6.6,0.55,0,0,500000,500000,text,2026-08-21,litellm,true
 bedrock,us.xai.grok-4.7,2.2,6.6,0.55,0,0,500000,500000,text,2026-09-30,litellm,true
+bedrock,us.zai.glm-5.3,1.848,5.808,0.3432,2.31,0,1000000,128000,text,2026-10-06,litellm,true
 bedrock,writer.palmyra-vision-7b,0.15,0.6,0,0,0,4096,4096,text,2026-09-17,litellm,true
 bedrock,writer.palmyra-x4-v1:0,2.5,10,0,0,0,128000,8192,text,2026-06-15,litellm,true
 bedrock,writer.palmyra-x5-v1:0,0.6,6,0,0,0,1000000,8192,text,2026-06-15,litellm,true
