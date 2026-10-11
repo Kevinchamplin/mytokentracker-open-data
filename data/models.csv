@@ -155,6 +155,8 @@ azure,azure_ai/cohere-command-a,2.5,10,0,0,0,131072,8182,text,2026-09-10,litellm
 azure,azure_ai/Cohere-command-a-plus-05-2026,0.8,3.2,0,0,0,128000,64000,text,2026-09-25,litellm,true
 azure,azure_ai/Cohere-embed-v3-english,0.1,0,0,0,0,512,0,embedding,2026-06-15,litellm,true
 azure,azure_ai/Cohere-embed-v3-multilingual,0.1,0,0,0,0,512,0,embedding,2026-06-15,litellm,true
+azure,azure_ai/Cohere-Embed-V5-Fast,0.08,0,0,0,0,128000,0,embedding,2026-10-11,litellm,true
+azure,azure_ai/Cohere-Embed-V5-Pro,0.12,0,0,0,0,128000,0,embedding,2026-10-11,litellm,true
 azure,azure_ai/cohere-rerank-v3-english,0,0,0,0,0,4096,4096,rerank,2026-06-15,litellm,true
 azure,azure_ai/cohere-rerank-v3-multilingual,0,0,0,0,0,4096,4096,rerank,2026-06-15,litellm,true
 azure,azure_ai/cohere-rerank-v3.5,0,0,0,0,0,4096,4096,rerank,2026-06-15,litellm,true
@@ -606,6 +608,7 @@ bedrock,amazon.nova-2-pro-preview-20251202-v1:0,1.25,10,0.3125,0,0,1000000,64000
 bedrock,amazon.nova-2-sonic-v1:0,0.33,2.75,0,0,0,0,0,text,2026-09-02,litellm,true
 bedrock,amazon.nova-lite-v1:0,0.06,0.24,0.015,0,0,300000,10000,text,2026-09-17,litellm,true
 bedrock,amazon.nova-micro-v1:0,0.035,0.14,0.00875,0,0,128000,10000,text,2026-09-17,litellm,true
+bedrock,amazon.nova-premier-v1:0,2.5,12.5,0.625,0,0,1000000,10000,text,2026-10-11,litellm,true
 bedrock,amazon.nova-pro-v1:0,0.8,3.2,0.2,0,0,300000,10000,text,2026-09-17,litellm,true
 bedrock,amazon.nova-sonic-v1:0,0.06,0.24,0,0,0,0,0,text,2026-09-02,litellm,true
 bedrock,amazon.rerank-v1:0,0,0,0,0,0,32000,32000,rerank,2026-06-15,litellm,true
@@ -613,8 +616,8 @@ bedrock,amazon.titan-embed-g1-text-02,0.1,0,0,0,0,8192,0,embedding,2026-06-27,li
 bedrock,amazon.titan-embed-image-v1,0.8,0,0,0,0,128,0,embedding,2026-06-15,litellm,true
 bedrock,amazon.titan-embed-text-v1,0.1,0,0,0,0,8192,0,embedding,2026-06-15,litellm,true
 bedrock,amazon.titan-embed-text-v2:0,0.02,0,0,0,0,8192,0,embedding,2026-06-24,litellm,true
-bedrock,amazon.titan-text-express-v1,1.3,1.7,0,0,0,42000,8000,text,2026-06-15,litellm,true
-bedrock,amazon.titan-text-lite-v1,0.3,0.4,0,0,0,42000,4000,text,2026-06-15,litellm,true
+bedrock,amazon.titan-text-express-v1,0.2,0.6,0,0,0,42000,8000,text,2026-10-11,litellm,true
+bedrock,amazon.titan-text-lite-v1,0.15,0.2,0,0,0,42000,4000,text,2026-10-11,litellm,true
 bedrock,amazon.titan-text-premier-v1:0,0.5,1.5,0,0,0,42000,32000,text,2026-06-15,litellm,true
 bedrock,anthropic.claude-3-5-haiku-20241022-v1:0,0.8,4,0.08,1,0,200000,8192,text,2026-06-15,litellm,true
 bedrock,anthropic.claude-3-5-sonnet-20240620-v1:0,3,15,0.3,3.75,0,1000000,4096,text,2026-06-15,litellm,true
@@ -647,7 +650,7 @@ bedrock,anthropic.claude-sonnet-5,2,10,0.2,2.5,0,1000000,128000,text,2026-07-04,
 bedrock,anthropic.claude-sonnet-5-5,2,10,0.1,2.5,0,1000000,128000,text,2026-10-08,litellm,true
 bedrock,anthropic.claude-v1,8,24,0,0,0,100000,8191,text,2026-06-15,litellm,true
 bedrock,anthropic.claude-v2:1,8,24,0,0,0,100000,8191,text,2026-06-15,litellm,true
-bedrock,apac.amazon.nova-2-lite-v1:0,0.33,2.75,0.0825,0,0,1000000,64000,text,2026-06-15,litellm,true
+bedrock,apac.amazon.nova-2-lite-v1:0,0.396,3.311,0.099,0,0,1000000,64000,text,2026-10-11,litellm,true
 bedrock,apac.amazon.nova-2-pro-preview-20251202-v1:0,1.375,11,0.34375,0,0,1000000,64000,text,2026-10-03,litellm,true
 bedrock,apac.amazon.nova-lite-v1:0,0.063,0.252,0.01575,0,0,300000,10000,text,2026-09-17,litellm,true
 bedrock,apac.amazon.nova-micro-v1:0,0.037,0.148,0.00925,0,0,128000,10000,text,2026-09-17,litellm,true
@@ -739,8 +742,8 @@ bedrock,bedrock/eu-west-3/mistral.mistral-7b-instruct-v0:2,0.2,0.26,0,0,0,32000,
 bedrock,bedrock/eu-west-3/mistral.mistral-large-2402-v1:0,5.2,15.6,0,0,0,32000,8191,text,2026-09-24,litellm,true
 bedrock,bedrock/eu-west-3/mistral.mixtral-8x7b-instruct-v0:1,0.59,0.91,0,0,0,32000,8191,text,2026-06-15,litellm,true
 bedrock,bedrock/invoke/anthropic.claude-3-5-sonnet-20240620-v1:0,3,15,0.3,3.75,0,200000,4096,text,2026-06-15,litellm,true
-bedrock,bedrock/moonshotai.kimi-k2-thinking,0.73,3.03,0,0,0,262144,16000,text,2026-10-09,litellm,true
-bedrock,bedrock/moonshotai.kimi-k2.5,0.6,3.03,0,0,0,262144,16000,text,2026-10-09,litellm,true
+bedrock,bedrock/moonshotai.kimi-k2-thinking,0.6,2.5,0,0,0,262144,16000,text,2026-10-11,litellm,true
+bedrock,bedrock/moonshotai.kimi-k2.5,0.6,3,0,0,0,262144,16000,text,2026-10-11,litellm,true
 bedrock,bedrock/sa-east-1/deepseek.v3.2,0.74,2.22,0,0,0,163840,8000,text,2026-10-09,litellm,true
 bedrock,bedrock/sa-east-1/meta.llama3-70b-instruct-v1:0,4.45,5.88,0,0,0,8192,8192,text,2026-06-15,litellm,true
 bedrock,bedrock/sa-east-1/meta.llama3-8b-instruct-v1:0,0.5,1.01,0,0,0,8192,8192,text,2026-06-15,litellm,true
@@ -802,8 +805,8 @@ bedrock,bedrock/us-gov-west-1/amazon.nova-lite-v1:0,0.072,0.288,0.018,0,0,300000
 bedrock,bedrock/us-gov-west-1/amazon.nova-micro-v1:0,0.042,0.168,0.0105,0,0,128000,10000,text,2026-09-17,litellm,true
 bedrock,bedrock/us-gov-west-1/amazon.nova-pro-v1:0,0.96,3.84,0.24,0,0,300000,10000,text,2026-09-17,litellm,true
 bedrock,bedrock/us-gov-west-1/amazon.titan-embed-text-v1,0.1,0,0,0,0,8192,0,embedding,2026-06-15,litellm,true
-bedrock,bedrock/us-gov-west-1/amazon.titan-embed-text-v2:0,0.2,0,0,0,0,8192,0,embedding,2026-06-15,litellm,true
-bedrock,bedrock/us-gov-west-1/amazon.titan-text-express-v1,1.3,1.7,0,0,0,42000,8000,text,2026-06-15,litellm,true
+bedrock,bedrock/us-gov-west-1/amazon.titan-embed-text-v2:0,0.11,0,0,0,0,8192,0,embedding,2026-10-11,litellm,true
+bedrock,bedrock/us-gov-west-1/amazon.titan-text-express-v1,0.8,1.6,0,0,0,42000,8000,text,2026-10-11,litellm,true
 bedrock,bedrock/us-gov-west-1/amazon.titan-text-lite-v1,0.3,0.4,0,0,0,42000,4000,text,2026-06-15,litellm,true
 bedrock,bedrock/us-gov-west-1/amazon.titan-text-premier-v1:0,0.5,1.5,0,0,0,42000,32000,text,2026-06-15,litellm,true
 bedrock,bedrock/us-gov-west-1/anthropic.claude-3-5-sonnet-20240620-v1:0,3.6,18,0.36,4.5,0,200000,8192,text,2026-06-15,litellm,true
@@ -855,7 +858,7 @@ bedrock,cohere.rerank-v3-5:0,0,0,0,0,0,32000,32000,rerank,2026-06-15,litellm,tru
 bedrock,deepseek.r1-v1:0,1.35,5.4,0,0,0,128000,8192,text,2026-09-24,litellm,true
 bedrock,deepseek.v3-v1:0,0.58,1.68,0,0,0,128000,8000,text,2026-10-09,litellm,true
 bedrock,deepseek.v3.2,0.62,1.85,0,0,0,164000,8000,text,2026-09-22,litellm,true
-bedrock,eu.amazon.nova-2-lite-v1:0,0.33,2.75,0.0825,0,0,1000000,64000,text,2026-06-15,litellm,true
+bedrock,eu.amazon.nova-2-lite-v1:0,0.429,3.597,0.10725,0,0,1000000,64000,text,2026-10-11,litellm,true
 bedrock,eu.amazon.nova-2-pro-preview-20251202-v1:0,1.375,11,0.34375,0,0,1000000,64000,text,2026-10-03,litellm,true
 bedrock,eu.amazon.nova-lite-v1:0,0.078,0.312,0.0195,0,0,300000,10000,text,2026-09-17,litellm,true
 bedrock,eu.amazon.nova-micro-v1:0,0.046,0.184,0.0115,0,0,128000,10000,text,2026-09-17,litellm,true
@@ -3470,6 +3473,11 @@ sambanova,sambanova/Qwen2-Audio-7B-Instruct,0.5,100,0,0,0,4096,4096,text,2026-06
 sambanova,sambanova/Qwen3-32B,0.4,0.8,0,0,0,8192,8192,text,2026-06-15,litellm,true
 sambanova,sambanova/QwQ-32B,0.5,1,0,0,0,16384,16384,text,2026-06-15,litellm,true
 sarvam,sarvam/sarvam-m,0,0,0,0,0,8192,32000,text,2026-06-15,litellm,true
+scaledown,scaledown/classify,0.05,0,0,0,0,0,0,text,2026-10-11,litellm,true
+scaledown,scaledown/compress,0.05,0,0,0,0,0,0,text,2026-10-11,litellm,true
+scaledown,scaledown/decisions,0.05,0,0,0,0,0,0,text,2026-10-11,litellm,true
+scaledown,scaledown/extract,0.05,0,0,0,0,0,0,text,2026-10-11,litellm,true
+scaledown,scaledown/summarize,0.05,0,0,0,0,0,0,text,2026-10-11,litellm,true
 scaleway,scaleway/BAAI/bge-multilingual-gemma2,0.1,0,0,0,0,0,0,embedding,2026-06-21,litellm,true
 scaleway,scaleway/deepseek-v4-flash-0731,0.4,0.8,0.08,0,0,256000,32768,text,2026-09-04,litellm,true
 scaleway,scaleway/glm-5.2,1.8,5.5,0,0,0,256000,16384,text,2026-09-04,litellm,true
