@@ -1150,6 +1150,7 @@ cerebras,cerebras/zai-glm-4.7,2.25,2.75,0,0,0,128000,128000,text,2026-06-15,lite
 cloudflare,cloudflare/@cf/aisingapore/gemma-sea-lion-v4-27b-it,0.351,0.555,0,0,0,128000,128000,text,2026-06-24,litellm,true
 cloudflare,cloudflare/@cf/cloudflare/clef,0.24,0,0,0,0,65536,0,text,2026-10-04,litellm,true
 cloudflare,cloudflare/@cf/cloudflare/clef-flash,0.09,0,0,0,0,65536,0,text,2026-10-04,litellm,true
+cloudflare,cloudflare/@cf/cloudflare/clef-omni,0.15,0,0,0,0,64000,0,text,2026-10-13,litellm,true
 cloudflare,cloudflare/@cf/deepseek-ai/deepseek-r1-distill-qwen-32b,0.497,4.881,0,0,0,80000,80000,text,2026-06-24,litellm,true
 cloudflare,cloudflare/@cf/google/gemma-2b-it-lora,0,0,0,0,0,8192,8192,text,2026-06-24,litellm,true
 cloudflare,cloudflare/@cf/google/gemma-4-26b-a4b-it,0.1,0.3,0,0,0,256000,256000,text,2026-06-24,litellm,true
@@ -1181,6 +1182,7 @@ cloudflare,cloudflare/@cf/zai-org/glm-5.2,1.4,4.4,0.26,0,0,262144,262144,text,20
 cloudflare,cloudflare/@hf/thebloke/codellama-7b-instruct-awq,1.923,1.923,0,0,0,4096,4096,text,2026-06-15,litellm,true
 cloudflare,cloudflare/clef,0.24,0,0,0,0,65536,0,text,2026-10-04,litellm,true
 cloudflare,cloudflare/clef-flash,0.09,0,0,0,0,65536,0,text,2026-10-04,litellm,true
+cloudflare,cloudflare/clef-omni,0.15,0,0,0,0,64000,0,text,2026-10-13,litellm,true
 codestral,codestral/codestral-2405,0,0,0,0,0,32000,8191,text,2026-06-15,litellm,true
 codestral,codestral/codestral-latest,0,0,0,0,0,32000,8191,text,2026-06-15,litellm,true
 cognition,cognition/swe-1.6,0.5,2.5,0.2,0,0,0,0,text,2026-08-21,litellm,true
@@ -1214,6 +1216,12 @@ cohere,rerank-multilingual-v3.0,0,0,0,0,0,4096,4096,rerank,2026-06-15,litellm,tr
 cohere,rerank-v3.5,0,0,0,0,0,4096,4096,rerank,2026-06-15,litellm,true
 cohere,rerank-v4.0-fast,0,0,0,0,0,32768,32768,rerank,2026-09-10,litellm,true
 cohere,rerank-v4.0-pro,0,0,0,0,0,32768,32768,rerank,2026-09-10,litellm,true
+coralbricks,coralbricks/deepseek-v4.1-flash,0.01,1.2,0,0.09,0,1048576,0,text,2026-10-13,litellm,true
+coralbricks,coralbricks/deepseek-v4.1-flash-fast,0.01,1.2,0,0.09,0,1048576,0,text,2026-10-13,litellm,true
+coralbricks,coralbricks/deepseek-v4.1-flash-fast-fp4,0.01,1.2,0,0.09,0,1048576,0,text,2026-10-13,litellm,true
+coralbricks,coralbricks/glm-5.3,1.12,4.4,0,1.68,0,1048576,0,text,2026-10-13,litellm,true
+coralbricks,coralbricks/glm-5.3-fast,1.12,4.4,0,1.68,0,1048576,0,text,2026-10-13,litellm,true
+coralbricks,coralbricks/glm-5.3-fp4,1.12,4.4,0,1.68,0,1048576,0,text,2026-10-13,litellm,true
 crusoe,crusoe/deepseek-ai/DeepSeek-R1-0528,3,7,0,0,0,163840,163840,text,2026-06-15,litellm,true
 crusoe,crusoe/deepseek-ai/DeepSeek-V3-0324,1.5,1.5,0,0,0,163840,163840,text,2026-06-15,litellm,true
 crusoe,crusoe/google/gemma-3-12b-it,0.1,0.1,0,0,0,131072,131072,text,2026-06-15,litellm,true
@@ -1766,6 +1774,7 @@ fireworks_ai,fireworks_ai/accounts/fireworks/routers/kimi-k2p6-fast,2,8,0.3,0,0,
 fireworks_ai,fireworks_ai/accounts/fireworks/routers/kimi-k2p7-code-fast,1.9,8,0.38,0,0,262144,32768,text,2026-07-31,litellm,true
 fireworks_ai,fireworks_ai/accounts/fireworks/routers/kimi-k3-fast,4.5,22.5,0.45,0,0,1048576,131072,text,2026-08-21,litellm,true
 fireworks_ai,fireworks_ai/accounts/fireworks/routers/kimi-k3-us,4.5,22.5,0.45,0,0,1048576,131072,text,2026-09-24,litellm,true
+fireworks_ai,fireworks_ai/accounts/fireworks/routers/rune,0.042,0,0.0084,0,0,262144,0,text,2026-10-13,litellm,true
 fireworks_ai,fireworks_ai/deepseek-v4-flash,0.14,0.28,0.028,0,0,1048576,384000,text,2026-06-21,litellm,true
 fireworks_ai,fireworks_ai/deepseek-v4-flash-0731,0.22,0.66,0.007,0,0,1048576,131072,text,2026-09-02,litellm,true
 fireworks_ai,fireworks_ai/deepseek-v4-flash-vision-exp,0.22,0.66,0.007,0,0,1048576,0,text,2026-09-06,litellm,true
@@ -1906,6 +1915,7 @@ google,gemini-nano-banana-2.1,1.5,7.5,0.15,0,0,131072,32768,image,2026-10-07,lit
 google,gemini-omni-flash-preview,1.5,9,0,0,9,1048576,65535,text,2026-07-15,litellm,true
 google,gemini-pro-latest,2,12,0.2,0,0,1048576,65536,text,2026-09-17,litellm,true
 google,gemini-robotics-er-1.5-preview,0.3,2.5,0,0,2.5,1048576,65535,text,2026-06-15,litellm,true
+google,gemini-robotics-er-2-preview,1,5,0.1,0,5,131072,65536,text,2026-10-13,litellm,true
 google,gemini/deep-research-max-preview-04-2026,2,12,0,0,0,1048576,65536,text,2026-10-07,litellm,true
 google,gemini/deep-research-preview-04-2026,2,12,0,0,0,1048576,65536,text,2026-10-07,litellm,true
 google,gemini/deep-research-pro-preview-12-2025,2,12,0,0,0,1048576,65536,text,2026-09-30,litellm,true
@@ -2024,9 +2034,18 @@ google,vertex_ai/gemini-nano-banana-2.1,1.5,7.5,0.15,0,0,131072,32768,image,2026
 google,vertex_ai/gemini-omni-1.1-flash,1.5,9,0,0,9,0,0,text,2026-09-25,litellm,true
 google,vertex_ai/gemini-omni-1.1-flash-preview,1.5,9,0,0,9,57920,57920,text,2026-09-23,litellm,true
 google,vertex_ai/gemini-robotics-er-2,1,5,0.1,0,0,0,0,text,2026-09-15,litellm,true
+google,vertex_ai/gemini-robotics-er-2-preview,1,5,0.1,0,5,131072,65536,text,2026-10-13,litellm,true
 google,vertex_ai/gemma-4-26b-a4b-it,0.15,0.6,0.015,0,0,0,0,text,2026-09-15,litellm,true
 google,vertex_ai/lyria-3-clip-preview,0,0,0,0,0,131072,8192,audio,2026-09-09,litellm,true
 google,vertex_ai/lyria-3-pro-preview,0,0,0,0,0,131072,8192,audio,2026-09-09,litellm,true
+google,vertex_ai/semantic-ranker-default,0,0,0,0,0,0,0,rerank,2026-10-13,litellm,true
+google,vertex_ai/semantic-ranker-default-002,0,0,0,0,0,0,0,rerank,2026-10-13,litellm,true
+google,vertex_ai/semantic-ranker-default-003,0,0,0,0,0,0,0,rerank,2026-10-13,litellm,true
+google,vertex_ai/semantic-ranker-default-004,0,0,0,0,0,0,0,rerank,2026-10-13,litellm,true
+google,vertex_ai/semantic-ranker-default@latest,0,0,0,0,0,0,0,rerank,2026-10-13,litellm,true
+google,vertex_ai/semantic-ranker-fast,0,0,0,0,0,0,0,rerank,2026-10-13,litellm,true
+google,vertex_ai/semantic-ranker-fast-004,0,0,0,0,0,0,0,rerank,2026-10-13,litellm,true
+google,vertex_ai/semantic-ranker-fast@latest,0,0,0,0,0,0,0,rerank,2026-10-13,litellm,true
 google,vertex_ai/xai/grok-4.1-fast-non-reasoning,0.2,0.5,0.05,0,0,128000,128000,text,2026-09-10,litellm,true
 google,vertex_ai/xai/grok-4.1-fast-reasoning,0.2,0.5,0.05,0,0,128000,128000,text,2026-09-10,litellm,true
 google,vertex_ai/xai/grok-4.20-non-reasoning,1.25,2.5,0.2,0,0,2000000,2000000,text,2026-09-10,litellm,true
@@ -2140,6 +2159,7 @@ meta,meta/muse-spark-1.2,1.25,4.25,0.15,0,0,1048576,131072,text,2026-08-16,litel
 meta,meta/muse-spark-1.2-contributor,0.1,0.2,0.002,0,0,1048576,131072,text,2026-08-16,litellm,true
 meta,meta/muse-spark-1.3,1.25,4.25,0.15,0,0,1048576,131072,text,2026-09-04,litellm,true
 meta,meta/muse-spark-1.3-contributor,0.1,0.2,0.002,0,0,1048576,131072,text,2026-09-04,litellm,true
+meta,meta/muse-wonder-1.0,4,20,0.2,0,0,1048576,131072,text,2026-10-13,litellm,true
 microsoft_365_copilot,microsoft_365_copilot/chat,0,0,0,0,0,0,0,text,2026-10-10,litellm,true
 minimax,minimax/MiniMax-M2,0.3,1.2,0.03,0.375,0,200000,8192,text,2026-06-15,litellm,true
 minimax,minimax/MiniMax-M2.1,0.3,1.2,0.03,0.375,0,1000000,8192,text,2026-06-15,litellm,true
@@ -2546,6 +2566,7 @@ openai,chat-latest,5,30,0.5,0,0,400000,128000,text,2026-08-21,litellm,true
 openai,chatgpt-4o-latest,5,15,0,0,0,128000,4096,text,2026-06-15,litellm,true
 openai,chatgpt-image-latest,5,10,1.25,0,0,0,0,image,2026-09-15,litellm,true
 openai,codex-mini-latest,1.5,6,0.375,0,0,200000,100000,text,2026-06-15,litellm,true
+openai,computer-use-preview-2025-03-11,3,12,0,0,0,8192,1024,text,2026-10-13,litellm,true
 openai,davinci-002,2,2,0,0,0,16384,4096,text,2026-06-15,litellm,true
 openai,daybreak-blue-latest,4,20,0.4,5,0,922000,128000,text,2026-09-17,litellm,true
 openai,daybreak-red-latest,12.5,75,1.25,15.625,0,400000,128000,text,2026-08-21,litellm,true
@@ -3305,7 +3326,8 @@ perplexity,perplexity/pplx-70b-chat,0.7,2.8,0,0,0,4096,4096,text,2026-06-15,lite
 perplexity,perplexity/pplx-70b-online,0,2.8,0,0,0,4096,4096,text,2026-06-15,litellm,true
 perplexity,perplexity/pplx-7b-chat,0.07,0.28,0,0,0,8192,8192,text,2026-06-15,litellm,true
 perplexity,perplexity/pplx-7b-online,0,0.28,0,0,0,4096,4096,text,2026-06-15,litellm,true
-perplexity,perplexity/pplx-decider-v1-27b,0.04,0,0,0,0,262144,0,text,2026-10-04,litellm,true
+perplexity,perplexity/pplx-decider-v1-27b,0.02,0,0,0,0,262144,0,text,2026-10-13,litellm,true
+perplexity,perplexity/pplx-decider-v1.1-27b,0.02,0,0,0,0,262144,0,text,2026-10-13,litellm,true
 perplexity,perplexity/pplx-embed-context-v1-0.6b,0.008,0,0,0,0,32768,0,embedding,2026-08-21,litellm,true
 perplexity,perplexity/pplx-embed-context-v1-4b,0.05,0,0,0,0,32768,0,embedding,2026-08-21,litellm,true
 perplexity,perplexity/pplx-embed-v1-0.6b,0.004,0,0,0,0,32768,0,embedding,2026-06-15,litellm,true
@@ -3625,7 +3647,7 @@ together_ai,together_ai/Qwen/QwQ-32B,1.2,1.2,0,0,0,131072,0,text,2026-09-13,lite
 together_ai,together_ai/Salesforce/Llama-Rank-V1,0.1,0,0,0,0,8192,0,rerank,2026-09-27,litellm,true
 together_ai,together_ai/thinkingmachines/Inkling,1,4.05,0.17,0,0,524288,0,text,2026-08-30,litellm,true
 together_ai,together_ai/thinkingmachines/Inkling-Small,0.5,1.2,0.1,0,0,524288,0,text,2026-08-30,litellm,true
-together_ai,together_ai/together/Tev1-4B-experimental,0.042,0,0.042,0,0,32768,0,text,2026-09-24,litellm,true
+together_ai,together_ai/together/Tev1-4B-experimental,0.042,0,0,0,0,32768,0,text,2026-10-13,litellm,true
 together_ai,together_ai/zai-org/GLM-4.5-Air-FP8,0.2,1.1,0,0,0,131072,0,text,2026-09-17,litellm,true
 together_ai,together_ai/zai-org/GLM-4.6,0.6,2.2,0,0,0,202752,0,text,2026-09-22,litellm,true
 together_ai,together_ai/zai-org/GLM-4.7,0.45,2,0,0,0,202752,0,text,2026-09-22,litellm,true
