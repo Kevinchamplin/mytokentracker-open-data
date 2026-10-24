@@ -3728,6 +3728,7 @@ together_ai,together_ai/meta-models/Muse-Glimmer-30B,0.35,1.5,0.04,0,0,131072,0,
 together_ai,together_ai/meta-models/Muse-Spark-Open-816B-A42B,1.25,4.25,0.15,0,0,1048576,0,text,2026-10-16,litellm,true
 together_ai,together_ai/MiniMaxAI/MiniMax-M2.7,0.3,1.2,0.06,0,0,196608,0,text,2026-09-13,litellm,true
 together_ai,together_ai/MiniMaxAI/MiniMax-M3,0.3,1.2,0.06,0,0,524288,0,text,2026-08-30,litellm,true
+together_ai,together_ai/MiniMaxAI/MiniMax-M3.1-Flash,0.15,0.6,0.015,0,0,1048576,0,text,2026-10-24,litellm,true
 together_ai,together_ai/mistralai/Ministral-3-14B-Instruct-2512,0.2,0.2,0,0,0,262144,0,text,2026-09-13,litellm,true
 together_ai,together_ai/mistralai/Mistral-7B-Instruct-v0.1,0.2,0.2,0,0,0,32768,0,text,2026-09-13,litellm,true
 together_ai,together_ai/mistralai/Mistral-7B-Instruct-v0.3,0.2,0.2,0,0,0,32768,0,text,2026-09-13,litellm,true
