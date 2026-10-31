@@ -18,7 +18,9 @@ ai21,jamba-mini-1.7,0.2,0.4,0,0,0,256000,256000,text,2026-06-15,litellm,true
 aiand,aiand/deepseek-ai/deepseek-v4-flash,0.15,0.25,0.08,0,0,1048576,384000,text,2026-10-29,litellm,true
 aiand,aiand/deepseek-ai/deepseek-v4-pro,1,2.5,0.25,0,0,1048576,384000,text,2026-10-29,litellm,true
 aiand,aiand/deepseek-ai/deepseek-v4.1-flash,0.3,0.6,0.02,0,0,1048576,384000,text,2026-10-29,litellm,true
+aiand,aiand/deepseek-ai/deepseek-v4.1-flash-1017,0.3,0.6,0.02,0,0,1048576,384000,text,2026-10-31,litellm,true
 aiand,aiand/google/gemma-4-31b-it,0.2,0.5,0.05,0,0,262144,32768,text,2026-10-29,litellm,true
+aiand,aiand/meta/muse-spark-open,1.25,4.25,0.15,0,0,1048576,943718,text,2026-10-31,litellm,true
 aiand,aiand/moonshotai/kimi-k2.7-code,0.75,3.5,0.2,0,0,262144,262144,text,2026-10-29,litellm,true
 aiand,aiand/moonshotai/kimi-k3,3,12.5,0.5,0,0,1048576,131072,text,2026-10-29,litellm,true
 aiand,aiand/motif-technologies/motif-3,0.5,2,0.2,0,0,262144,262144,text,2026-10-29,litellm,true
@@ -1165,7 +1167,7 @@ bedrock_mantle,bedrock_mantle/google.gemma-4-e2b,0.04,0.08,0,0,0,128000,128000,t
 bedrock_mantle,bedrock_mantle/moonshotai.kimi-k2-thinking,0.6,2.5,0,0,0,256000,16000,text,2026-09-26,litellm,true
 bedrock_mantle,bedrock_mantle/openai.gpt-5.4,2.75,16.5,0.275,0,0,922000,128000,text,2026-10-28,litellm,true
 bedrock_mantle,bedrock_mantle/openai.gpt-5.5,5.5,33,0.55,0,0,922000,128000,text,2026-10-28,litellm,true
-bedrock_mantle,bedrock_mantle/openai.gpt-5.6-cyber,13.75,82.5,1.375,17.1875,0,1050000,128000,text,2026-10-18,litellm,true
+bedrock_mantle,bedrock_mantle/openai.gpt-5.6-cyber,13.75,82.5,1.375,17.1875,0,922000,128000,text,2026-10-31,litellm,true
 bedrock_mantle,bedrock_mantle/openai.gpt-5.6-luna,0.22,1.32,0.022,0.275,0,922000,128000,text,2026-10-28,litellm,true
 bedrock_mantle,bedrock_mantle/openai.gpt-5.6-sol,4.4,22,0.44,5.5,0,922000,128000,text,2026-10-28,litellm,true
 bedrock_mantle,bedrock_mantle/openai.gpt-5.6-terra,2.2,13.2,0.22,2.75,0,922000,128000,text,2026-10-28,litellm,true
@@ -1302,6 +1304,8 @@ cohere,rerank-multilingual-v3.0,0,0,0,0,0,4096,4096,rerank,2026-06-15,litellm,tr
 cohere,rerank-v3.5,0,0,0,0,0,4096,4096,rerank,2026-06-15,litellm,true
 cohere,rerank-v4.0-fast,0,0,0,0,0,32768,32768,rerank,2026-09-10,litellm,true
 cohere,rerank-v4.0-pro,0,0,0,0,0,32768,32768,rerank,2026-09-10,litellm,true
+cohere,rerank-v5.0-fast,0.02,0,0,0,0,32768,32768,rerank,2026-10-31,litellm,true
+cohere,rerank-v5.0-pro,0.05,0,0,0,0,32768,32768,rerank,2026-10-31,litellm,true
 coralbricks,coralbricks/deepseek-v4.1-flash,0.01,1.2,0,0.09,0,1048576,1048576,text,2026-10-27,litellm,true
 coralbricks,coralbricks/deepseek-v4.1-flash-fast,0.01,1.2,0,0.09,0,1048576,1048576,text,2026-10-27,litellm,true
 coralbricks,coralbricks/deepseek-v4.1-flash-fast-fp4,0.01,1.2,0,0.09,0,1048576,1048576,text,2026-10-27,litellm,true
@@ -2979,6 +2983,7 @@ openai,gpt-5.6-sol,4,20,0.4,5,0,922000,128000,text,2026-08-23,litellm,true
 openai,gpt-5.6-terra,2,12,0.2,2.5,0,922000,128000,text,2026-08-21,litellm,true
 openai,gpt-6-astra,10,50,1,12.5,0,922000,128000,text,2026-09-04,litellm,true
 openai,gpt-6-luna,0.1,0.5,0.01,0.125,0,922000,128000,text,2026-09-23,litellm,true
+openai,gpt-6-rosalind,15,75,1.5,18.75,0,922000,128000,text,2026-10-31,litellm,true
 openai,gpt-6-sol,2,10,0.2,2.5,0,922000,128000,text,2026-09-23,litellm,true
 openai,gpt-6.1-sol,2,10,0.1,2.5,0,922000,128000,text,2026-09-30,litellm,true
 openai,gpt-6.1-terra,1,5,0.05,1.25,0,922000,128000,text,2026-10-27,litellm,true
