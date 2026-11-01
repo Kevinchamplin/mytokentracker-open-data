@@ -889,8 +889,8 @@ bedrock,bedrock/us-gov-west-1/anthropic.claude-sonnet-4-5-20250929-v1:0,3.6,18,0
 bedrock,bedrock/us-gov-west-1/anthropic.claude-sonnet-5,2.4,12,0.24,3,0,1000000,128000,text,2026-09-04,litellm,true
 bedrock,bedrock/us-gov-west-1/anthropic.claude-sonnet-5-5,2.4,12,0.12,3,0,1000000,128000,text,2026-10-08,litellm,true
 bedrock,bedrock/us-gov-west-1/claude-sonnet-4-5-20250929-v1:0,3.6,18,0.36,4.5,0,200000,64000,text,2026-10-29,litellm,true
-bedrock,bedrock/us-gov-west-1/meta.llama3-70b-instruct-v1:0,2.65,3.5,0,0,0,8000,2048,text,2026-06-15,litellm,true
-bedrock,bedrock/us-gov-west-1/meta.llama3-8b-instruct-v1:0,0.3,0.6,0,0,0,8000,2048,text,2026-09-04,litellm,true
+bedrock,bedrock/us-gov-west-1/meta.llama3-70b-instruct-v1:0,2.65,3.5,0,0,0,8000,8192,text,2026-11-01,litellm,true
+bedrock,bedrock/us-gov-west-1/meta.llama3-8b-instruct-v1:0,0.3,0.6,0,0,0,8000,8192,text,2026-11-01,litellm,true
 bedrock,bedrock/us-gov-west-1/nvidia.nemotron-nano-12b-v2,0.24,0.72,0,0,0,128000,8192,text,2026-09-04,litellm,true
 bedrock,bedrock/us-gov-west-1/nvidia.nemotron-nano-3-30b,0.072,0.288,0,0,0,262144,8192,text,2026-09-04,litellm,true
 bedrock,bedrock/us-gov-west-1/nvidia.nemotron-nano-9b-v2,0.072,0.276,0,0,0,128000,8192,text,2026-09-09,litellm,true
@@ -2241,6 +2241,10 @@ groq,groq/openai/gpt-oss-safeguard-20b,0.075,0.3,0.037,0,0,131072,65536,text,202
 groq,groq/qwen/qwen3-32b,0.29,0.59,0,0,0,131000,131000,text,2026-06-15,litellm,true
 groq,groq/qwen/qwen3.6-27b,0.6,3,0,0,0,131072,16384,text,2026-08-14,litellm,true
 groq,groq/qwen/qwen3.8-27b,0.8,4,0,0,0,131072,16384,text,2026-09-30,litellm,true
+hostinger_router,hostinger_router/claude-sonnet-5,2.64,13.2,0.264,3.3,0,1000000,128000,text,2026-11-01,litellm,true
+hostinger_router,hostinger_router/gpt-5.2,2.1,16.8,0.21,0,0,272000,128000,text,2026-11-01,litellm,true
+hostinger_router,hostinger_router/text-embedding-3-large,0.1716,0,0,0,0,8191,0,embedding,2026-11-01,litellm,true
+hostinger_router,hostinger_router/text-embedding-3-small,0.03,0,0,0,0,8191,0,embedding,2026-11-01,litellm,true
 hyperbolic,hyperbolic/deepseek-ai/DeepSeek-R1,0.4,0.4,0,0,0,32768,32768,text,2026-06-15,litellm,true
 hyperbolic,hyperbolic/deepseek-ai/DeepSeek-R1-0528,0.25,0.25,0,0,0,131072,131072,text,2026-06-15,litellm,true
 hyperbolic,hyperbolic/deepseek-ai/DeepSeek-V3,0.2,0.2,0,0,0,32768,32768,text,2026-06-15,litellm,true
@@ -2982,6 +2986,7 @@ openai,gpt-5.6-luna,0.2,1.2,0.02,0.25,0,922000,128000,text,2026-08-21,litellm,tr
 openai,gpt-5.6-sol,4,20,0.4,5,0,922000,128000,text,2026-08-23,litellm,true
 openai,gpt-5.6-terra,2,12,0.2,2.5,0,922000,128000,text,2026-08-21,litellm,true
 openai,gpt-6-astra,10,50,1,12.5,0,922000,128000,text,2026-09-04,litellm,true
+openai,gpt-6-astra-law,10,50,1,0,0,922000,128000,text,2026-11-01,litellm,true
 openai,gpt-6-luna,0.1,0.5,0.01,0.125,0,922000,128000,text,2026-09-23,litellm,true
 openai,gpt-6-rosalind,15,75,1.5,18.75,0,922000,128000,text,2026-10-31,litellm,true
 openai,gpt-6-sol,2,10,0.2,2.5,0,922000,128000,text,2026-09-23,litellm,true
