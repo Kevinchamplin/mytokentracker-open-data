@@ -734,7 +734,7 @@ bedrock,au.anthropic.claude-sonnet-5-5,2.2,11,0.11,2.75,0,1000000,128000,text,20
 bedrock,bedrock/ap-northeast-1/anthropic.claude-instant-v1,2.23,7.55,0,0,0,100000,8191,text,2026-06-15,litellm,true
 bedrock,bedrock/ap-northeast-1/anthropic.claude-v1,8,24,0,0,0,100000,8191,text,2026-06-15,litellm,true
 bedrock,bedrock/ap-northeast-1/anthropic.claude-v2:1,8,24,0,0,0,100000,8191,text,2026-06-15,litellm,true
-bedrock,bedrock/ap-northeast-1/deepseek.v3.2,0.74,2.22,0,0,0,163840,8000,text,2026-10-09,litellm,true
+bedrock,bedrock/ap-northeast-1/deepseek.v3.2,0.74,2.22,0,0,0,156000,8000,text,2026-11-03,litellm,true
 bedrock,bedrock/ap-northeast-1/minimax.minimax-m2.1,0.36,1.44,0,0,0,196000,8192,text,2026-06-15,litellm,true
 bedrock,bedrock/ap-northeast-1/minimax.minimax-m2.5,0.36,1.44,0,0,0,196000,8192,text,2026-10-09,litellm,true
 bedrock,bedrock/ap-northeast-1/mistral.voxtral-mini-3b-2507,0.05,0.05,0,0,0,32768,8192,text,2026-10-29,litellm,true
@@ -743,7 +743,7 @@ bedrock,bedrock/ap-northeast-1/moonshotai.kimi-k2-thinking,0.73,3.03,0,0,0,26214
 bedrock,bedrock/ap-northeast-1/moonshotai.kimi-k2.5,0.72,3.6,0,0,0,262144,16000,text,2026-10-09,litellm,true
 bedrock,bedrock/ap-northeast-1/qwen.qwen3-coder-next,0.6,1.44,0,0,0,262144,16384,text,2026-10-08,litellm,true
 bedrock,bedrock/ap-northeast-1/qwen.qwen3-next-80b-a3b,0.18,1.45,0,0,0,262144,8192,text,2026-10-08,litellm,true
-bedrock,bedrock/ap-south-1/deepseek.v3.2,0.74,2.22,0,0,0,163840,8000,text,2026-10-09,litellm,true
+bedrock,bedrock/ap-south-1/deepseek.v3.2,0.74,2.22,0,0,0,156000,8000,text,2026-11-03,litellm,true
 bedrock,bedrock/ap-south-1/meta.llama3-70b-instruct-v1:0,3.18,4.2,0,0,0,8192,8192,text,2026-06-15,litellm,true
 bedrock,bedrock/ap-south-1/meta.llama3-8b-instruct-v1:0,0.36,0.72,0,0,0,8192,8192,text,2026-06-15,litellm,true
 bedrock,bedrock/ap-south-1/minimax.minimax-m2.1,0.36,1.44,0,0,0,196000,8192,text,2026-06-15,litellm,true
@@ -756,7 +756,7 @@ bedrock,bedrock/ap-southeast-2/minimax.minimax-m2.5,0.31,1.24,0,0,0,196000,8192,
 bedrock,bedrock/ap-southeast-2/mistral.voxtral-mini-3b-2507,0.0412,0.0412,0,0,0,32768,8192,text,2026-10-29,litellm,true
 bedrock,bedrock/ap-southeast-2/mistral.voxtral-small-24b-2507,0.103,0.309,0,0,0,32768,8192,text,2026-10-29,litellm,true
 bedrock,bedrock/ap-southeast-2/qwen.qwen3-next-80b-a3b,0.1545,1.236,0,0,0,262144,8192,text,2026-10-08,litellm,true
-bedrock,bedrock/ap-southeast-3/deepseek.v3.2,0.74,2.22,0,0,0,163840,8000,text,2026-10-09,litellm,true
+bedrock,bedrock/ap-southeast-3/deepseek.v3.2,0.74,2.22,0,0,0,156000,8000,text,2026-11-03,litellm,true
 bedrock,bedrock/ap-southeast-3/minimax.minimax-m2.1,0.36,1.44,0,0,0,196000,8192,text,2026-06-15,litellm,true
 bedrock,bedrock/ap-southeast-3/minimax.minimax-m2.5,0.36,1.44,0,0,0,196000,8192,text,2026-10-09,litellm,true
 bedrock,bedrock/ap-southeast-3/moonshotai.kimi-k2.5,0.72,3.6,0,0,0,262144,16000,text,2026-10-09,litellm,true
@@ -783,7 +783,7 @@ bedrock,bedrock/eu-central-1/anthropic.claude-v2:1,8,24,0,0,0,100000,8191,text,2
 bedrock,bedrock/eu-central-1/minimax.minimax-m2.1,0.36,1.44,0,0,0,196000,8192,text,2026-06-15,litellm,true
 bedrock,bedrock/eu-central-1/minimax.minimax-m2.5,0.36,1.44,0,0,0,196000,8192,text,2026-10-09,litellm,true
 bedrock,bedrock/eu-central-1/qwen.qwen3-coder-next,0.6,1.44,0,0,0,262144,16384,text,2026-10-08,litellm,true
-bedrock,bedrock/eu-north-1/deepseek.v3.2,0.74,2.22,0,0,0,163840,8000,text,2026-10-09,litellm,true
+bedrock,bedrock/eu-north-1/deepseek.v3.2,0.74,2.22,0,0,0,156000,8000,text,2026-11-03,litellm,true
 bedrock,bedrock/eu-north-1/minimax.minimax-m2.1,0.36,1.44,0,0,0,196000,8192,text,2026-06-15,litellm,true
 bedrock,bedrock/eu-north-1/minimax.minimax-m2.5,0.36,1.44,0,0,0,196000,8192,text,2026-10-09,litellm,true
 bedrock,bedrock/eu-north-1/moonshotai.kimi-k2.5,0.72,3.6,0,0,0,262144,16000,text,2026-10-09,litellm,true
@@ -811,7 +811,7 @@ bedrock,bedrock/eu-west-3/mistral.mixtral-8x7b-instruct-v0:1,0.59,0.91,0,0,0,320
 bedrock,bedrock/invoke/anthropic.claude-3-5-sonnet-20240620-v1:0,3,15,0.3,3.75,0,200000,4096,text,2026-06-15,litellm,true
 bedrock,bedrock/moonshotai.kimi-k2-thinking,0.6,2.5,0,0,0,262144,16000,text,2026-10-11,litellm,true
 bedrock,bedrock/moonshotai.kimi-k2.5,0.6,3,0,0,0,262144,16000,text,2026-10-11,litellm,true
-bedrock,bedrock/sa-east-1/deepseek.v3.2,0.74,2.22,0,0,0,163840,8000,text,2026-10-09,litellm,true
+bedrock,bedrock/sa-east-1/deepseek.v3.2,0.74,2.22,0,0,0,156000,8000,text,2026-11-03,litellm,true
 bedrock,bedrock/sa-east-1/meta.llama3-70b-instruct-v1:0,4.45,5.88,0,0,0,8192,8192,text,2026-06-15,litellm,true
 bedrock,bedrock/sa-east-1/meta.llama3-8b-instruct-v1:0,0.5,1.01,0,0,0,8192,8192,text,2026-06-15,litellm,true
 bedrock,bedrock/sa-east-1/minimax.minimax-m2.1,0.36,1.44,0,0,0,196000,8192,text,2026-06-15,litellm,true
@@ -823,7 +823,7 @@ bedrock,bedrock/sa-east-1/qwen.qwen3-next-80b-a3b,0.18,1.45,0,0,0,262144,8192,te
 bedrock,bedrock/us-east-1/anthropic.claude-instant-v1,0.8,2.4,0,0,0,100000,8191,text,2026-06-15,litellm,true
 bedrock,bedrock/us-east-1/anthropic.claude-v1,8,24,0,0,0,100000,8191,text,2026-06-15,litellm,true
 bedrock,bedrock/us-east-1/anthropic.claude-v2:1,8,24,0,0,0,100000,8191,text,2026-06-15,litellm,true
-bedrock,bedrock/us-east-1/deepseek.v3.2,0.62,1.85,0,0,0,163840,8000,text,2026-10-09,litellm,true
+bedrock,bedrock/us-east-1/deepseek.v3.2,0.62,1.85,0,0,0,156000,8000,text,2026-11-03,litellm,true
 bedrock,bedrock/us-east-1/meta.llama3-70b-instruct-v1:0,2.65,3.5,0,0,0,8192,8192,text,2026-06-15,litellm,true
 bedrock,bedrock/us-east-1/meta.llama3-8b-instruct-v1:0,0.3,0.6,0,0,0,8192,8192,text,2026-06-15,litellm,true
 bedrock,bedrock/us-east-1/minimax.minimax-m2.1,0.3,1.2,0,0,0,196000,8192,text,2026-06-15,litellm,true
@@ -835,7 +835,7 @@ bedrock,bedrock/us-east-1/moonshotai.kimi-k2-thinking,0.6,2.5,0,0,0,262144,16000
 bedrock,bedrock/us-east-1/moonshotai.kimi-k2.5,0.6,3,0,0,0,262144,16000,text,2026-10-09,litellm,true
 bedrock,bedrock/us-east-1/qwen.qwen3-coder-next,0.5,1.2,0,0,0,262144,16384,text,2026-10-08,litellm,true
 bedrock,bedrock/us-east-1/zai.glm-5,1,3.2,0,0,0,200000,128000,text,2026-06-15,litellm,true
-bedrock,bedrock/us-east-2/deepseek.v3.2,0.62,1.85,0,0,0,163840,8000,text,2026-10-09,litellm,true
+bedrock,bedrock/us-east-2/deepseek.v3.2,0.62,1.85,0,0,0,156000,8000,text,2026-11-03,litellm,true
 bedrock,bedrock/us-east-2/minimax.minimax-m2.1,0.3,1.2,0,0,0,196000,8192,text,2026-06-15,litellm,true
 bedrock,bedrock/us-east-2/minimax.minimax-m2.5,0.3,1.2,0,0,0,196000,8192,text,2026-10-09,litellm,true
 bedrock,bedrock/us-east-2/moonshotai.kimi-k2-thinking,0.6,2.5,0,0,0,262144,16000,text,2026-10-09,litellm,true
@@ -902,7 +902,7 @@ bedrock,bedrock/us-west-1/meta.llama3-8b-instruct-v1:0,0.3,0.6,0,0,0,8192,8192,t
 bedrock,bedrock/us-west-2/anthropic.claude-instant-v1,0.8,2.4,0,0,0,100000,8191,text,2026-06-15,litellm,true
 bedrock,bedrock/us-west-2/anthropic.claude-v1,8,24,0,0,0,100000,8191,text,2026-06-15,litellm,true
 bedrock,bedrock/us-west-2/anthropic.claude-v2:1,8,24,0,0,0,100000,8191,text,2026-06-15,litellm,true
-bedrock,bedrock/us-west-2/deepseek.v3.2,0.62,1.85,0,0,0,163840,8000,text,2026-10-09,litellm,true
+bedrock,bedrock/us-west-2/deepseek.v3.2,0.62,1.85,0,0,0,156000,8000,text,2026-11-03,litellm,true
 bedrock,bedrock/us-west-2/minimax.minimax-m2.1,0.3,1.2,0,0,0,196000,8192,text,2026-06-15,litellm,true
 bedrock,bedrock/us-west-2/minimax.minimax-m2.5,0.3,1.2,0,0,0,196000,8192,text,2026-10-09,litellm,true
 bedrock,bedrock/us-west-2/mistral.mistral-7b-instruct-v0:2,0.15,0.2,0,0,0,32000,4096,text,2026-10-12,litellm,true
@@ -924,7 +924,7 @@ bedrock,cohere.embed-v4:0,0.12,0,0,0,0,128000,0,embedding,2026-06-15,litellm,tru
 bedrock,cohere.rerank-v3-5:0,0,0,0,0,0,4096,4096,rerank,2026-10-12,litellm,true
 bedrock,deepseek.r1-v1:0,1.35,5.4,0,0,0,128000,8192,text,2026-09-24,litellm,true
 bedrock,deepseek.v3-v1:0,0.58,1.68,0,0,0,128000,8000,text,2026-10-09,litellm,true
-bedrock,deepseek.v3.2,0.62,1.85,0,0,0,164000,8000,text,2026-09-22,litellm,true
+bedrock,deepseek.v3.2,0.62,1.85,0,0,0,156000,8000,text,2026-11-03,litellm,true
 bedrock,eu.amazon.nova-2-lite-v1:0,0.429,3.597,0.10725,0,0,1000000,64000,text,2026-10-11,litellm,true
 bedrock,eu.amazon.nova-2-pro-preview-20251202-v1:0,1.375,11,0.34375,0,0,1000000,64000,text,2026-10-03,litellm,true
 bedrock,eu.amazon.nova-lite-v1:0,0.078,0.312,0.0195,0,0,300000,10000,text,2026-09-17,litellm,true
@@ -3610,6 +3610,7 @@ palm,palm/text-bison,0.125,0.125,0,0,0,8192,1024,text,2026-06-15,litellm,true
 palm,palm/text-bison-001,0.125,0.125,0,0,0,8192,1024,text,2026-06-15,litellm,true
 palm,palm/text-bison-safety-off,0.125,0.125,0,0,0,8192,1024,text,2026-06-15,litellm,true
 palm,palm/text-bison-safety-recitation-off,0.125,0.125,0,0,0,8192,1024,text,2026-06-15,litellm,true
+parallel_ai,parallel_ai/decision,0,0,0,0,0,32000,0,text,2026-11-03,litellm,true
 perplexity,perplexity/anthropic/claude-fable-5,10,50,1,0,0,0,0,text,2026-09-06,litellm,true
 perplexity,perplexity/anthropic/claude-fable-5-1,10,50,0.25,0,0,0,0,text,2026-10-02,litellm,true
 perplexity,perplexity/anthropic/claude-haiku-4-5,1,5,0.1,0,0,0,0,text,2026-09-06,litellm,true
@@ -4323,7 +4324,7 @@ voyage,voyage/voyage-multimodal-3,0.12,0,0,0,0,32000,0,embedding,2026-06-15,lite
 voyage,voyage/voyage-multimodal-3.5,0.12,0,0,0,0,32000,0,embedding,2026-08-21,litellm,true
 wandb,wandb/deepseek-ai/DeepSeek-R1-0528,1.35,5.4,0,0,0,161000,161000,text,2026-09-06,litellm,true
 wandb,wandb/deepseek-ai/DeepSeek-V3-0324,1.14,2.75,0,0,0,161000,161000,text,2026-09-06,litellm,true
-wandb,wandb/deepseek-ai/DeepSeek-V3.1,0.55,1.65,0,0,0,161000,128000,text,2026-08-28,litellm,true
+wandb,wandb/deepseek-ai/DeepSeek-V3.1,0.55,1.65,0,0,0,128000,128000,text,2026-11-03,litellm,true
 wandb,wandb/deepseek-ai/DeepSeek-V4-Flash,0.14,0.28,0.07,0,0,1049000,1048576,text,2026-10-27,litellm,true
 wandb,wandb/deepseek-ai/DeepSeek-V4-Flash-0731,0.13,0.28,0.07,0,0,262000,262144,text,2026-10-27,litellm,true
 wandb,wandb/deepseek-ai/DeepSeek-V4-Pro,1.15,2.55,0.2,0,0,1049000,1048576,text,2026-10-27,litellm,true
@@ -4335,7 +4336,7 @@ wandb,wandb/ibm-granite/granite-4.1-8b,0.05,0.1,0,0,0,131000,131072,text,2026-10
 wandb,wandb/ibm-granite/granite-4.2-8b,0.1,0.15,0.05,0,0,131000,0,text,2026-09-18,litellm,true
 wandb,wandb/JetBrains/Mellum2-12B-A2.5B-Instruct,0.05,0.1,0,0,0,131000,131072,text,2026-10-27,litellm,true
 wandb,wandb/meta-llama/Llama-3.1-70B-Instruct,0.8,0.8,0,0,0,131000,128000,text,2026-10-27,litellm,true
-wandb,wandb/meta-llama/Llama-3.1-8B-Instruct,0.22,0.22,0,0,0,131000,128000,text,2026-09-18,litellm,true
+wandb,wandb/meta-llama/Llama-3.1-8B-Instruct,0.22,0.22,0,0,0,128000,128000,text,2026-11-03,litellm,true
 wandb,wandb/meta-llama/Llama-3.3-70B-Instruct,0.71,0.71,0,0,0,128000,128000,text,2026-08-28,litellm,true
 wandb,wandb/meta-llama/Llama-4-Scout-17B-16E-Instruct,0.17,0.66,0,0,0,64000,64000,text,2026-09-06,litellm,true
 wandb,wandb/microsoft/Phi-4-mini-instruct,8000,35000,0,0,0,128000,128000,text,2026-06-15,litellm,true
