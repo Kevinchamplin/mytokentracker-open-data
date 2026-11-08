@@ -596,6 +596,9 @@ azure,azure/us/gpt-6-sol,2.2,11,0.22,2.75,0,922000,128000,text,2026-09-24,litell
 azure,azure/us/gpt-6.1-sol,2.2,11,0.11,2.75,0,922000,128000,text,2026-10-07,litellm,true
 azure,azure/us/gpt-6.1-terra,1.1,5.5,0.055,1.375,0,922000,128000,text,2026-10-29,litellm,true
 azure,azure/us/gpt-chat-latest,5.5,33,0.55,0,0,128000,128000,text,2026-10-25,litellm,true
+azure,azure/us/gpt-realtime-1.5,4.4,17.6,0.44,0,0,32000,4096,text,2026-11-08,litellm,true
+azure,azure/us/gpt-realtime-2.1,4.4,26.4,0.44,0,0,32000,4096,text,2026-11-08,litellm,true
+azure,azure/us/gpt-realtime-2.1-mini,0.66,2.64,0.066,0,0,32000,4096,text,2026-11-08,litellm,true
 azure,azure/us/o1,16.5,66,8.25,0,0,200000,100000,text,2026-10-21,litellm,true
 azure,azure/us/o1-2024-12-17,16.5,66,8.25,0,0,200000,100000,text,2026-06-15,litellm,true
 azure,azure/us/o1-mini,1.21,4.84,0.605,0,0,0,0,text,2026-09-17,litellm,true
@@ -2775,6 +2778,7 @@ moonshot,moonshot/kimi-k2.6,0.95,4,0.16,0,0,262144,262144,text,2026-06-15,litell
 moonshot,moonshot/kimi-k2.7-code,0.95,4,0.19,0,0,262144,262144,text,2026-08-30,litellm,true
 moonshot,moonshot/kimi-k3,3,15,0.3,3,0,1048576,1048576,text,2026-10-29,litellm,true
 moonshot,moonshot/kimi-k3.1-pro,2,10,0.2,2,0,1048576,1048576,text,2026-10-29,litellm,true
+moonshot,moonshot/kimi-k3.1-pro-highspeed,4,20,0.2,4,0,1048576,1048576,text,2026-11-08,litellm,true
 moonshot,moonshot/kimi-latest,2,5,0.15,0,0,131072,131072,text,2026-06-15,litellm,true
 moonshot,moonshot/kimi-latest-128k,2,5,0.15,0,0,131072,131072,text,2026-06-15,litellm,true
 moonshot,moonshot/kimi-latest-32k,1,3,0.15,0,0,32768,32768,text,2026-06-15,litellm,true
@@ -4213,6 +4217,7 @@ together_ai,together_ai/deepseek-ai/DeepSeek-V4-Pro,1.74,3.48,0.2,0,0,512000,0,t
 together_ai,together_ai/deepseek-ai/DeepSeek-V4-Pro-0813,1.32,3.96,0.13,0,0,1048576,1048576,text,2026-10-27,litellm,true
 together_ai,together_ai/deepseek-ai/DeepSeek-V4.1-Flash,0.3,1.2,0.006,0,0,1048576,1048576,text,2026-10-27,litellm,true
 together_ai,together_ai/deepseek-ai/DeepSeek-V4.1-Flash-1017,0.3,1.2,0.006,0,0,1048576,1048576,text,2026-10-27,litellm,true
+together_ai,together_ai/essentialai/rnj-1-instruct,0.15,0.15,0,0,0,0,0,text,2026-11-08,litellm,true
 together_ai,together_ai/google/gemma-2-27b-it,0.8,0.8,0,0,0,8192,8192,text,2026-10-27,litellm,true
 together_ai,together_ai/google/gemma-3n-E4B-it,0.06,0.12,0,0,0,32768,0,text,2026-08-30,litellm,true
 together_ai,together_ai/google/gemma-4-31B-it,0.39,0.97,0,0,0,262144,262144,text,2026-10-27,litellm,true
@@ -4280,7 +4285,7 @@ together_ai,together_ai/Qwen/Qwen3-VL-8B-Instruct,0.18,0.68,0,0,0,262144,262144,
 together_ai,together_ai/Qwen/Qwen3.5-397B-A17B,0.6,3.6,0.35,0,0,262144,262144,text,2026-10-27,litellm,true
 together_ai,together_ai/Qwen/Qwen3.5-9B,0.17,0.25,0,0,0,262144,262144,text,2026-10-27,litellm,true
 together_ai,together_ai/Qwen/Qwen3.6-Plus,0.5,3,0,0,0,1000000,1000000,text,2026-10-27,litellm,true
-together_ai,together_ai/Qwen/Qwen3.7-Max,1.5,4.5,0.3,0,0,1000000,1000000,text,2026-10-30,litellm,true
+together_ai,together_ai/Qwen/Qwen3.7-Max,2.5,7.5,0.5,0,0,1000000,1000000,text,2026-11-08,litellm,true
 together_ai,together_ai/Qwen/Qwen3.7-Plus,0.32,1.28,0,0,0,1000000,1000000,text,2026-10-27,litellm,true
 together_ai,together_ai/Qwen/Qwen3.8-2.4T-A95B,2,6,0.25,0,0,1010000,1010000,text,2026-10-27,litellm,true
 together_ai,together_ai/Qwen/Qwen3.8-Flash,0.15,0.47,0,0,0,1000000,1000000,text,2026-10-27,litellm,true
