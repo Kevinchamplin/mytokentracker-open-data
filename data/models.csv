@@ -115,6 +115,7 @@ anthropic,claude-4-opus-20250514,15,75,1.5,18.75,0,200000,32000,text,2026-06-15,
 anthropic,claude-4-sonnet-20250514,3,15,0.3,3.75,0,1000000,64000,text,2026-06-15,litellm,true
 anthropic,claude-fable-5,10,50,1,12.5,0,1000000,128000,text,2026-06-15,litellm,true
 anthropic,claude-fable-5-1,10,50,0.25,12.5,0,1000000,128000,text,2026-09-02,litellm,true
+anthropic,claude-fable-5-2,8,40,0.2,10,0,1000000,128000,text,2026-11-10,litellm,true
 anthropic,claude-haiku-4-5,1,5,0.1,1.25,0,200000,64000,text,2026-06-15,litellm,true
 anthropic,claude-haiku-4-5-20251001,1,5,0.1,1.25,0,200000,64000,text,2026-06-15,litellm,true
 anthropic,claude-haiku-5-5,0.1,0.5,0.01,0.125,0,1000000,128000,text,2026-10-08,litellm,true
@@ -155,6 +156,8 @@ anyscale,anyscale/mistralai/Mixtral-8x22B-Instruct-v0.1,0.9,0.9,0,0,0,65536,6553
 anyscale,anyscale/mistralai/Mixtral-8x7B-Instruct-v0.1,0.15,0.15,0,0,0,16384,16384,text,2026-06-15,litellm,true
 azure,azure_ai/claude-fable-5,10,50,1,12.5,0,1000000,128000,text,2026-06-15,litellm,true
 azure,azure_ai/claude-fable-5-1,10,50,0.25,12.5,0,1000000,128000,text,2026-09-02,litellm,true
+azure,azure_ai/claude-fable-5-2,8,40,0.2,10,0,1000000,128000,text,2026-11-10,litellm,true
+azure,azure_ai/claude-fable-5-2-fast,16,80,0.4,20,0,1000000,128000,text,2026-11-10,litellm,true
 azure,azure_ai/claude-fable-5-5,10,50,0.25,12.5,0,1000000,128000,text,2026-10-14,litellm,true
 azure,azure_ai/claude-haiku-4-5,1,5,0.1,1.25,0,200000,64000,text,2026-06-15,litellm,true
 azure,azure_ai/claude-haiku-5-5,0.1,0.5,0.01,0.125,0,1000000,128000,text,2026-10-08,litellm,true
@@ -685,11 +688,13 @@ bedrock,anthropic.claude-3-opus-20240229-v1:0,15,75,1.5,18.75,0,200000,4096,text
 bedrock,anthropic.claude-3-sonnet-20240229-v1:0,3,15,0.3,3.75,0,200000,4096,text,2026-06-15,litellm,true
 bedrock,anthropic.claude-fable-5,10,50,1,12.5,0,1000000,128000,text,2026-06-15,litellm,true
 bedrock,anthropic.claude-fable-5-1,10,50,0.25,12.5,0,1000000,128000,text,2026-09-02,litellm,true
+bedrock,anthropic.claude-fable-5-2,8,40,0.2,10,0,1000000,128000,text,2026-11-10,litellm,true
 bedrock,anthropic.claude-haiku-4-5-20251001-v1:0,1,5,0.1,1.25,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,anthropic.claude-haiku-4-5@20251001,1,5,0.1,1.25,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,anthropic.claude-haiku-5-5,0.1,0.5,0.01,0.125,0,1000000,128000,text,2026-10-08,litellm,true
 bedrock,anthropic.claude-instant-v1,0.8,2.4,0,0,0,100000,8191,text,2026-06-15,litellm,true
 bedrock,anthropic.claude-mythos-5-1,10,50,0.25,12.5,0,1000000,128000,text,2026-09-24,litellm,true
+bedrock,anthropic.claude-mythos-5-2,8,40,0.2,10,0,1000000,128000,text,2026-11-10,litellm,true
 bedrock,anthropic.claude-mythos-preview,27.5,137.5,2.75,34.375,0,1000000,128000,text,2026-09-26,litellm,true
 bedrock,anthropic.claude-opus-4-1-20250805-v1:0,15,75,1.5,18.75,0,200000,32000,text,2026-06-15,litellm,true
 bedrock,anthropic.claude-opus-4-20250514-v1:0,15,75,1.5,18.75,0,200000,32000,text,2026-06-15,litellm,true
@@ -774,6 +779,7 @@ bedrock,bedrock/ca-central-1/meta.llama3-70b-instruct-v1:0,3.05,4.03,0,0,0,8192,
 bedrock,bedrock/ca-central-1/meta.llama3-8b-instruct-v1:0,0.35,0.69,0,0,0,8192,8192,text,2026-06-15,litellm,true
 bedrock,bedrock/claude_platform/claude-fable-5,10,50,1,12.5,0,1000000,128000,text,2026-10-25,litellm,true
 bedrock,bedrock/claude_platform/claude-fable-5-1,10,50,0.25,12.5,0,1000000,128000,text,2026-10-25,litellm,true
+bedrock,bedrock/claude_platform/claude-fable-5-2,8,40,0.2,10,0,1000000,128000,text,2026-11-10,litellm,true
 bedrock,bedrock/claude_platform/claude-haiku-4-5,1,5,0.1,1.25,0,200000,64000,text,2026-10-25,litellm,true
 bedrock,bedrock/claude_platform/claude-haiku-5-5,0.1,0.5,0.01,0.125,0,1000000,128000,text,2026-10-25,litellm,true
 bedrock,bedrock/claude_platform/claude-opus-4-5,5,25,0.5,6.25,0,200000,64000,text,2026-10-25,litellm,true
@@ -860,8 +866,10 @@ bedrock,bedrock/us-gov-east-1/anthropic.claude-3-5-sonnet-20240620-v1:0,3.6,18,0
 bedrock,bedrock/us-gov-east-1/anthropic.claude-3-7-sonnet-20250219-v1:0,3.6,18,0.36,4.5,0,200000,8192,text,2026-11-05,litellm,true
 bedrock,bedrock/us-gov-east-1/anthropic.claude-3-haiku-20240307-v1:0,0.3,1.5,0,0,0,195904,4096,text,2026-11-05,litellm,true
 bedrock,bedrock/us-gov-east-1/anthropic.claude-fable-5-1,12,60,0.3,15,0,1000000,128000,text,2026-09-09,litellm,true
+bedrock,bedrock/us-gov-east-1/anthropic.claude-fable-5-2,9.6,48,0.24,12,0,1000000,128000,text,2026-11-10,litellm,true
 bedrock,bedrock/us-gov-east-1/anthropic.claude-haiku-4-5-20251001-v1:0,1.2,6,0.12,1.5,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,bedrock/us-gov-east-1/anthropic.claude-haiku-5-5,0.12,0.6,0.012,0.15,0,1000000,128000,text,2026-10-08,litellm,true
+bedrock,bedrock/us-gov-east-1/anthropic.claude-mythos-5-2,9.6,48,0.24,12,0,1000000,128000,text,2026-11-10,litellm,true
 bedrock,bedrock/us-gov-east-1/anthropic.claude-opus-4-8,6,30,0.6,7.5,0,1000000,128000,text,2026-09-04,litellm,true
 bedrock,bedrock/us-gov-east-1/anthropic.claude-opus-5,6,30,0.6,7.5,0,1000000,128000,text,2026-09-09,litellm,true
 bedrock,bedrock/us-gov-east-1/anthropic.claude-opus-5-5,4.8,24,0.24,6,0,1000000,128000,text,2026-09-23,litellm,true
@@ -891,8 +899,10 @@ bedrock,bedrock/us-gov-west-1/anthropic.claude-3-5-sonnet-20240620-v1:0,3.6,18,0
 bedrock,bedrock/us-gov-west-1/anthropic.claude-3-7-sonnet-20250219-v1:0,3.6,18,0.36,4.5,0,200000,8192,text,2026-06-15,litellm,true
 bedrock,bedrock/us-gov-west-1/anthropic.claude-3-haiku-20240307-v1:0,0.3,1.5,0,0,0,195904,4096,text,2026-11-05,litellm,true
 bedrock,bedrock/us-gov-west-1/anthropic.claude-fable-5-1,12,60,0.3,15,0,1000000,128000,text,2026-09-09,litellm,true
+bedrock,bedrock/us-gov-west-1/anthropic.claude-fable-5-2,9.6,48,0.24,12,0,1000000,128000,text,2026-11-10,litellm,true
 bedrock,bedrock/us-gov-west-1/anthropic.claude-haiku-4-5-20251001-v1:0,1.2,6,0.12,1.5,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,bedrock/us-gov-west-1/anthropic.claude-haiku-5-5,0.12,0.6,0.012,0.15,0,1000000,128000,text,2026-10-08,litellm,true
+bedrock,bedrock/us-gov-west-1/anthropic.claude-mythos-5-2,9.6,48,0.24,12,0,1000000,128000,text,2026-11-10,litellm,true
 bedrock,bedrock/us-gov-west-1/anthropic.claude-opus-4-8,6,30,0.6,7.5,0,1000000,128000,text,2026-09-04,litellm,true
 bedrock,bedrock/us-gov-west-1/anthropic.claude-opus-5,6,30,0.6,7.5,0,1000000,128000,text,2026-09-09,litellm,true
 bedrock,bedrock/us-gov-west-1/anthropic.claude-opus-5-5,4.8,24,0.24,6,0,1000000,128000,text,2026-09-23,litellm,true
@@ -951,8 +961,10 @@ bedrock,eu.anthropic.claude-3-opus-20240229-v1:0,15,75,1.5,18.75,0,200000,4096,t
 bedrock,eu.anthropic.claude-3-sonnet-20240229-v1:0,3,15,0.3,3.75,0,200000,4096,text,2026-06-15,litellm,true
 bedrock,eu.anthropic.claude-fable-5,11,55,1.1,13.75,0,1000000,128000,text,2026-06-15,litellm,true
 bedrock,eu.anthropic.claude-fable-5-1,11,55,0.275,13.75,0,1000000,128000,text,2026-09-02,litellm,true
+bedrock,eu.anthropic.claude-fable-5-2,8.8,44,0.22,11,0,1000000,128000,text,2026-11-10,litellm,true
 bedrock,eu.anthropic.claude-haiku-4-5-20251001-v1:0,1.1,5.5,0.11,1.375,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,eu.anthropic.claude-haiku-5-5,0.11,0.55,0.011,0.1375,0,1000000,128000,text,2026-10-08,litellm,true
+bedrock,eu.anthropic.claude-mythos-5-2,8.8,44,0.22,11,0,1000000,128000,text,2026-11-10,litellm,true
 bedrock,eu.anthropic.claude-opus-4-1-20250805-v1:0,15,75,1.5,18.75,0,200000,32000,text,2026-06-15,litellm,true
 bedrock,eu.anthropic.claude-opus-4-20250514-v1:0,15,75,1.5,18.75,0,200000,32000,text,2026-06-15,litellm,true
 bedrock,eu.anthropic.claude-opus-4-5-20251101-v1:0,5.5,27.5,0.55,6.875,0,200000,64000,text,2026-09-23,litellm,true
@@ -976,9 +988,11 @@ bedrock,eu.twelvelabs.pegasus-1-2-v1:0,0,7.5,0,0,0,0,0,text,2026-06-15,litellm,t
 bedrock,global.amazon.nova-2-lite-v1:0,0.3,2.5,0.075,0,0,1000000,64000,text,2026-06-15,litellm,true
 bedrock,global.anthropic.claude-fable-5,10,50,1,12.5,0,1000000,128000,text,2026-06-15,litellm,true
 bedrock,global.anthropic.claude-fable-5-1,10,50,0.25,12.5,0,1000000,128000,text,2026-09-02,litellm,true
+bedrock,global.anthropic.claude-fable-5-2,8,40,0.2,10,0,1000000,128000,text,2026-11-10,litellm,true
 bedrock,global.anthropic.claude-haiku-4-5-20251001-v1:0,1,5,0.1,1.25,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,global.anthropic.claude-haiku-5-5,0.1,0.5,0.01,0.125,0,1000000,128000,text,2026-10-08,litellm,true
 bedrock,global.anthropic.claude-mythos-5-1,10,50,0.25,12.5,0,1000000,128000,text,2026-09-24,litellm,true
+bedrock,global.anthropic.claude-mythos-5-2,8,40,0.2,10,0,1000000,128000,text,2026-11-10,litellm,true
 bedrock,global.anthropic.claude-opus-4-5-20251101-v1:0,5,25,0.5,6.25,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,global.anthropic.claude-opus-4-6-v1,5,25,0.5,6.25,0,1000000,128000,text,2026-06-15,litellm,true
 bedrock,global.anthropic.claude-opus-4-7,5,25,0.5,6.25,0,1000000,128000,text,2026-06-15,litellm,true
@@ -1083,7 +1097,9 @@ bedrock,twelvelabs.pegasus-1-2-v1:0,0,7.5,0,0,0,0,0,text,2026-06-15,litellm,true
 bedrock,twelvelabs.pegasus-1-5-v1:0,0,7.5,0,0,0,261120,98304,text,2026-10-18,litellm,true
 bedrock,us-gov.anthropic.claude-3-haiku-20240307-v1:0,0.3,1.5,0.03,0.375,0,200000,4096,text,2026-09-09,litellm,true
 bedrock,us-gov.anthropic.claude-fable-5-1,12,60,0.3,15,0,1000000,128000,text,2026-09-09,litellm,true
+bedrock,us-gov.anthropic.claude-fable-5-2,9.6,48,0.24,12,0,1000000,128000,text,2026-11-10,litellm,true
 bedrock,us-gov.anthropic.claude-haiku-5-5,0.12,0.6,0.012,0.15,0,1000000,128000,text,2026-10-08,litellm,true
+bedrock,us-gov.anthropic.claude-mythos-5-2,9.6,48,0.24,12,0,1000000,128000,text,2026-11-10,litellm,true
 bedrock,us-gov.anthropic.claude-opus-4-8,6,30,0.6,7.5,0,1000000,128000,text,2026-09-04,litellm,true
 bedrock,us-gov.anthropic.claude-opus-5,6,30,0.6,7.5,0,1000000,128000,text,2026-09-09,litellm,true
 bedrock,us-gov.anthropic.claude-opus-5-5,4.8,24,0.24,6,0,1000000,128000,text,2026-09-23,litellm,true
@@ -1113,10 +1129,12 @@ bedrock,us.anthropic.claude-3-opus-20240229-v1:0,15,75,1.5,18.75,0,200000,4096,t
 bedrock,us.anthropic.claude-3-sonnet-20240229-v1:0,3,15,0.3,3.75,0,200000,4096,text,2026-06-15,litellm,true
 bedrock,us.anthropic.claude-fable-5,11,55,1.1,13.75,0,1000000,128000,text,2026-06-15,litellm,true
 bedrock,us.anthropic.claude-fable-5-1,11,55,0.275,13.75,0,1000000,128000,text,2026-09-02,litellm,true
+bedrock,us.anthropic.claude-fable-5-2,8.8,44,0.22,11,0,1000000,128000,text,2026-11-10,litellm,true
 bedrock,us.anthropic.claude-haiku-4-5-20251001-v1:0,1.1,5.5,0.11,1.375,0,200000,64000,text,2026-06-15,litellm,true
 bedrock,us.anthropic.claude-haiku-5-5,0.11,0.55,0.011,0.1375,0,1000000,128000,text,2026-10-08,litellm,true
 bedrock,us.anthropic.claude-mythos-5,11,55,1.1,13.75,0,1000000,128000,text,2026-09-24,litellm,true
 bedrock,us.anthropic.claude-mythos-5-1,11,55,0.275,13.75,0,1000000,128000,text,2026-09-24,litellm,true
+bedrock,us.anthropic.claude-mythos-5-2,8.8,44,0.22,11,0,1000000,128000,text,2026-11-10,litellm,true
 bedrock,us.anthropic.claude-mythos-preview,27.5,137.5,2.75,34.375,0,1000000,128000,text,2026-09-24,litellm,true
 bedrock,us.anthropic.claude-opus-4-1-20250805-v1:0,15,75,1.5,18.75,0,200000,32000,text,2026-06-15,litellm,true
 bedrock,us.anthropic.claude-opus-4-20250514-v1:0,15,75,1.5,18.75,0,200000,32000,text,2026-06-15,litellm,true
@@ -1556,7 +1574,7 @@ deepinfra,deepinfra/nvidia/Llama-3.1-Nemotron-70B-Instruct,0.6,0.6,0,0,0,131072,
 deepinfra,deepinfra/nvidia/Llama-3.3-Nemotron-Super-49B-v1.5,0.1,0.4,0,0,0,131072,131072,text,2026-06-15,litellm,true
 deepinfra,deepinfra/nvidia/Nemotron-3-Nano-30B-A3B,0.05,0.2,0.025,0,0,262144,262144,text,2026-10-27,litellm,true
 deepinfra,deepinfra/nvidia/Nemotron-Content-Safety-3.5,0.2,0.2,0,0,0,131072,131072,text,2026-10-27,litellm,true
-deepinfra,deepinfra/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B,0.085,0.4,0,0,0,262144,262144,text,2026-10-27,litellm,true
+deepinfra,deepinfra/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B,0.075,0.4,0,0,0,262144,262144,text,2026-11-10,litellm,true
 deepinfra,deepinfra/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B,0.5,2.2,0.1,0,0,262144,262144,text,2026-10-27,litellm,true
 deepinfra,deepinfra/nvidia/NVIDIA-Nemotron-3.5-Lightning,0.08,0.2,0.04,0,0,262144,0,text,2026-08-28,litellm,true
 deepinfra,deepinfra/nvidia/NVIDIA-Nemotron-Nano-9B-v2,0.04,0.16,0,0,0,131072,131072,text,2026-06-15,litellm,true
@@ -2101,6 +2119,7 @@ gigachat,gigachat/GigaChat-2-Pro,0,0,0,0,0,128000,8192,text,2026-06-15,litellm,t
 gigachat,gigachat/GigaEmbeddings-3B-2025-09,0,0,0,0,0,4096,0,embedding,2026-09-02,litellm,true
 github_copilot,github_copilot/claude-fable-5,10,50,1,12.5,0,200000,64000,text,2026-10-18,litellm,true
 github_copilot,github_copilot/claude-fable-5.1,10,50,0.25,12.5,0,200000,64000,text,2026-10-18,litellm,true
+github_copilot,github_copilot/claude-fable-5.2,8,40,0.2,10,0,200000,64000,text,2026-11-10,litellm,true
 github_copilot,github_copilot/claude-haiku-4.5,1,5,0.1,1.25,0,128000,16000,text,2026-09-30,litellm,true
 github_copilot,github_copilot/claude-haiku-5.5,0.1,0.5,0.01,0.125,0,128000,16000,text,2026-10-10,litellm,true
 github_copilot,github_copilot/claude-opus-4.8,5,25,0.5,6.25,0,200000,64000,text,2026-10-18,litellm,true
@@ -2686,6 +2705,7 @@ minimax,minimax/MiniMax-M2.1-lightning,0.3,2.4,0.03,0.375,0,1000000,8192,text,20
 minimax,minimax/MiniMax-M2.5,0.3,1.2,0.03,0.375,0,1000000,8192,text,2026-06-15,litellm,true
 minimax,minimax/MiniMax-M2.5-lightning,0.3,2.4,0.03,0.375,0,1000000,8192,text,2026-06-15,litellm,true
 minimax,minimax/MiniMax-M3,0.3,1.2,0.06,0,0,1000000,128000,text,2026-06-21,litellm,true
+minimax,minimax/MiniMax-M3.1-Flash,0.15,0.6,0.015,0,0,1000000,0,text,2026-11-10,litellm,true
 mistral,mistral/codestral-2405,1,3,0,0,0,32000,8191,text,2026-06-15,litellm,true
 mistral,mistral/codestral-2508,0.3,0.9,0.03,0,0,128000,128000,text,2026-08-30,litellm,true
 mistral,mistral/codestral-embed,0.15,0,0.015,0,0,8192,0,embedding,2026-08-30,litellm,true
@@ -4217,6 +4237,7 @@ together_ai,together_ai/deepseek-ai/DeepSeek-V4-Pro,1.74,3.48,0.2,0,0,512000,0,t
 together_ai,together_ai/deepseek-ai/DeepSeek-V4-Pro-0813,1.32,3.96,0.13,0,0,1048576,1048576,text,2026-10-27,litellm,true
 together_ai,together_ai/deepseek-ai/DeepSeek-V4.1-Flash,0.3,1.2,0.006,0,0,1048576,1048576,text,2026-10-27,litellm,true
 together_ai,together_ai/deepseek-ai/DeepSeek-V4.1-Flash-1017,0.3,1.2,0.006,0,0,1048576,1048576,text,2026-10-27,litellm,true
+together_ai,together_ai/elorian-labs/glimpse-1.0,0.6,3,0.06,0,0,262144,262144,text,2026-11-10,litellm,true
 together_ai,together_ai/essentialai/rnj-1-instruct,0.15,0.15,0,0,0,0,0,text,2026-11-08,litellm,true
 together_ai,together_ai/google/gemma-2-27b-it,0.8,0.8,0,0,0,8192,8192,text,2026-10-27,litellm,true
 together_ai,together_ai/google/gemma-3n-E4B-it,0.06,0.12,0,0,0,32768,0,text,2026-08-30,litellm,true
@@ -4439,6 +4460,8 @@ vertex_ai-anthropic_models,vertex_ai/claude-3-sonnet@20240229,3,15,0,0,0,200000,
 vertex_ai-anthropic_models,vertex_ai/claude-fable-5,10,50,1,12.5,0,1000000,128000,text,2026-06-15,litellm,true
 vertex_ai-anthropic_models,vertex_ai/claude-fable-5-1,10,50,0.25,12.5,0,1000000,128000,text,2026-09-02,litellm,true
 vertex_ai-anthropic_models,vertex_ai/claude-fable-5-1@default,10,50,0.25,12.5,0,1000000,128000,text,2026-09-02,litellm,true
+vertex_ai-anthropic_models,vertex_ai/claude-fable-5-2,8,40,0.2,10,0,1000000,128000,text,2026-11-10,litellm,true
+vertex_ai-anthropic_models,vertex_ai/claude-fable-5-2@default,8,40,0.2,10,0,1000000,128000,text,2026-11-10,litellm,true
 vertex_ai-anthropic_models,vertex_ai/claude-fable-5@default,10,50,1,12.5,0,1000000,128000,text,2026-06-15,litellm,true
 vertex_ai-anthropic_models,vertex_ai/claude-haiku-4-5,1,5,0.1,1.25,0,200000,64000,text,2026-09-10,litellm,true
 vertex_ai-anthropic_models,vertex_ai/claude-haiku-4-5@20251001,1,5,0.1,1.25,0,200000,64000,text,2026-09-10,litellm,true
@@ -4590,7 +4613,7 @@ wandb,wandb/deepseek-ai/DeepSeek-V4-Flash-0731,0.13,0.27,0.05,0,0,262000,262144,
 wandb,wandb/deepseek-ai/DeepSeek-V4-Pro,1.15,2.55,0.2,0,0,1049000,1048576,text,2026-10-27,litellm,true
 wandb,wandb/deepseek-ai/DeepSeek-V4-Pro-0813,1.31,3.96,0.044,0,0,1049000,0,text,2026-09-18,litellm,true
 wandb,wandb/deepseek-ai/DeepSeek-V4.1-Flash,0.13,0.65,0.002,0,0,1049000,1048576,text,2026-11-07,litellm,true
-wandb,wandb/deepseek-ai/DeepSeek-V4.1-Flash-1017,0.13,0.65,0.002,0,0,1049000,1048576,text,2026-11-07,litellm,true
+wandb,wandb/deepseek-ai/DeepSeek-V4.1-Flash-1017,0.3,1.2,0.006,0,0,1049000,1048576,text,2026-11-10,litellm,true
 wandb,wandb/google/gemma-4-26B-A4B-it,0.1,0.3,0.05,0,0,262000,262144,text,2026-10-27,litellm,true
 wandb,wandb/google/gemma-4-31B-it,0.1,0.34,0,0,0,262000,262144,text,2026-10-27,litellm,true
 wandb,wandb/ibm-granite/granite-4.1-8b,0.05,0.1,0,0,0,131000,131072,text,2026-10-27,litellm,true
