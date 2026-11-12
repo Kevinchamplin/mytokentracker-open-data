@@ -1405,7 +1405,7 @@ databricks,databricks/databricks-bge-large-en,0.10003,0,0.10003,0.10003,0,512,0,
 databricks,databricks/databricks-claude-3-7-sonnet,2.99999,15.00002,0.30002,3.74997,0,200000,128000,text,2026-08-26,litellm,true
 databricks,databricks/databricks-claude-fable-5,9.99999,50.00002,1.00002,12.49997,0,1000000,128000,text,2026-10-29,litellm,true
 databricks,databricks/databricks-claude-fable-5-1,9.99999,50.00002,0.24997,12.49997,0,1000000,128000,text,2026-10-29,litellm,true
-databricks,databricks/databricks-claude-fable-5-2,8,40,8,8,0,1000000,128000,text,2026-11-11,litellm,true
+databricks,databricks/databricks-claude-fable-5-2,8.00002,40.00003,0.19999,9.99999,0,1000000,128000,text,2026-11-12,litellm,true
 databricks,databricks/databricks-claude-haiku-4-5,1.00002,5.00003,0.10003,1.24999,0,200000,64000,text,2026-08-26,litellm,true
 databricks,databricks/databricks-claude-haiku-5-5,0.10003,0.50001,0.01001,0.12502,0,1000000,128000,text,2026-10-29,litellm,true
 databricks,databricks/databricks-claude-opus-4,15.00002,75.0001,1.50003,18.74999,0,200000,32000,text,2026-10-29,litellm,true
@@ -1442,6 +1442,7 @@ databricks,databricks/databricks-gemini-3-flash,0.62503,3.74997,0.06251,0.62503,
 databricks,databricks/databricks-gemini-3-pro,2.49998,15.00002,0.24997,2.49998,0,1048576,65536,text,2026-08-26,litellm,true
 databricks,databricks/databricks-gemini-3-pro-image,2.49998,15.00002,2.49998,2.49998,0,65536,32768,text,2026-10-29,litellm,true
 databricks,databricks/databricks-gemini-4-argon,2.49998,12.49997,0.12502,2.49998,0,1048576,1048576,text,2026-10-29,litellm,true
+databricks,databricks/databricks-gemini-4-carbon,2,10,2,2,0,1048576,1048576,text,2026-11-12,litellm,true
 databricks,databricks/databricks-gemma-3-12b,0.15001,0.50001,0.15001,0.15001,0,128000,32000,text,2026-08-26,litellm,true
 databricks,databricks/databricks-glm-5-2,1.4,4.39999,0.25998,1.4,0,1000000,131072,text,2026-08-28,litellm,true
 databricks,databricks/databricks-glm-5-3,1.4,4.39999,0.25998,1.4,0,1048576,65536,text,2026-09-06,litellm,true
@@ -1496,7 +1497,8 @@ databricks,databricks/databricks-qwen3-embedding-0-6b,0.02002,0,0.02002,0.02002,
 databricks,databricks/databricks-qwen3-next-80b-a3b-instruct,0.15001,1.20001,0.15001,0.15001,0,0,0,text,2026-09-06,litellm,true
 databricks,databricks/databricks-qwen35-122b-a10b,0.22001,2.20003,0.22001,0.22001,0,262144,25000,text,2026-09-06,litellm,true
 databricks,databricks/databricks-typesafeai-jev-1-14-0,0.042,0,0.042,0.042,0,0,0,text,2026-10-29,litellm,true
-databricks,databricks/system.ai.claude-fable-5-2,8,40,8,8,0,1000000,128000,text,2026-11-11,litellm,true
+databricks,databricks/system.ai.claude-fable-5-2,8.00002,40.00003,0.19999,9.99999,0,1000000,128000,text,2026-11-12,litellm,true
+databricks,databricks/system.ai.gemini-4-carbon,2,10,2,2,0,1048576,1048576,text,2026-11-12,litellm,true
 deepinfra,deepinfra/allenai/olmOCR-7B-0725-FP8,0.27,1.5,0,0,0,16384,16384,text,2026-06-15,litellm,true
 deepinfra,deepinfra/anthropic/claude-3-7-sonnet-latest,3.3,16.5,0.33,0,0,200000,200000,text,2026-06-15,litellm,true
 deepinfra,deepinfra/anthropic/claude-4-opus,16.5,82.5,0,0,0,200000,200000,text,2026-06-15,litellm,true
@@ -1507,7 +1509,7 @@ deepinfra,deepinfra/anthropic/claude-opus-4-7,5,25,0,0,0,1000000,1000000,text,20
 deepinfra,deepinfra/anthropic/claude-opus-4-8,5,25,0,0,0,1000000,1000000,text,2026-10-27,litellm,true
 deepinfra,deepinfra/anthropic/claude-opus-5,5,25,0,0,0,1000000,1000000,text,2026-10-27,litellm,true
 deepinfra,deepinfra/anthropic/claude-sonnet-4-6,3,15,0,0,0,1000000,1000000,text,2026-10-27,litellm,true
-deepinfra,deepinfra/anthropic/claude-sonnet-5,2,10,0,0,0,1000000,1000000,text,2026-10-27,litellm,true
+deepinfra,deepinfra/anthropic/claude-sonnet-5,3,15,0,0,0,1000000,1000000,text,2026-11-12,litellm,true
 deepinfra,deepinfra/ByteDance/Seed-1.8,0.25,2,0.05,0,0,256000,256000,text,2026-10-27,litellm,true
 deepinfra,deepinfra/ByteDance/Seed-2.0-code,0.5,3,0.1,0,0,256000,256000,text,2026-10-27,litellm,true
 deepinfra,deepinfra/ByteDance/Seed-2.0-mini,0.1,0.4,0.02,0,0,256000,256000,text,2026-10-27,litellm,true
@@ -1565,7 +1567,7 @@ deepinfra,deepinfra/microsoft/WizardLM-2-8x22B,0.48,0.48,0,0,0,65536,65536,text,
 deepinfra,deepinfra/MiniMaxAI/MiniMax-M2.7,0.25,1,0.05,0,0,196608,196608,text,2026-10-27,litellm,true
 deepinfra,deepinfra/MiniMaxAI/MiniMax-M2.7-Turbo,0.38,1.7,0.07,0,0,196608,196608,text,2026-10-27,litellm,true
 deepinfra,deepinfra/MiniMaxAI/MiniMax-M3,0.28,1.1,0.056,0,0,524288,524288,text,2026-10-27,litellm,true
-deepinfra,deepinfra/mistralai/Mistral-Nemo-Instruct-2407,0.019,0.03,0,0,0,131072,131072,text,2026-08-28,litellm,true
+deepinfra,deepinfra/mistralai/Mistral-Nemo-Instruct-2407,0.029,0.03,0,0,0,131072,131072,text,2026-11-12,litellm,true
 deepinfra,deepinfra/mistralai/Mistral-Small-24B-Instruct-2501,0.05,0.08,0,0,0,32768,32768,text,2026-06-15,litellm,true
 deepinfra,deepinfra/mistralai/Mistral-Small-3.2-24B-Instruct-2506,0.075,0.2,0,0,0,128000,128000,text,2026-06-15,litellm,true
 deepinfra,deepinfra/mistralai/Mixtral-8x7B-Instruct-v0.1,0.4,0.4,0,0,0,32768,32768,text,2026-06-15,litellm,true
@@ -1583,7 +1585,7 @@ deepinfra,deepinfra/nvidia/Nemotron-3-Nano-30B-A3B,0.05,0.2,0.025,0,0,262144,262
 deepinfra,deepinfra/nvidia/Nemotron-Content-Safety-3.5,0.2,0.2,0,0,0,131072,131072,text,2026-10-27,litellm,true
 deepinfra,deepinfra/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B,0.075,0.4,0,0,0,262144,262144,text,2026-11-10,litellm,true
 deepinfra,deepinfra/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B,0.5,2.2,0.1,0,0,262144,262144,text,2026-10-27,litellm,true
-deepinfra,deepinfra/nvidia/NVIDIA-Nemotron-3.5-Lightning,0.08,0.2,0.04,0,0,262144,0,text,2026-08-28,litellm,true
+deepinfra,deepinfra/nvidia/NVIDIA-Nemotron-3.5-Lightning,0.06,0.16,0.04,0,0,262144,0,text,2026-11-12,litellm,true
 deepinfra,deepinfra/nvidia/NVIDIA-Nemotron-Nano-9B-v2,0.04,0.16,0,0,0,131072,131072,text,2026-06-15,litellm,true
 deepinfra,deepinfra/openai/gpt-oss-120b,0.037,0.17,0,0,0,131072,131072,text,2026-08-28,litellm,true
 deepinfra,deepinfra/openai/gpt-oss-120b-Turbo,0.15,0.6,0,0,0,131072,131072,text,2026-10-27,litellm,true
@@ -2302,9 +2304,9 @@ google,gemini-2.0-flash-exp-image-generation,0,0,0,0,0,32768,32768,image,2026-06
 google,gemini-2.0-flash-lite,0.075,0.3,0.01875,0,0,1048576,8192,text,2026-06-15,litellm,true
 google,gemini-2.0-flash-lite-001,0.075,0.3,0.01875,0,0,1048576,8192,text,2026-06-15,litellm,true
 google,gemini-2.5-computer-use-preview-10-2025,1.25,10,0,0,0,128000,64000,text,2026-06-15,litellm,true
-google,gemini-2.5-flash,0.3,2.5,0.03,0,2.5,1048576,65535,text,2026-06-15,litellm,true
+google,gemini-2.5-flash,0.3,2.5,0.03,0,2.5,1048576,65536,text,2026-11-12,litellm,true
 google,gemini-2.5-flash-image,0.3,2.5,0,0,2.5,32768,32768,image,2026-09-25,litellm,true
-google,gemini-2.5-flash-lite,0.1,0.4,0.01,0,0.4,1048576,65535,text,2026-06-15,litellm,true
+google,gemini-2.5-flash-lite,0.1,0.4,0.01,0,0.4,1048576,65536,text,2026-11-12,litellm,true
 google,gemini-2.5-flash-lite-preview-06-17,0.1,0.4,0.01,0,0.4,1048576,65535,text,2026-08-28,litellm,true
 google,gemini-2.5-flash-lite-preview-09-2025,0.1,0.4,0.01,0,0.4,1048576,65535,text,2026-06-15,litellm,true
 google,gemini-2.5-flash-native-audio-latest,0.5,2,0,0,0,131072,8192,text,2026-09-26,litellm,true
@@ -2312,13 +2314,13 @@ google,gemini-2.5-flash-native-audio-preview-09-2025,0.5,2,0,0,0,1048576,8192,te
 google,gemini-2.5-flash-native-audio-preview-12-2025,0.5,2,0,0,0,131072,8192,text,2026-09-17,litellm,true
 google,gemini-2.5-flash-preview-09-2025,0.3,2.5,0.03,0,2.5,1048576,65535,text,2026-08-28,litellm,true
 google,gemini-2.5-flash-preview-tts,0.5,10,0,0,0,8192,16384,audio,2026-09-17,litellm,true
-google,gemini-2.5-pro,1.25,10,0.125,0,0,1048576,65535,text,2026-06-15,litellm,true
+google,gemini-2.5-pro,1.25,10,0.125,0,0,1048576,65536,text,2026-11-12,litellm,true
 google,gemini-2.5-pro-preview-tts,1,20,0.125,0,0,1048576,65535,text,2026-08-28,litellm,true
-google,gemini-3-flash-preview,0.5,3,0.05,0,3,1048576,65535,text,2026-06-15,litellm,true
+google,gemini-3-flash-preview,0.5,3,0.05,0,3,1048576,65536,text,2026-11-12,litellm,true
 google,gemini-3-pro-image,2,12,0.2,0,0,65536,32768,image,2026-09-15,litellm,true
 google,gemini-3-pro-image-preview,2,12,0.2,0,0,65536,32768,image,2026-09-25,litellm,true
 google,gemini-3-pro-preview,2,12,0.2,0,0,1048576,65535,text,2026-06-15,litellm,true
-google,gemini-3.1-flash-image,0.5,3,0.05,0,0,65536,32768,image,2026-09-15,litellm,true
+google,gemini-3.1-flash-image,0.5,3,0.05,0,0,131072,32768,image,2026-11-12,litellm,true
 google,gemini-3.1-flash-image-preview,0.5,3,0.05,0,0,65536,32768,image,2026-09-25,litellm,true
 google,gemini-3.1-flash-lite,0.25,1.5,0.025,0,1.5,1048576,65536,text,2026-06-15,litellm,true
 google,gemini-3.1-flash-lite-image,0.25,1.5,0.025,0,0,65536,4096,image,2026-08-23,litellm,true
@@ -2326,7 +2328,7 @@ google,gemini-3.1-flash-lite-preview,0.25,1.5,0.025,0,1.5,1048576,65536,text,202
 google,gemini-3.1-flash-live-preview,0.75,4.5,0,0,0,131072,65536,text,2026-06-15,litellm,true
 google,gemini-3.1-pro-preview,2,12,0.2,0,0,1048576,65536,text,2026-06-15,litellm,true
 google,gemini-3.1-pro-preview-customtools,2,12,0.2,0,0,1048576,65536,text,2026-06-15,litellm,true
-google,gemini-3.5-flash,1.5,9,0.15,0,9,1048576,65535,text,2026-06-15,litellm,true
+google,gemini-3.5-flash,1.5,9,0.15,0,9,1048576,65536,text,2026-11-12,litellm,true
 google,gemini-3.5-flash-lite,0.3,2.5,0.03,0,2.5,1048576,65536,text,2026-07-22,litellm,true
 google,gemini-3.6-flash,0.75,3.75,0.075,0,3.75,1048576,65536,text,2026-08-19,litellm,true
 google,gemini-3.7-flash,0.75,3.75,0.075,0,3.75,1048576,65536,text,2026-08-14,litellm,true
@@ -2394,6 +2396,7 @@ google,gemini/gemini-3.8-live,0.75,4.5,0,0,0,131072,65536,text,2026-09-17,litell
 google,gemini/gemini-3.8-live-extended-thinking,0.75,4.5,0,0,0,131072,65536,text,2026-09-17,litellm,true
 google,gemini/gemini-4-argon,2,10,0.1,0,10,1048576,1048576,text,2026-10-16,litellm,true
 google,gemini/gemini-4-carbon,2,10,0.1,0,10,1048576,1048576,text,2026-11-11,litellm,true
+google,gemini/gemini-decision-1,0.1,0,0,0,0,262144,0,text,2026-11-12,litellm,true
 google,gemini/gemini-embedding-001,0.15,0,0,0,0,2048,0,embedding,2026-06-15,litellm,true
 google,gemini/gemini-embedding-2,0.2,0,0,0,0,8192,0,embedding,2026-06-15,litellm,true
 google,gemini/gemini-embedding-2-preview,0.2,0,0,0,0,8192,0,embedding,2026-06-15,litellm,true
@@ -2433,11 +2436,11 @@ google,vertex_ai/gemini-2.5-flash-native-audio,0.5,2,0,0,0,0,0,text,2026-09-15,l
 google,vertex_ai/gemini-2.5-flash-preview-tts,0.5,10,0,0,0,0,0,audio,2026-09-15,litellm,true
 google,vertex_ai/gemini-2.5-flash-tts,0.5,10,0,0,0,0,0,audio,2026-09-24,litellm,true
 google,vertex_ai/gemini-2.5-pro-tts,1,20,0,0,0,0,0,audio,2026-09-24,litellm,true
-google,vertex_ai/gemini-3-flash-preview,0.5,3,0.05,0,0,1048576,65535,text,2026-06-15,litellm,true
+google,vertex_ai/gemini-3-flash-preview,0.5,3,0.05,0,0,1048576,65536,text,2026-11-12,litellm,true
 google,vertex_ai/gemini-3-pro-image,2,12,0.2,0,0,65536,32768,image,2026-09-15,litellm,true
 google,vertex_ai/gemini-3-pro-image-preview,2,12,0.2,0,0,65536,32768,image,2026-09-25,litellm,true
 google,vertex_ai/gemini-3-pro-preview,2,12,0.2,0,0,1048576,65535,text,2026-06-15,litellm,true
-google,vertex_ai/gemini-3.1-flash-image,0.5,3,0.05,0,0,65536,32768,image,2026-09-15,litellm,true
+google,vertex_ai/gemini-3.1-flash-image,0.5,3,0.05,0,0,131072,32768,image,2026-11-12,litellm,true
 google,vertex_ai/gemini-3.1-flash-image-preview,0.5,3,0.05,0,0,65536,32768,image,2026-09-25,litellm,true
 google,vertex_ai/gemini-3.1-flash-lite,0.25,1.5,0.025,0,1.5,1048576,65536,text,2026-06-15,litellm,true
 google,vertex_ai/gemini-3.1-flash-lite-image,0.25,1.5,0.025,0,0,65536,4096,image,2026-08-23,litellm,true
@@ -2446,7 +2449,7 @@ google,vertex_ai/gemini-3.1-flash-live-preview,0.75,4.5,0,0,0,0,0,text,2026-09-1
 google,vertex_ai/gemini-3.1-flash-tts-preview,1,20,0,0,0,0,0,audio,2026-09-15,litellm,true
 google,vertex_ai/gemini-3.1-pro-preview,2,12,0.2,0,0,1048576,65536,text,2026-06-15,litellm,true
 google,vertex_ai/gemini-3.1-pro-preview-customtools,2,12,0.2,0,0,1048576,65536,text,2026-06-15,litellm,true
-google,vertex_ai/gemini-3.5-flash,1.5,9,0.15,0,9,1048576,65535,text,2026-06-15,litellm,true
+google,vertex_ai/gemini-3.5-flash,1.5,9,0.15,0,9,1048576,65536,text,2026-11-12,litellm,true
 google,vertex_ai/gemini-3.5-flash-lite,0.3,2.5,0.03,0,2.5,1048576,65536,text,2026-07-22,litellm,true
 google,vertex_ai/gemini-3.5-live-translate-preview,3.5,21,0,0,0,0,0,text,2026-09-10,litellm,true
 google,vertex_ai/gemini-3.5-transcribe,0,12,0,0,0,0,0,audio,2026-09-15,litellm,true
