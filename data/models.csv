@@ -4519,6 +4519,7 @@ vercel_ai_gateway,vercel_ai_gateway/openai/gpt-4.1-mini,0.4,1.6,0.1,0,0,1047576,
 vercel_ai_gateway,vercel_ai_gateway/openai/gpt-4.1-nano,0.1,0.4,0.025,0,0,1047576,32768,text,2026-06-15,litellm,true
 vercel_ai_gateway,vercel_ai_gateway/openai/gpt-4o,2.5,10,1.25,0,0,128000,16384,text,2026-06-15,litellm,true
 vercel_ai_gateway,vercel_ai_gateway/openai/gpt-4o-mini,0.15,0.6,0.075,0,0,128000,16384,text,2026-06-15,litellm,true
+vercel_ai_gateway,vercel_ai_gateway/openai/gpt-6-luna-decisions,0.1,0,0.01,0.125,0,1050000,0,text,2026-11-15,litellm,true
 vercel_ai_gateway,vercel_ai_gateway/openai/o1,15,60,7.5,0,0,200000,100000,text,2026-06-15,litellm,true
 vercel_ai_gateway,vercel_ai_gateway/openai/o3,2,8,0.5,0,0,200000,100000,text,2026-06-15,litellm,true
 vercel_ai_gateway,vercel_ai_gateway/openai/o3-mini,1.1,4.4,0.55,0,0,200000,100000,text,2026-06-15,litellm,true
@@ -4530,6 +4531,9 @@ vercel_ai_gateway,vercel_ai_gateway/perplexity/sonar,1,1,0,0,0,127000,8000,text,
 vercel_ai_gateway,vercel_ai_gateway/perplexity/sonar-pro,3,15,0,0,0,200000,8000,text,2026-06-15,litellm,true
 vercel_ai_gateway,vercel_ai_gateway/perplexity/sonar-reasoning,1,5,0,0,0,127000,8000,text,2026-06-15,litellm,true
 vercel_ai_gateway,vercel_ai_gateway/perplexity/sonar-reasoning-pro,2,8,0,0,0,127000,8000,text,2026-06-15,litellm,true
+vercel_ai_gateway,vercel_ai_gateway/typesafe-ai/jev,0.042,0,0,0,0,32000,0,text,2026-11-15,litellm,true
+vercel_ai_gateway,vercel_ai_gateway/typesafe-ai/jev-1.13.0,0.042,0,0,0,0,32000,0,text,2026-11-15,litellm,true
+vercel_ai_gateway,vercel_ai_gateway/typesafe-ai/jev-1.14.0,0.042,0,0,0,0,32000,0,text,2026-11-15,litellm,true
 vercel_ai_gateway,vercel_ai_gateway/vercel/v0-1.0-md,3,15,0,0,0,128000,32000,text,2026-06-15,litellm,true
 vercel_ai_gateway,vercel_ai_gateway/vercel/v0-1.5-md,3,15,0,0,0,128000,32768,text,2026-06-15,litellm,true
 vercel_ai_gateway,vercel_ai_gateway/xai/grok-2,2,10,0,0,0,131072,4000,text,2026-06-15,litellm,true
