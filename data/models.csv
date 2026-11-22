@@ -2874,6 +2874,7 @@ fireworks_ai,fireworks_ai/accounts/fireworks/routers/deepseek-flash-latest,0.3,1
 fireworks_ai,fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-flex,0.15,0.6,0.003,0,0,1048576,393216,text,2026-11-20,litellm,true
 fireworks_ai,fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-spot,0.15,0.6,0.003,0,0,1048576,393216,text,2026-11-20,litellm,true
 fireworks_ai,fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-ultrafast,1.2,4.8,0.024,0,0,1048576,393216,text,2026-11-20,litellm,true
+fireworks_ai,fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-us,0.45,1.8,0.009,0,0,1048576,393216,text,2026-11-22,litellm,true
 fireworks_ai,fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-spot,0.15,0.6,0.003,0,0,1048576,393216,text,2026-11-20,litellm,true
 fireworks_ai,fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-us,0.45,1.8,0.009,0,0,1048576,393216,text,2026-09-25,litellm,true
 fireworks_ai,fireworks_ai/accounts/fireworks/routers/glm-5p1-fast,2.8,8.8,0.52,0,0,202800,131072,text,2026-06-21,litellm,true
@@ -2892,6 +2893,7 @@ fireworks_ai,fireworks_ai/accounts/fireworks/routers/kimi-k2p7-code-fast,1.9,8,0
 fireworks_ai,fireworks_ai/accounts/fireworks/routers/kimi-k3-fast,4.5,22.5,0.45,0,0,1048576,131072,text,2026-08-21,litellm,true
 fireworks_ai,fireworks_ai/accounts/fireworks/routers/kimi-k3-spot,2.1,10.5,0.21,0,0,1048576,131072,text,2026-10-29,litellm,true
 fireworks_ai,fireworks_ai/accounts/fireworks/routers/kimi-k3-us,4.5,22.5,0.45,0,0,1048576,131072,text,2026-09-24,litellm,true
+fireworks_ai,fireworks_ai/accounts/fireworks/routers/kimi-k3p1-pro-us,2.5,12.5,0.25,0,0,1048576,131072,text,2026-11-22,litellm,true
 fireworks_ai,fireworks_ai/accounts/fireworks/routers/kimi-latest,2,10,0.2,0,0,1048576,131072,text,2026-11-19,litellm,true
 fireworks_ai,fireworks_ai/accounts/fireworks/routers/minimax-latest,0.3,1.2,0.06,0,0,512000,512000,text,2026-11-11,litellm,true
 fireworks_ai,fireworks_ai/accounts/fireworks/routers/qwen-max-latest,2,6,0.25,0,0,262144,0,text,2026-11-11,litellm,true
@@ -3318,6 +3320,9 @@ google,vertex_ai/gemini-robotics-er-2-preview,1,5,0.1,0,5,131072,65536,text,2026
 google,vertex_ai/gemma-4-26b-a4b-it,0.15,0.6,0.015,0,0,0,0,text,2026-09-15,litellm,true
 google,vertex_ai/lyria-3-clip-preview,0,0,0,0,0,131072,8192,audio,2026-09-09,litellm,true
 google,vertex_ai/lyria-3-pro-preview,0,0,0,0,0,131072,8192,audio,2026-09-09,litellm,true
+google,vertex_ai/meta/muse-ember-1.0,0.1,0.5,0.004,0,0,1048576,524288,text,2026-11-22,litellm,true
+google,vertex_ai/meta/muse-spark-1.3,1.25,4.25,0.15,0,0,1048576,0,text,2026-11-22,litellm,true
+google,vertex_ai/meta/muse-wonder-1.0,4,20,0.2,0,0,1048576,0,text,2026-11-22,litellm,true
 google,vertex_ai/semantic-ranker-default,0,0,0,0,0,0,0,rerank,2026-10-13,litellm,true
 google,vertex_ai/semantic-ranker-default-002,0,0,0,0,0,0,0,rerank,2026-10-13,litellm,true
 google,vertex_ai/semantic-ranker-default-003,0,0,0,0,0,0,0,rerank,2026-10-13,litellm,true
@@ -5045,6 +5050,11 @@ replicate,replicate/qwen/qwen3-7-plus,0.276,1.101,0,0,0,0,0,text,2026-11-11,lite
 replicate,replicate/snowflake/snowflake-arctic-instruct,20,20,0,0,0,0,0,text,2026-11-11,litellm,true
 replicate,replicate/xai/grok-4,7.2,36,0,0,0,0,0,text,2026-06-15,litellm,true
 replicate,replicateopenai/gpt-oss-20b,0.09,0.36,0,0,0,0,0,text,2026-06-15,litellm,true
+resetdata,resetdata/deepseek/deepseek-v4-flash,0.07432,0.1486,0.01351,0,0,1048576,65536,text,2026-11-22,litellm,true
+resetdata,resetdata/google/gemma-4-26b-a4b-it,0.06054,0.3328,0,0,0,262144,8192,text,2026-11-22,litellm,true
+resetdata,resetdata/qwen/qwen3-coder-30b-a3b-instruct,0.07061,0.2723,0,0,0,262144,65536,text,2026-11-22,litellm,true
+resetdata,resetdata/qwen/qwen3.8-27b,0.2905,2.453,0,0,0,262144,32768,text,2026-11-22,litellm,true
+resetdata,resetdata/zai/glm-5.3,1.189,3.736,0.1757,0,0,524288,32768,text,2026-11-22,litellm,true
 sagemaker,sagemaker/meta-textgeneration-llama-2-13b,0,0,0,0,0,4096,4096,text,2026-06-15,litellm,true
 sagemaker,sagemaker/meta-textgeneration-llama-2-13b-f,0,0,0,0,0,4096,4096,text,2026-06-15,litellm,true
 sagemaker,sagemaker/meta-textgeneration-llama-2-70b,0,0,0,0,0,4096,4096,text,2026-06-15,litellm,true
